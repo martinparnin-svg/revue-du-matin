@@ -6,10 +6,11 @@ Format attendu du JSON :
   "title": "Revue du matin · 14 octobre 2026",
   "summary": "Les sujets du jour en une ou deux phrases.",
   "links": {"note": "https://...", "page": "https://..."},
-  "chapters": [{"title": "…", "paragraphs": ["…", "…"]}]
+  "chapters": [{"title": "…", "voice": "Charon (facultatif)", "paragraphs": ["…", "…"]}]
 }
 
 Usage : python scripts/build_episode.py            (épisodes pas encore fabriqués)
+        python scripts/build_episode.py --test FICHIER.json  (essai hors flux, publié dans docs/tests/)
         python scripts/build_episode.py 2026-10-14 (refabrique cet épisode)
 """
 import glob
@@ -60,11 +61,12 @@ def chunks(paragraphs):
     return out
 
 
-def build(ep_path, cfg):
+def build(ep_path, cfg, out_mp3=None):
     ep = json.load(open(ep_path, encoding="utf-8"))
     date = ep["date"]
     os.makedirs(AUDIO_DIR, exist_ok=True)
-    out_mp3 = os.path.join(AUDIO_DIR, f"{date}.mp3")
+    out_mp3 = out_mp3 or os.path.join(AUDIO_DIR, f"{date}.mp3")
+    os.makedirs(os.path.dirname(out_mp3), exist_ok=True)
     tmp = tempfile.mkdtemp()
     parts = []
 
@@ -86,8 +88,9 @@ def build(ep_path, cfg):
         for block in chunks(ch["paragraphs"]):
             n += 1
             raw = os.path.join(tmp, f"tts_{n:03d}.audio")
-            print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}", flush=True)
-            synthesize(block, cfg, raw)
+            voice = ch.get("voice")
+            print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}" + (f" — voix {voice}" if voice else ""), flush=True)
+            synthesize(block, cfg, raw, voice)
             wav = os.path.join(tmp, f"tts_{n:03d}.wav")
             to_wav(raw, wav)
             add(wav)
@@ -110,6 +113,12 @@ def build(ep_path, cfg):
 
 def main():
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config.yml"), encoding="utf-8"))
+    if len(sys.argv) > 2 and sys.argv[1] == "--test":
+        src = sys.argv[2] if os.path.isabs(sys.argv[2]) else os.path.join(ROOT, sys.argv[2])
+        out = os.path.join(ROOT, "docs", "tests", os.path.basename(src).replace(".json", ".mp3"))
+        print(f"Essai hors flux : {os.path.basename(src)}")
+        build(src, cfg, out)
+        return
     eps = sorted(glob.glob(os.path.join(ROOT, "episodes", "*.json")))
     if len(sys.argv) > 1:
         todo = [os.path.join(ROOT, "episodes", f"{d}.json") for d in sys.argv[1:]]

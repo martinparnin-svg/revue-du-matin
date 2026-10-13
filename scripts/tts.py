@@ -51,7 +51,7 @@ def _post_with_retry(url, headers, body, tries=5, wait=20):
 
 # --- Gemini TTS -------------------------------------------------------------
 
-def gemini(text, cfg, out_path):
+def gemini(text, cfg, out_path, voice=None):
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         raise TTSError("Secret GEMINI_API_KEY absent")
@@ -63,7 +63,7 @@ def gemini(text, cfg, out_path):
         "model": g["model"],
         "input": [{"type": "user_input", "content": [content]}],
         "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": g["voice"]}]},
+        "generation_config": {"speech_config": [{"voice": voice or g["voice"]}]},
     }
     r = _post_with_retry(
         "https://generativelanguage.googleapis.com/v1beta/interactions",
@@ -88,13 +88,13 @@ def gemini(text, cfg, out_path):
 
 # --- ElevenLabs -------------------------------------------------------------
 
-def elevenlabs(text, cfg, out_path):
+def elevenlabs(text, cfg, out_path, voice=None):
     key = os.environ.get("ELEVENLABS_API_KEY")
     if not key:
         raise TTSError("Secret ELEVENLABS_API_KEY absent")
     e = cfg["voice"]["elevenlabs"]
     r = _post_with_retry(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{e['voice_id']}?output_format=mp3_44100_128",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice or e['voice_id']}?output_format=mp3_44100_128",
         {"xi-api-key": key, "Content-Type": "application/json"},
         {"text": text, "model_id": e["model"], "language_code": "fr"},
     )
@@ -105,11 +105,11 @@ def elevenlabs(text, cfg, out_path):
 
 # --- Google Cloud TTS (Chirp 3 HD) ------------------------------------------
 
-def google_chirp(text, cfg, out_path):
+def google_chirp(text, cfg, out_path, voice=None):
     key = os.environ.get("GOOGLE_TTS_API_KEY")
     if not key:
         raise TTSError("Secret GOOGLE_TTS_API_KEY absent")
-    v = cfg["voice"]["google_chirp"]["voice"]
+    v = voice or cfg["voice"]["google_chirp"]["voice"]
     r = _post_with_retry(
         f"https://texttospeech.googleapis.com/v1/text:synthesize?key={key}",
         {"Content-Type": "application/json"},
@@ -127,8 +127,9 @@ def google_chirp(text, cfg, out_path):
 PROVIDERS = {"gemini": gemini, "elevenlabs": elevenlabs, "google_chirp": google_chirp}
 
 
-def synthesize(text, cfg, out_path):
+def synthesize(text, cfg, out_path, voice=None):
+    """`voice` : voix propre à un chapitre (sinon, la voix par défaut de config.yml)."""
     name = cfg["voice"]["provider"]
     if name not in PROVIDERS:
         raise TTSError(f"Service inconnu : {name}")
-    return PROVIDERS[name](text, cfg, out_path)
+    return PROVIDERS[name](text, cfg, out_path, voice)

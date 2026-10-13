@@ -1,0 +1,34 @@
+# Réglages de la Revue du matin
+# Modifier ce fichier suffit pour changer de voix ou de service.
+
+show:
+  title: "Revue du matin"
+  author: "Revue du matin"
+  description: "Quinze minutes chaque matin sur les relations internationales, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique."
+  language: "fr"
+  # Adresse publique du site GitHub Pages (remplie lors de l'installation)
+  base_url: "https://UTILISATEUR.github.io/revue-du-matin"
+  keep_episodes: 60
+
+voice:
+  # Service de synthèse : gemini | elevenlabs | google_chirp
+  provider: gemini
+
+  gemini:
+    model: "gemini-3.8-flash-tts"
+    voice: "Sulafat"          # chaleureuse ; autres essais : Achird, Charon, Algieba, Gacrux
+    style: "warm, clear morning radio host, natural and engaging pace"
+    pause_between_calls_s: 4  # pour rester sous les limites du quota gratuit
+
+  elevenlabs:
+    model: "eleven_multilingual_v2"
+    voice_id: ""              # à remplir si l'on bascule sur ElevenLabs
+
+  google_chirp:
+    voice: "fr-FR-Chirp3-HD-Charon"
+
+audio:
+  pause_between_paragraphs_ms: 450
+  pause_after_chapter_title_ms: 300
+  target_lufs: -16
+  bitrate: "96k"

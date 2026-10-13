@@ -1,4 +1,4 @@
-"""Jingles de la « Revue du matin », version 2 : esprit matinale d'information.
+"""(Ancienne version, remplacée par jingles_v3.py, variante C.) Jingles de la « Revue du matin », version 2 : esprit matinale d'information.
 Pulsation de synthé en doubles croches, batterie sèche, montée de bruit, impact final.
 Composition originale, synthèse pure (aucun échantillon externe).
 

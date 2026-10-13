@@ -16,7 +16,7 @@ voice:
 
   gemini:
     model: "gemini-3.8-flash-tts"
-    voice: "Sulafat"          # chaleureuse ; autres essais : Achird, Charon, Algieba, Gacrux
+    voice: "Algieba"          # voix choisie ; autres essais : Sulafat, Achird, Charon, Gacrux
     style: "warm, clear morning radio host, natural and engaging pace"
     pause_between_calls_s: 4  # pour rester sous les limites du quota gratuit
 

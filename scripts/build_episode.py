@@ -28,7 +28,7 @@ from feed import write_feed  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUDIO_DIR = os.path.join(ROOT, "docs", "audio")
-MAX_CHARS = 1800  # taille maximale d'un appel de synthèse
+MAX_CHARS = 3200  # taille maximale d'un appel de synthèse (≈ 3 à 4 min d'audio)
 
 
 def run(cmd):
@@ -116,10 +116,17 @@ def main():
     else:
         todo = [e for e in eps if not os.path.exists(
             os.path.join(AUDIO_DIR, os.path.basename(e).replace(".json", ".mp3")))]
+    failed = False
     for e in todo:
         print(f"Fabrication de {os.path.basename(e)}")
-        build(e, cfg)
+        try:
+            build(e, cfg)
+        except Exception as exc:  # message visible dans le résumé du run
+            print(f"::error title=Échec de {os.path.basename(e)}::{exc}", flush=True)
+            failed = True
     write_feed(cfg, ROOT)
+    if failed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

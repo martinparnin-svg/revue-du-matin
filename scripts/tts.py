@@ -16,15 +16,34 @@ class TTSError(RuntimeError):
     pass
 
 
-def _post_with_retry(url, headers, body, tries=6, wait=20):
+def _short(text):
+    """Message d'erreur lisible sur une ligne (jamais la clé, qui n'est pas dans la réponse)."""
+    try:
+        err = json.loads(text).get("error", {})
+        return f"{err.get('status', '')} {err.get('message', '')}".strip()[:400] or text[:400]
+    except Exception:
+        return " ".join(text.split())[:400]
+
+
+def _post_with_retry(url, headers, body, tries=5, wait=20):
     last = None
     for attempt in range(tries):
-        r = requests.post(url, headers=headers, data=json.dumps(body), timeout=300)
+        try:
+            r = requests.post(url, headers=headers, data=json.dumps(body), timeout=300)
+        except requests.RequestException as e:
+            last = f"réseau : {e}"
+            print(f"::warning title=Synthèse vocale::essai {attempt + 1} : {last}", flush=True)
+            time.sleep(wait)
+            continue
         if r.status_code == 200:
             return r
-        last = f"HTTP {r.status_code}: {r.text[:500]}"
+        last = f"HTTP {r.status_code} {_short(r.text)}"
+        print(f"::warning title=Synthèse vocale::essai {attempt + 1} : {last}", flush=True)
         if r.status_code in (429, 500, 502, 503, 504):
-            time.sleep(wait * (attempt + 1))
+            if r.status_code == 429 and "per day" in r.text.lower():
+                break  # quota quotidien épuisé : inutile d'insister
+            delay = r.headers.get("Retry-After")
+            time.sleep(int(delay) if delay and delay.isdigit() else wait * (attempt + 1))
             continue
         break
     raise TTSError(last)

@@ -7,7 +7,7 @@ show:
   description: "Quinze minutes chaque matin sur les relations internationales, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique."
   language: "fr"
   # Adresse publique du site GitHub Pages (remplie lors de l'installation)
-  base_url: "https://UTILISATEUR.github.io/revue-du-matin"
+  base_url: "https://martinparnin-svg.github.io/revue-du-matin"
   keep_episodes: 60
 
 voice:

@@ -24,7 +24,7 @@ import tempfile
 import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
-from tts import synthesize  # noqa: E402
+from tts import synthesize, TTSError  # noqa: E402
 from feed import write_feed  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -88,9 +88,16 @@ def build(ep_path, cfg, out_mp3=None):
         for block in chunks(ch["paragraphs"]):
             n += 1
             raw = os.path.join(tmp, f"tts_{n:03d}.audio")
-            voice = ch.get("voice")
+            voice = (ch.get("voice") or "").strip().capitalize() or None
             print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}" + (f" — voix {voice}" if voice else ""), flush=True)
-            synthesize(block, cfg, raw, voice)
+            try:
+                synthesize(block, cfg, raw, voice)
+            except TTSError as exc:
+                if not voice:
+                    raise
+                # voix du chapitre refusée : on bascule sur la voix par défaut plutôt que de perdre l'épisode
+                print(f"::warning title=Voix {voice}::{exc} — chapitre lu avec la voix par défaut", flush=True)
+                synthesize(block, cfg, raw, None)
             wav = os.path.join(tmp, f"tts_{n:03d}.wav")
             to_wav(raw, wav)
             add(wav)

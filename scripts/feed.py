@@ -27,21 +27,24 @@ def write_feed(cfg, root):
 
     items = []
     for mp3 in mp3s:
-        date = os.path.basename(mp3)[:-4]
-        meta_path = os.path.join(root, "episodes", f"{date}.json")
+        stem = os.path.basename(mp3)[:-4]          # AAAA-MM-JJ ou AAAA-MM-JJ-flash
+        date = stem[:10]
+        flash = stem.endswith("-flash")
+        meta_path = os.path.join(root, "episodes", f"{stem}.json")
         ep = json.load(open(meta_path, encoding="utf-8")) if os.path.exists(meta_path) else {}
-        title = ep.get("title", f"{show['title']} · {date}")
+        title = ep.get("title", f"{'Le flash' if flash else show['title']} · {date}")
         desc = ep.get("summary", "")
         links = ep.get("links", {})
         if links.get("note"):
             desc += f"\n\nNote de veille et sources : {links['note']}"
-        pub = datetime.strptime(date, "%Y-%m-%d").replace(hour=5, minute=30, tzinfo=timezone.utc)
+        # le flash est daté une minute après la revue : il apparaît en tête dans l'application
+        pub = datetime.strptime(date, "%Y-%m-%d").replace(hour=5, minute=31 if flash else 30, tzinfo=timezone.utc)
         secs = duration_s(mp3)
         items.append(f"""    <item>
       <title>{escape(title)}</title>
       <description>{escape(desc)}</description>
-      <enclosure url="{base}/audio/{date}.mp3" length="{os.path.getsize(mp3)}" type="audio/mpeg"/>
-      <guid isPermaLink="false">revue-du-matin-{date}</guid>
+      <enclosure url="{base}/audio/{stem}.mp3" length="{os.path.getsize(mp3)}" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-{stem}</guid>
       <pubDate>{format_datetime(pub)}</pubDate>
       <itunes:duration>{secs // 60}:{secs % 60:02d}</itunes:duration>
     </item>""")

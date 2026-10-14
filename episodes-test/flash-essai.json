@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "title": "Le flash · essai",
+  "summary": "Essai technique du format flash.",
+  "style": "brisk, crisp radio news bulletin anchor, clear and energetic, steady fast pace",
+  "chapters": [
+    {"title": "Les titres", "voice": "Algieba", "paragraphs": [
+      "Bonjour, il est sept heures cinquante, voici le flash de la Revue du matin. Ceci est un essai du nouveau format.",
+      "À la une : l'Assemblée nationale adopte à l'unanimité la loi intégrale contre les violences sexuelles et sexistes. Le ministre de l'Éducation nationale évoque une décrue du mouvement lycéen. Et l'éditorialiste Natacha Polony annonce sa candidature à l'élection présidentielle."
+    ]},
+    {"title": "Le journal", "voice": "Algieba", "paragraphs": [
+      "D'abord l'Assemblée. Mardi après-midi, les députés ont adopté en première lecture, et à l'unanimité, la proposition de loi dite intégrale contre les violences sexuelles et sexistes, accompagnée d'une loi organique sur la justice. Le texte part maintenant au Sénat.",
+      "Dans les lycées, le mouvement de protestation s'essouffle, selon Édouard Geffray. Le ministre de l'Éducation nationale parle d'une décrue, tout en appelant au dialogue avec les établissements.",
+      "Enfin, la course à l'Élysée s'élargit : invitée de France Inter ce mercredi, Natacha Polony s'est déclarée candidate à l'élection présidentielle de deux mille vingt-sept."
+    ]},
+    {"title": "Pour finir", "voice": "Algieba", "paragraphs": [
+      "C'était le flash. Pour aller plus loin sur chacun de ces sujets, la revue complète vous attend juste à côté. Bonne journée."
+    ]}
+  ]
+}

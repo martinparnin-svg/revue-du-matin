@@ -6,8 +6,11 @@ Format attendu du JSON :
   "title": "Revue du matin · 14 octobre 2026",
   "summary": "Les sujets du jour en une ou deux phrases.",
   "links": {"note": "https://...", "page": "https://..."},
+  "style": "consigne de ton pour la voix (facultatif, remplace celle de config.yml)",
   "chapters": [{"title": "…", "voice": "Charon (facultatif)", "paragraphs": ["…", "…"]}]
 }
+Deux épisodes par jour : episodes/AAAA-MM-JJ.json (la revue) et episodes/AAAA-MM-JJ-flash.json (le flash).
+Le MP3 porte le même nom que le script : docs/audio/AAAA-MM-JJ.mp3, docs/audio/AAAA-MM-JJ-flash.mp3.
 
 Usage : python scripts/build_episode.py            (épisodes pas encore fabriqués)
         python scripts/build_episode.py --test FICHIER.json  (essai hors flux, publié dans docs/tests/)
@@ -19,6 +22,7 @@ import os
 import shutil
 import subprocess
 import sys
+import copy
 import tempfile
 
 import yaml
@@ -63,9 +67,12 @@ def chunks(paragraphs):
 
 def build(ep_path, cfg, out_mp3=None):
     ep = json.load(open(ep_path, encoding="utf-8"))
-    date = ep["date"]
+    stem = os.path.basename(ep_path)[:-5]  # AAAA-MM-JJ ou AAAA-MM-JJ-flash
+    if ep.get("style"):  # ton propre à cet épisode (ex. le flash, plus rythmé)
+        cfg = copy.deepcopy(cfg)
+        cfg["voice"]["gemini"]["style"] = ep["style"]
     os.makedirs(AUDIO_DIR, exist_ok=True)
-    out_mp3 = out_mp3 or os.path.join(AUDIO_DIR, f"{date}.mp3")
+    out_mp3 = out_mp3 or os.path.join(AUDIO_DIR, f"{stem}.mp3")
     os.makedirs(os.path.dirname(out_mp3), exist_ok=True)
     tmp = tempfile.mkdtemp()
     parts = []
@@ -128,7 +135,10 @@ def main():
         return
     eps = sorted(glob.glob(os.path.join(ROOT, "episodes", "*.json")))
     if len(sys.argv) > 1:
-        todo = [os.path.join(ROOT, "episodes", f"{d}.json") for d in sys.argv[1:]]
+        # « 2026-10-15 » refabrique la revue et le flash du jour ; « 2026-10-15-flash » le flash seul
+        todo = []
+        for d in sys.argv[1:]:
+            todo += [e for e in eps if os.path.basename(e)[:-5] in (d, f"{d}-flash")]
     else:
         todo = [e for e in eps if not os.path.exists(
             os.path.join(AUDIO_DIR, os.path.basename(e).replace(".json", ".mp3")))]

@@ -119,6 +119,8 @@ def send(date, docx_path, date_fr, md_path):
 def main():
     if len(sys.argv) > 1 and sys.argv[1]:
         md = os.path.join(ROOT, "notes", f"{sys.argv[1]}.md")
+        if not os.path.exists(md):  # note d'essai
+            md = os.path.join(ROOT, "notes-test", f"{sys.argv[1]}.md")
     else:
         notes = sorted(glob.glob(os.path.join(ROOT, "notes", "*.md")))
         if not notes:

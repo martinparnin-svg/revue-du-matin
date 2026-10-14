@@ -4,7 +4,7 @@
 show:
   title: "Revue du matin"
   author: "Revue du matin"
-  description: "Chaque matin de semaine, un flash de huit minutes et une revue de vingt minutes (une demi-heure le lundi), sur l'international, la politique française, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique."
+  description: "Un quart d'heure chaque matin de semaine pour faire le tour de l'actualité et comprendre les sujets qui comptent : international, politique française, social, environnement, économie, industrie et IA, pour préparer les concours de la haute fonction publique."
   language: "fr"
   # Adresse publique du site GitHub Pages (remplie lors de l'installation)
   base_url: "https://martinparnin-svg.github.io/revue-du-matin"

@@ -3,12 +3,22 @@
   <channel>
     <title>Revue du matin</title>
     <link>https://martinparnin-svg.github.io/revue-du-matin/</link>
-    <description>Quinze minutes chaque matin sur les relations internationales, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique.</description>
+    <description>Vingt minutes chaque matin de semaine, une demi-heure le lundi, sur l'international, la politique française, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique.</description>
     <language>fr</language>
     <itunes:author>Revue du matin</itunes:author>
     <itunes:image href="https://martinparnin-svg.github.io/revue-du-matin/cover.png"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Revue du matin · 14 octobre 2026</title>
+      <description>Plan de paix américain pour l'Ukraine et trêve énergétique non appliquée ; escalade entre les Houthis et l'Arabie saoudite ; premier groupe RN au Sénat ; budget de la Sécurité sociale ; COP31 ; prévisions du FMI et prix des carburants ; automobile et préférence européenne ; faillite de Character.AI et centre de données Microsoft en Alsace.
+
+Note de veille et sources : https://claude.ai/code/artifact/2a876dd3-0d0f-480f-9212-e4b48dab8eaf</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-10-14.mp3" length="13660171" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 05:30:00 +0000</pubDate>
+      <itunes:duration>18:58</itunes:duration>
+    </item>
     <item>
       <title>Revue du matin · 13 octobre 2026</title>
       <description>Washington et Moscou s'entendent sur le diesel ; la rivalité sino-américaine se déplace vers les infrastructures ; le budget 2027 entre en séance ; Meta lance son premier modèle frontière.

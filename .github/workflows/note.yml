@@ -1,0 +1,43 @@
+name: Envoyer la note de veille
+
+# Dès qu'une note notes/AAAA-MM-JJ.md est déposée, elle est convertie en Word
+# et envoyée par courriel (secrets GMAIL_USER, GMAIL_APP_PASSWORD, MAIL_TO).
+
+on:
+  push:
+    branches: [main]
+    paths: ["notes/**.md"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de la note (AAAA-MM-JJ), vide = la plus récente"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installer pandoc et python-docx
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq pandoc
+          pip install -q python-docx
+      - name: Convertir en Word et envoyer
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python scripts/send_note.py "${{ github.event.inputs.date }}"
+      - name: Conserver le fichier Word (7 jours)
+        uses: actions/upload-artifact@v4
+        with:
+          name: note-word
+          path: build/*.docx
+          retention-days: 7

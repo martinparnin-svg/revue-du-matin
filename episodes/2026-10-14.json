@@ -1,0 +1,135 @@
+{
+ "date": "2026-10-14",
+ "title": "Revue du matin · 14 octobre 2026",
+ "summary": "Plan de paix américain pour l'Ukraine et trêve énergétique non appliquée ; escalade entre les Houthis et l'Arabie saoudite ; premier groupe RN au Sénat ; budget de la Sécurité sociale ; COP31 ; prévisions du FMI et prix des carburants ; automobile et préférence européenne ; faillite de Character.AI et centre de données Microsoft en Alsace.",
+ "links": {
+  "note": "https://claude.ai/code/artifact/2a876dd3-0d0f-480f-9212-e4b48dab8eaf",
+  "page": "https://claude.ai/artifact/EP7LCN7etQoB7SATZUkmxW"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture et sommaire",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour, et bienvenue dans la revue du matin. Nous sommes le mercredi 14 octobre 2026. Une vingtaine de minutes pour comprendre l'actualité, et la mettre en perspective pour vos concours.",
+    "Au sommaire ce matin. L'Ukraine, avec un plan de paix américain en quatre points et une trêve énergétique qui ne tient pas. Le Golfe, où l'escalade entre les Houthis et l'Arabie saoudite fait trembler les marchés pétroliers. En France, l'arrivée du premier groupe du Rassemblement national au Sénat, la mobilisation lycéenne, le budget de la Sécurité sociale et la position européenne pour la prochaine conférence climat.",
+    "Puis l'économie, avec les prévisions du Fonds monétaire international et le prix des carburants. L'industrie automobile et la préférence européenne. La faillite d'une star de l'intelligence artificielle grand public, et un centre de données géant en Alsace. Enfin, l'agenda parlementaire et trois pistes pour vos épreuves."
+   ]
+  },
+  {
+   "title": "Ukraine : un plan de paix et une trêve qui ne tient pas",
+   "voice": "Vindemiatrix",
+   "paragraphs": [
+    "Commençons par l'Ukraine, où la diplomatie s'accélère, sans que la guerre ralentisse. Un plan américain circule désormais. Selon le Washington Post, repris par le Grand Continent, les États-Unis et plusieurs pays européens se rapprocheraient d'une proposition commune, en quatre volets.",
+    "Premier volet, la reconstruction, avec un cadre de financement porté par la Banque mondiale et le fonds BlackRock. Aucun montant n'est encore avancé. Deuxième volet, des garanties de sécurité : Américains et Européens s'engageraient à riposter militairement à toute nouvelle attaque russe. Une source américaine parle d'un équivalent de l'article 5 de l'OTAN, la clause de défense collective. Troisième volet, une intégration économique entre la Russie, l'Ukraine et l'Europe, avec à la clé un calendrier de levée des sanctions. Quatrième volet, le plus sensible : le gel de la ligne de front. Les territoires occupés resteraient sous contrôle russe, sans que l'on sache s'ils seraient reconnus comme russes.",
+    "Ce plan s'inscrit dans une longue série. Depuis mars 2022, aucune initiative n'a abouti à un cessez-le-feu durable. Et un précédent plan américain en vingt-huit points, diffusé en novembre 2025, reprenait déjà largement les exigences russes, selon le Grand Continent.",
+    "C'est là toute la nuance. Pour le Grand Continent, ce plan reprend surtout des idées déjà connues, penche vers les positions de Moscou et esquive la question territoriale. Côté ukrainien, un conseiller de Volodymyr Zelensky y voit avant tout un coup de communication.",
+    "Sur le terrain, la trêve énergétique annoncée dimanche par Donald Trump ne s'applique pas. Kiev affirme que les frappes russes se sont poursuivies avec la même intensité, contre une centrale électrique de la capitale et des installations de la région de Kharkiv. Moscou ne s'est pas prononcé, et refuse la pause de soixante jours proposée par Kiev. Le déséquilibre de cette trêve est d'ailleurs frappant : l'Ukraine ne compte qu'une seule raffinerie, la Russie trente-deux grandes raffineries.",
+    "Les Européens, eux, durcissent le ton. Lundi, l'Union a adopté le plus important ajout de son histoire à la liste des sanctions contre la Russie : plus de mille six cents personnes et entités, dont plus de la moitié liées aux missiles balistiques. Le chancelier allemand Friedrich Merz résume la ligne : selon lui, Moscou ne négociera sérieusement que sous pression. Emmanuel Macron soutient une vraie trêve, en accusant la Russie de la refuser.",
+    "À surveiller : l'estimation ukrainienne des besoins de reconstruction, attendue dans les prochains jours, et les élections américaines de mi-mandat, en novembre, qui pèsent visiblement sur le calendrier de Washington."
+   ]
+  },
+  {
+   "title": "Golfe : l'escalade entre les Houthis et Riyad",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Restons dans les zones de tension, et descendons vers la péninsule Arabique. Le conflit entre les rebelles houthis du Yémen et l'Arabie saoudite connaît une escalade inédite.",
+    "Samedi, une attaque revendiquée par les Houthis contre l'aéroport international de Riyad a fait treize morts et plus de trois cents blessés, selon le bilan officiel. Une nouvelle attaque a frappé le même aéroport dimanche. Deux sites du géant pétrolier Aramco ont aussi été visés. Selon l'AFP, des frappes d'une telle ampleur sur la capitale saoudienne sont sans précédent depuis le début du conflit, en 2014. Hier, Riyad a riposté en frappant des installations pétrolières près de Sanaa, la capitale yéménite tenue par les Houthis, qui promettent une réponse douloureuse.",
+    "Un peu de contexte. Les combats ont repris en juillet, après plusieurs années d'accalmie. En septembre, les Houthis ont avancé sur la côte de la mer Rouge, autour du détroit de Bab el-Mandeb, par où transitent plus de quatre millions de barils de pétrole par jour. Le tout dans une région déjà bouleversée par la guerre contre l'Iran, déclenchée en février par les États-Unis et Israël.",
+    "Pour l'Europe, l'enjeu est direct. Lundi, le gaz de référence européen cotait plus de quatre-vingt-trois euros le mégawattheure, et les stocks allemands n'étaient remplis qu'à soixante pour cent, à l'approche de l'hiver.",
+    "Les positions sont tranchées. Le ministre saoudien de l'Énergie reconnaît que les infrastructures du royaume sont mises à l'épreuve, et promet une réponse ferme. Téhéran se dit préoccupé et propose de faciliter le dialogue, sans condamner les attaques. Riyad a demandé l'aide de Washington, sans succès. La Turquie et le Pakistan annoncent en revanche l'envoi de forces dans le royaume, au titre d'un pacte de défense signé en août. Pour l'analyste Hamish Kinnear, du cabinet Verisk Maplecroft, ce déploiement reste défensif : Ankara et Islamabad tiennent à leur rôle de médiateurs entre Washington et Téhéran.",
+    "L'impact est immédiat sur les marchés. Lundi, le baril de Brent dépassait cent six dollars. Pour Neil Wilson, de Saxo Markets, tant qu'aucun cessez-le-feu durable ne se dessine au Moyen-Orient, la pression restera à la hausse. À surveiller, donc : l'ampleur de la riposte houthie, et la sécurité de la navigation en mer Rouge et dans le détroit d'Ormuz."
+   ]
+  },
+  {
+   "title": "Le Sénat face à son premier groupe RN",
+   "voice": "Vindemiatrix",
+   "paragraphs": [
+    "Cap sur la France, et d'abord sur le palais du Luxembourg. Pour la première fois de son histoire, le Sénat compte un groupe du Rassemblement national. Allié à l'UDR d'Éric Ciotti, il réunit quatorze sénateurs, contre trois avant les élections du 27 septembre. Il en faut dix pour former un groupe.",
+    "Ce statut n'est pas qu'honorifique. Un groupe dispose de moyens pour recruter des collaborateurs, de temps de parole, d'une meilleure visibilité lors des questions au gouvernement, et du droit d'obtenir chaque année une commission d'enquête. Marine Le Pen parle de victoire historique. Le vice-président du parti, Sébastien Chenu, estime qu'il n'y a plus de plafond de verre.",
+    "Hier, pour la reprise des travaux, les trois groupes de gauche, socialiste, communiste et écologiste, ont répondu par un communiqué commun, ce qui est rare. Ils promettent un cordon sanitaire : aucun texte cosigné, aucun vote en faveur des initiatives du RN. Ils appellent la majorité de droite et du centre à faire de même. Nuance importante : ce cordon relève de la pratique politique, pas du droit. Le règlement du Sénat garantit les mêmes droits à tous les groupes constitués. Quant à la portée électorale, Public Sénat rappelle que sénatoriales et présidentielle obéissent à des logiques distinctes, même si la gauche avait conquis le Sénat en 2011, un an avant de gagner l'Élysée.",
+    "Autre front politique, la mobilisation lycéenne et étudiante. Hier, pour son cinquième acte, elle a réuni environ quatre cent quatre-vingt mille personnes selon l'intersyndicale. Les jeunes réclament la suppression de Parcoursup et un plan de dix milliards d'euros pour les lycées. Devant les sénateurs, le ministre de l'Intérieur, Laurent Nuñez, a annoncé trente-six enquêtes de l'inspection générale de la police, dont quatre pour des blessures mutilantes. Il récuse toute répression de l'expression lycéenne, et parle d'une bascule vers les violences urbaines. Prochaines étapes : un appel à manifester samedi, né sur les réseaux sociaux, et l'examen au Sénat, le 27 octobre, du projet de loi dit casseurs-payeurs."
+   ]
+  },
+  {
+   "title": "Sécurité sociale : un objectif de dépenses jugé intenable",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Restons au Sénat, où l'on a commencé à décortiquer le budget de la Sécurité sociale pour 2027. L'objectif du gouvernement : ramener le déficit de vingt-deux milliards d'euros cette année à moins de treize milliards l'an prochain.",
+    "Le cœur du débat, c'est l'Ondam, l'objectif national de dépenses d'assurance maladie, voté chaque année par le Parlement. Le gouvernement propose de limiter sa hausse à deux pour cent en 2027, alors que ces dépenses progressent spontanément de trois à trois et demi pour cent par an. Pour y parvenir, il a déjà pris par décret environ deux milliards d'euros de mesures, comme la hausse des franchises médicales. Il prévoit aussi de transférer une partie des dépenses vers les complémentaires santé, et attend six cents millions d'euros d'économies sur l'allocation de rentrée scolaire.",
+    "Les sénateurs sont sceptiques, quel que soit leur bord. Le rapporteur Les Républicains, Jean-François Rapin, juge l'objectif assez inaccessible. La socialiste Annie Le Houérou le dit non tenable. La communiste Céline Brulin anticipe des mesures prises en cours d'année, sans le Parlement. La centriste Brigitte Bourguignon craint que le transfert vers les mutuelles se retrouve dans les cotisations des assurés. À gauche, on redoute davantage de renoncements aux soins.",
+    "Autre levier discuté : la révision des allègements de cotisations patronales, qui doit rapporter trois milliards sept cents millions d'euros à la Sécurité sociale. Le rapporteur général centriste, Olivier Henno, s'interroge sur ses effets sur l'emploi.",
+    "Face à eux, le ministre des Comptes publics, David Amiel, défend des mesures qui rendent selon lui l'objectif crédible. Il assume aussi le gel des allègements de cotisations patronales malgré la hausse du Smic, en expliquant qu'une revalorisation automatique aurait surtout créé un effet d'aubaine pour les employeurs.",
+    "À suivre aujourd'hui : l'audition de la ministre de la Santé, Stéphanie Rist, au Sénat, et le début de l'examen du texte en commission à l'Assemblée nationale."
+   ]
+  },
+  {
+   "title": "COP31 : l'Europe mise sur l'électrification",
+   "voice": "Vindemiatrix",
+   "paragraphs": [
+    "Changement de décor, avec le climat. Dans moins d'un mois s'ouvre la COP31, la conférence des Nations unies sur le climat, du 9 au 20 novembre à Antalya, en Turquie. Lundi à Luxembourg, les ministres de l'Environnement des Vingt-Sept ont arrêté leur position.",
+    "Le mot clé, c'est l'électrification propre. Le commissaire européen Wopke Hoekstra y voit un terrain d'entente possible, y compris avec les pays producteurs d'hydrocarbures, en s'appuyant à la fois sur les renouvelables et sur le nucléaire. La présidence turque propose d'ailleurs un objectif volontaire : porter l'électricité à trente-cinq pour cent de la consommation finale d'énergie dans le monde en 2035, contre un peu plus de vingt pour cent aujourd'hui.",
+    "La France veut aller plus loin. La ministre de la Transition écologique, Monique Barbut, plaide pour une décision contraignante, et pour des engagements sur le méthane, un gaz au fort pouvoir réchauffant. Elle rappelle aussi qu'électrifier n'a de sens que si l'électricité elle-même est décarbonée.",
+    "Mais il faut mesurer les limites. Aucun nouvel engagement financier européen n'est prévu. Les États-Unis se sont retirés du processus. La COP précédente, au Brésil, n'a pas mentionné la sortie des énergies fossiles. Et la flambée des prix de l'énergie renforce les pays producteurs. Selon Euronews, Bruxelles assouplit aussi certaines règles environnementales : la Commission propose de repousser d'un an, à 2028, l'entrée en vigueur de sa réglementation sur le méthane. Le réseau d'ONG CAN Europe réclame une véritable feuille de route. La pression de la rue, elle, ne faiblit pas : ce week-end, quarante-cinq mille personnes selon la police ont défilé à Bruxelles pour le climat."
+   ]
+  },
+  {
+   "title": "Économie : le FMI revoit la France à la baisse",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Place à l'économie. Le Fonds monétaire international a publié hier ses nouvelles perspectives. La croissance mondiale atteindrait trois virgule un pour cent cette année, la zone euro un virgule un pour cent. Pour la France, le chiffre est nettement plus faible : zéro virgule quatre pour cent en 2026, avec un chômage qui monterait à huit virgule quatre pour cent.",
+    "Ailleurs en Europe, l'Allemagne ferait un virgule trois pour cent, et l'Espagne deux virgule cinq. La Chine ralentirait à quatre virgule cinq pour cent, faute de demande intérieure suffisante.",
+    "Pourquoi est-ce important ? Parce que le gouvernement, lui, a bâti son budget sur zéro virgule cinq pour cent cette année, et un pour cent l'an prochain. Des hypothèses déjà jugées optimistes, la semaine dernière, par le Haut Conseil des finances publiques, au moment même où l'Assemblée nationale examine la partie recettes du budget.",
+    "Le FMI pointe surtout l'énergie. La guerre contre l'Iran entre dans son huitième mois, et les produits pétroliers raffinés restent de soixante-dix à quatre-vingt-quinze pour cent plus chers qu'avant le conflit. L'inflation de la zone euro atteindrait trois virgule un pour cent cette année, bien au-dessus de la cible de deux pour cent. Le Fonds n'exclut donc pas des hausses de taux de la Banque centrale européenne. Sa cheffe économiste prévient que la résilience de l'économie mondiale atteint ses limites. Autre risque cité : une brusque révision des espoirs de profits liés à l'intelligence artificielle, qui freinerait l'investissement."
+   ]
+  },
+  {
+   "title": "Carburants et gaz : une baisse, une hausse",
+   "voice": "Vindemiatrix",
+   "paragraphs": [
+    "Justement, parlons du prix à la pompe. Lundi, le Premier ministre, Sébastien Lecornu, a promis une baisse du gazole dès le premier novembre. Le levier : dix millions de barils issus des stocks stratégiques, soit environ un milliard six cents millions de litres, cédés aux distributeurs pendant trois mois, dans le cadre d'une opération coordonnée au sein du G7.",
+    "Combien gagnera l'automobiliste ? C'est là que les chiffres divergent. Matignon annonce douze à dix-huit centimes par litre. TotalEnergies, qui détient désormais plus de trente pour cent du marché, s'engage sur huit à douze centimes pour les particuliers, et vingt centimes pour le gazole non routier des agriculteurs et des pêcheurs. Pour mémoire, le gazole a dépassé deux euros quarante en moyenne en septembre. Les stations indépendantes demandent que les petites stations en profitent aussi, et l'État promet de contrôler les marges.",
+    "Dans le même temps, la Commission de régulation de l'énergie annonce une hausse de six virgule six pour cent du prix repère du gaz au premier novembre. Environ six millions de foyers sont concernés. Sur l'année, leur facture serait supérieure de onze pour cent à celle de 2025, soit environ cent trente-cinq euros de plus.",
+    "Un contexte social à garder en tête : l'appel à manifester de samedi est en partie né de la colère contre le prix des carburants."
+   ]
+  },
+  {
+   "title": "Industrie : l'automobile et la préférence européenne",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Direction la porte de Versailles, à Paris, pour l'industrie. Lundi, Emmanuel Macron a inauguré le Mondial de l'auto, le dernier de son mandat. Son message tient en deux mots : préférence européenne.",
+    "Concrètement, Paris veut réserver les aides publiques aux véhicules réellement produits dans l'Union, des batteries aux pièces détachées. La France reste ouverte aux investissements chinois de qualité, avec transferts de technologie, mais refuse les usines tournevis, où l'on se contenterait d'assembler en Europe. La veille, une soixantaine d'industriels européens avaient dîné à l'Élysée, sans aucun dirigeant chinois.",
+    "Les chiffres expliquent l'inquiétude. La Chine peut produire et exporter environ cinquante-cinq millions de véhicules, quand le marché européen en absorbe douze millions. En France, la voiture électrique a atteint un record en septembre, avec plus de quarante et un pour cent des ventes. Mais seul un quart des électriques neuves achetées en France y sont fabriquées. En 2025, on a immatriculé trois cent trente et un mille voitures électriques, et on en a produit deux cent seize mille. L'objectif gouvernemental de deux millions par an en 2030 paraît très lointain.",
+    "Le débat se joue à Bruxelles et à Berlin. La Commission a proposé en mars un règlement d'accélération industrielle qui conditionnerait certaines aides à une production européenne. L'Allemagne, très dépendante du marché chinois, craint des représailles et préfère une approche plus ouverte. Selon le quotidien allemand Handelsblatt, Paris accepterait d'assouplir l'objectif climatique de 2035 pour les voitures neuves en échange de règles plus strictes. L'Élysée dément tout accord, mais reconnaît des discussions. À noter aussi : Pékin a accepté, le 9 octobre, de réduire fortement ses exportations d'hybrides vers l'Union. Et ce matin, le patron d'Airbus, Guillaume Faury, est auditionné par les députés."
+   ]
+  },
+  {
+   "title": "Tech et IA : une faillite et un centre de données",
+   "voice": "Vindemiatrix",
+   "paragraphs": [
+    "Passons au numérique. Character.AI, l'une des applications d'intelligence artificielle sur lesquelles les utilisateurs passaient le plus de temps, s'est placée sous la protection de la loi américaine sur les faillites. La plateforme permettait de discuter avec des personnages virtuels. Elle sera vendue sous le contrôle d'un tribunal d'ici début décembre. Disney rachète déjà une partie de ses actifs pour vingt millions de dollars.",
+    "Le parcours est saisissant. Fondée fin 2021 par deux anciens ingénieurs de Google, l'entreprise valait plus d'un milliard de dollars un an plus tard. En 2024, Google lui versait deux milliards sept cents millions de dollars pour une licence, et récupérait ses fondateurs. Puis sont venus les procès, dont celui lié au suicide d'un adolescent de quatorze ans en Floride, et une enquête du Texas sur la protection des enfants. La plateforme a fini par interdire l'accès aux mineurs. Selon TechCrunch, le modèle économique lui-même était fragile : plus les utilisateurs discutent, plus la facture de calcul grimpe. Une leçon pour toute l'IA grand public.",
+    "Changement d'échelle, avec un projet bien réel en France. Lundi, l'agglomération de Mulhouse a déclaré d'intérêt général le futur centre de données de Microsoft, à Petit-Landau et Hombourg. Deux milliards d'euros d'investissement, trente-six hectares de terres agricoles au bord du Rhin, environ deux cents emplois directs. Mais aussi une consommation estimée à plus de mille cinq cents gigawattheures par an. Selon l'Autorité environnementale, cela équivaut à environ quatre-vingts pour cent de la consommation des ménages du Haut-Rhin. Les opposants rappellent que quatre-vingts pour cent des contributions à l'enquête publique étaient défavorables. Il reste un arrêté préfectoral et les permis de construire. Le chantier ne commencerait qu'en 2029."
+   ]
+  },
+  {
+   "title": "L'agenda parlementaire du jour",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Un coup d'œil sur l'agenda parlementaire. À l'Assemblée nationale, les questions au gouvernement ouvrent la séance à quatorze heures, avant la suite de l'examen des recettes du budget 2027. En commission, les députés entendent ce matin le patron d'Airbus, puis les chefs d'état-major de l'armée de l'Air et de l'armée de Terre. La commission d'enquête sur la pauvreté reçoit les syndicats, puis le patronat. Une table ronde est aussi consacrée à l'intelligence artificielle et à l'édition.",
+    "Au Sénat, une table ronde porte ce matin sur la ressource en eau après la canicule de l'été. La ministre de la Santé est entendue sur le budget de la Sécurité sociale, et le ministre de l'Éducation nationale en fin d'après-midi. Le détail complet est dans la note de veille."
+   ]
+  },
+  {
+   "title": "Trois pistes pour les épreuves",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour terminer, trois pistes de réflexion pour vos épreuves.",
+    "Première piste : la paix peut-elle se passer de la justice ? Geler un front, offrir des garanties de sécurité, lever des sanctions : à quelles conditions une paix est-elle durable, et quelle place reste-t-il à l'Europe dans une négociation conduite par Washington ?",
+    "Deuxième piste : pluralisme et cordon sanitaire. La Constitution garantit l'expression pluraliste des opinions et des droits aux groupes parlementaires, notamment à son article 51-1. Comment concilier ces règles avec une stratégie d'isolement politique ? Pensez à bien distinguer la règle de droit et la pratique politique.",
+    "Troisième piste : la souveraineté, entre industrie et énergie. Préférence européenne pour l'automobile, centres de données gourmands en électricité, stocks stratégiques de carburant : comment concilier ouverture commerciale, transition écologique et maîtrise de nos dépendances ?",
+    "Toutes les sources et l'agenda complet des auditions sont dans la note de veille. Merci de votre écoute, belle journée, et bonnes révisions."
+   ]
+  }
+ ]
+}

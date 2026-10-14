@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-14",
+  "title": "Le soir · essai",
+  "summary": "Essai technique du format dialogué.",
+  "style": "natural evening radio conversation, warm, relaxed, thoughtful pace",
+  "chapters": [
+    {"title": "Ouverture", "segments": [
+      {"voice": "Algieba", "text": "Bonsoir et bienvenue dans l'émission du soir de la Revue du matin. Ceci est un essai du nouveau format, à trois voix. Autour de la table ce soir, deux intervenantes, qui vont défendre chacune un point de vue."},
+      {"voice": "Gacrux", "text": "Bonsoir. De mon côté, je porterai les arguments de ceux qui défendent la réforme, avec les chiffres et les sources qui les appuient."},
+      {"voice": "Kore", "text": "Et moi, ceux qui la contestent. L'idée, c'est que vous puissiez entendre les deux camps, puis vous faire votre propre avis."}
+    ]},
+    {"title": "Pour votre copie", "segments": [
+      {"voice": "Algieba", "text": "Pour finir, comme chaque soir, un plan possible en deux parties et les références à retenir pour votre copie. Merci à toutes les deux, et bonne soirée."}
+    ]}
+  ]
+}

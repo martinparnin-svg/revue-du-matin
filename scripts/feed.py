@@ -27,18 +27,20 @@ def write_feed(cfg, root):
 
     items = []
     for mp3 in mp3s:
-        stem = os.path.basename(mp3)[:-4]          # AAAA-MM-JJ ou AAAA-MM-JJ-flash
+        stem = os.path.basename(mp3)[:-4]          # AAAA-MM-JJ, AAAA-MM-JJ-soir (ou -flash, ancien format)
         date = stem[:10]
         flash = stem.endswith("-flash")
+        soir = stem.endswith("-soir")
         meta_path = os.path.join(root, "episodes", f"{stem}.json")
         ep = json.load(open(meta_path, encoding="utf-8")) if os.path.exists(meta_path) else {}
-        title = ep.get("title", f"{'Le flash' if flash else show['title']} · {date}")
+        title = ep.get("title", f"{'Le flash' if flash else 'Le soir' if soir else show['title']} · {date}")
         desc = ep.get("summary", "")
         links = ep.get("links", {})
         if links.get("note"):
             desc += f"\n\nNote de veille et sources : {links['note']}"
-        # le flash est daté une minute après la revue : il apparaît en tête dans l'application
-        pub = datetime.strptime(date, "%Y-%m-%d").replace(hour=5, minute=31 if flash else 30, tzinfo=timezone.utc)
+        # matin : 5h30 UTC ; émission du soir : 15h30 UTC (17h30 à Paris en été) ; ancien flash : 5h31
+        hour, minute = (15, 30) if soir else (5, 31) if flash else (5, 30)
+        pub = datetime.strptime(date, "%Y-%m-%d").replace(hour=hour, minute=minute, tzinfo=timezone.utc)
         secs = duration_s(mp3)
         items.append(f"""    <item>
       <title>{escape(title)}</title>

@@ -19,11 +19,13 @@ MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août
 
 
 def build_docx(md_path):
-    date = os.path.basename(md_path)[:-3]
+    stem = os.path.basename(md_path)[:-3]      # AAAA-MM-JJ (note du matin) ou AAAA-MM-JJ-soir (fiche du soir)
+    date = stem[:10]
     out_dir = os.path.join(ROOT, "build")
     os.makedirs(out_dir, exist_ok=True)
     y, m, d = (int(x) for x in date.split("-"))
-    nom = f"Note de veille {d:02d}-{m:02d}-{y}.docx"
+    prefix = "Fiche du soir" if stem.endswith("-soir") else "Note de veille"
+    nom = f"{prefix} {d:02d}-{m:02d}-{y}.docx"
     out = os.path.join(out_dir, nom)
     subprocess.run(["pandoc", md_path, "-f", "gfm", "-o", out,
                     "--reference-doc", os.path.join(ROOT, "assets", "note-reference.docx"),

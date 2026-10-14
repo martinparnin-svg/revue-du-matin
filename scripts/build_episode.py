@@ -7,9 +7,10 @@ Format attendu du JSON :
   "summary": "Les sujets du jour en une ou deux phrases.",
   "links": {"note": "https://...", "page": "https://..."},
   "style": "consigne de ton pour la voix (facultatif, remplace celle de config.yml)",
-  "chapters": [{"title": "…", "voice": "Charon (facultatif)", "paragraphs": ["…", "…"]}]
+  "chapters": [{"title": "…", "voice": "Charon (facultatif)", "paragraphs": ["…", "…"]},
+               {"title": "Le débat", "segments": [{"voice": "Algieba", "text": "…"}, {"voice": "Kore", "text": "…"}]}]
 }
-Deux épisodes par jour : episodes/AAAA-MM-JJ.json (la revue) et episodes/AAAA-MM-JJ-flash.json (le flash).
+Épisodes : episodes/AAAA-MM-JJ.json (le matin) et episodes/AAAA-MM-JJ-soir.json (l'émission du soir, dialoguée).
 Le MP3 porte le même nom que le script : docs/audio/AAAA-MM-JJ.mp3, docs/audio/AAAA-MM-JJ-flash.mp3.
 
 Usage : python scripts/build_episode.py            (épisodes pas encore fabriqués)
@@ -92,23 +93,30 @@ def build(ep_path, cfg, out_mp3=None):
     for ci, ch in enumerate(ep["chapters"]):
         if ci > 0:
             add(os.path.join(tmp, "j_transition.wav"))
-        for block in chunks(ch["paragraphs"]):
-            n += 1
-            raw = os.path.join(tmp, f"tts_{n:03d}.audio")
-            voice = (ch.get("voice") or "").strip().capitalize() or None
-            print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}" + (f" — voix {voice}" if voice else ""), flush=True)
-            try:
-                synthesize(block, cfg, raw, voice)
-            except TTSError as exc:
-                if not voice:
-                    raise
-                # voix du chapitre refusée : on bascule sur la voix par défaut plutôt que de perdre l'épisode
-                print(f"::warning title=Voix {voice}::{exc} — chapitre lu avec la voix par défaut", flush=True)
-                synthesize(block, cfg, raw, None)
-            wav = os.path.join(tmp, f"tts_{n:03d}.wav")
-            to_wav(raw, wav)
-            add(wav)
-            add(os.path.join(tmp, "gap.wav"))
+        # Un chapitre est soit lu d'une seule voix ("paragraphs"), soit dialogué ("segments" :
+        # répliques successives, chacune avec sa voix, sans jingle entre elles).
+        if ch.get("segments"):
+            parts_ch = [(seg.get("voice"), [seg["text"]]) for seg in ch["segments"] if seg.get("text", "").strip()]
+        else:
+            parts_ch = [(ch.get("voice"), ch["paragraphs"])]
+        for seg_voice, paras in parts_ch:
+            voice = (seg_voice or "").strip().capitalize() or None
+            for block in chunks(paras):
+                n += 1
+                raw = os.path.join(tmp, f"tts_{n:03d}.audio")
+                print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}" + (f" — voix {voice}" if voice else ""), flush=True)
+                try:
+                    synthesize(block, cfg, raw, voice)
+                except TTSError as exc:
+                    if not voice:
+                        raise
+                    # voix refusée : on bascule sur la voix par défaut plutôt que de perdre l'épisode
+                    print(f"::warning title=Voix {voice}::{exc} — passage lu avec la voix par défaut", flush=True)
+                    synthesize(block, cfg, raw, None)
+                wav = os.path.join(tmp, f"tts_{n:03d}.wav")
+                to_wav(raw, wav)
+                add(wav)
+                add(os.path.join(tmp, "gap.wav"))
     add(os.path.join(tmp, "gap_long.wav"))
     add(os.path.join(tmp, "j_outro.wav"))
 
@@ -135,10 +143,10 @@ def main():
         return
     eps = sorted(glob.glob(os.path.join(ROOT, "episodes", "*.json")))
     if len(sys.argv) > 1:
-        # « 2026-10-15 » refabrique la revue et le flash du jour ; « 2026-10-15-flash » le flash seul
+        # « 2026-10-15 » refabrique tous les épisodes du jour ; « 2026-10-15-soir » celui du soir seul
         todo = []
         for d in sys.argv[1:]:
-            todo += [e for e in eps if os.path.basename(e)[:-5] in (d, f"{d}-flash")]
+            todo += [e for e in eps if os.path.basename(e)[:-5] == d or os.path.basename(e).startswith(d + "-")]
     else:
         todo = [e for e in eps if not os.path.exists(
             os.path.join(AUDIO_DIR, os.path.basename(e).replace(".json", ".mp3")))]

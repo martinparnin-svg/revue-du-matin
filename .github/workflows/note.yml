@@ -4,9 +4,8 @@ name: Envoyer la note de veille
 # et envoyée par courriel (secrets GMAIL_USER, GMAIL_APP_PASSWORD, MAIL_TO).
 
 on:
-  push:
-    branches: [main]
-    paths: ["notes/**.md"]
+  # Envoi par courriel désactivé pour l'instant (la note Word est jointe au message du matin dans Claude).
+  # Lancement manuel uniquement, une fois les secrets Gmail ajoutés.
   workflow_dispatch:
     inputs:
       date:

@@ -1,0 +1,98 @@
+{
+ "date": "2026-10-15",
+ "title": "Revue du matin · 15 octobre 2026",
+ "summary": "Édition du 15 octobre 2026 : Budget 2027 : l'Assemblée défait les recettes du gouvernement, Référendum : Richard Ferrand ferme la porte de l'article 11, Conseil européen : l'Europe face à sa facture énergétique, Ormuz : le choc pétrolier relance l'inflation américaine",
+ "links": {
+  "note": "https://claude.ai/code/artifact/640de6c5-f34e-48dc-8d06-970e62413615",
+  "page": "https://claude.ai/artifact/Vrx6wDrnjDdiwLnp3QHbmU"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour, et bienvenue dans la revue du matin. Nous sommes le jeudi 15 octobre 2026.",
+    "Au programme ce matin, quatre sujets pour aller au fond des choses. Le budget 2027, que les députés détricotent vote après vote. La passe d'armes entre Marine Le Pen et le président du Conseil constitutionnel sur le référendum. Le sommet européen qui s'ouvre aujourd'hui à Bruxelles, avec la facture énergétique en tête des priorités. Et le choc pétrolier venu du détroit d'Ormuz, qui relance l'inflation aux États-Unis. Mais d'abord, le tour de l'actu."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu",
+   "voice": "Algieba",
+   "paragraphs": [
+    "La colère lycéenne s'est invitée hier au Sénat. L'écologiste Mélanie Vogel a dénoncé une répression inédite et demandé l'interdiction des lanceurs de balles de défense. Le Premier ministre, Sébastien Lecornu, lui a reproché de ne jamais condamner les violences, en évoquant mille policiers blessés et environ deux cents lycées touchés. Un nouvel appel à manifester vise samedi. De son côté, Bruno Retailleau propose de remplacer Parcoursup et d'instaurer une sélection à l'entrée de l'université.",
+    "Toujours en vue de la présidentielle, la journaliste Natacha Polony, ancienne directrice de Marianne, se déclare candidate. Il lui faudra cinq cents parrainages d'élus. Un sondage Odoxa pour Public Sénat place Marine Le Pen à trente-sept pour cent au premier tour, devant Jean-Luc Mélenchon à dix-huit et Édouard Philippe à dix-sept.",
+    "À l'Assemblée, le Bureau a sanctionné trois députés insoumis et un écologiste. En juillet, ils avaient accusé de racisme la vice-présidente du Rassemblement national qui présidait la séance. La sanction la plus lourde prive l'écologiste d'un quart de son indemnité pendant un mois.",
+    "Cap sur l'Ukraine. Kiev accuse SpaceX, l'entreprise d'Elon Musk, d'avoir bridé dans la nuit de mardi à mercredi les terminaux Starlink utilisés en mouvement. Or ce sont eux qui relient les pilotes à leurs drones, notamment pour intercepter les drones russes. Elon Musk répond que ces limites sont fixées par l'armée américaine. Dans le même temps, des missiles russes ont encore frappé les installations électriques de Kiev, malgré la trêve énergétique annoncée par Donald Trump.",
+    "Au Vatican, le pape Léon XIV a été opéré mardi d'un cancer du poumon. Selon le Saint-Siège, les suites sont normales, mais ses audiences sont suspendues jusqu'au 20 octobre.",
+    "En Chine, le Parti communiste a ouvert une enquête contre Huang Qifan, ancien maire de Chongqing. Des analystes y voient une préparation du renouvellement de la direction du Parti l'an prochain. En Turquie, la police a perquisitionné la chaîne d'opposition Halk TV, nouveau signal inquiétant pour la liberté de la presse.",
+    "Côté entreprises, le néerlandais ASML, fournisseur incontournable des machines à fabriquer des puces, publie un chiffre d'affaires trimestriel en hausse d'un quart. Et Eutelsat a bondi de vingt-trois pour cent en Bourse, porté par l'affaire Starlink."
+   ]
+  },
+  {
+   "title": "Budget 2027 : l'Assemblée défait les recettes du gouvernement",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier sujet, le budget. Mardi soir, la motion de rejet déposée par les socialistes contre le projet de loi de finances a été repoussée, par deux cent trente-six voix contre cent quarante-neuf. Le Rassemblement national et le bloc central ont voté contre. Le débat a donc lieu. Mais depuis, le texte perd ses recettes une à une.",
+    "Cette nuit, les députés ont rejeté la fiscalisation des indemnités versées aux malades en affection de longue durée, et à ceux qui sont victimes d'un accident du travail. Environ quatorze millions de personnes vivent avec une affection de longue durée. La mesure devait rapporter un milliard d'euros. Hier déjà, en commission, les députés avaient supprimé une autre recette, celle du budget de la Sécurité sociale qui réduisait les allègements de cotisations patronales. Le gouvernement en attendait trois milliards sept cents millions. La CSG progressive voulue par les socialistes a subi le même sort.",
+    "Ces votes révèlent des majorités de circonstance. La Droite républicaine et une partie du bloc central refusent d'alourdir le coût du travail. La gauche et le Rassemblement national refusent de toucher aux malades. Le centriste Nicolas Turquois a parlé d'un vote extrêmement grave, la socialiste Sandrine Runel d'un vote consternant.",
+    "Le gouvernement tient sa ligne. Le ministre des Comptes publics, David Amiel, accepte de discuter du comment, pas du combien. L'objectif reste un déficit public ramené à cinq pour cent du PIB l'an prochain, avec quarante-trois milliards d'euros d'économies nouvelles. Au Sénat, Sébastien Lecornu a prévenu que toutes les taxes sur les plus riches ne dispenseraient pas de débattre de la dépense publique.",
+    "Les oppositions avancent leurs propres chiffres. La France insoumise a présenté un contre-budget avec cent six milliards de recettes nouvelles, tirées notamment de l'héritage et des grands patrimoines, et quatre-vingt-deux milliards de dépenses supplémentaires. Le Premier ministre, lui, a attaqué le contre-budget du Rassemblement national, qui demanderait dix-huit milliards d'efforts aux collectivités en 2031. La présidente du groupe RN au Sénat, Edwige Diaz, conteste ces chiffres.",
+    "Faisons le compte. Les seuls rejets de ces trois derniers jours représentent près de cinq milliards d'euros. Aucun de ces votes n'est définitif, mais aucune recette de remplacement n'émerge. À surveiller : l'abattement fiscal des retraités, examiné aujourd'hui, puis le vote sur la partie recettes après le 19 octobre."
+   ]
+  },
+  {
+   "title": "Référendum : Richard Ferrand ferme la porte de l'article 11",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet, une controverse constitutionnelle au cœur de la campagne. Dans un podcast du Club des juristes, Richard Ferrand, président du Conseil constitutionnel, a tranché : réviser la Constitution par l'article 11, cela n'existe pas. Hier, depuis Bruxelles, Marine Le Pen lui a demandé de quitter la présidence du Conseil.",
+    "De quoi parle-t-on ? La candidate du Rassemblement national veut modifier la Constitution par référendum direct, sans passer par le Parlement. Objectif : instaurer la priorité nationale pour les aides sociales, et mettre fin au droit du sol et au regroupement familial. Elle s'appuie sur l'article 11, qui permet de soumettre un projet de loi au peuple.",
+    "Richard Ferrand rappelle que la révision relève d'un autre article, le 89. Le texte doit d'abord être voté dans les mêmes termes par l'Assemblée et par le Sénat. Puis il est approuvé soit par référendum, soit par le Parlement réuni en Congrès, à la majorité des trois cinquièmes. La Constitution a été révisée vingt-cinq fois, toujours de cette manière. Concrètement, cela donne au Sénat un droit de veto. Richard Ferrand ajoute que le Conseil s'est reconnu compétent pour contrôler le décret qui convoque un référendum.",
+    "Marine Le Pen invoque le précédent de 1962. Le général de Gaulle avait utilisé l'article 11 pour instaurer l'élection du président au suffrage universel. Pour elle, le Conseil n'est pas un contre-pouvoir au peuple. Jordan Bardella accuse Richard Ferrand, ancien député socialiste, d'agir en chef de clan.",
+    "La nuance est double. Sur le fond, 1962 reste un précédent contesté, et le Conseil s'était alors déclaré incompétent pour juger une loi adoptée par référendum. Depuis, sa jurisprudence lui permet de contrôler certains actes préparatoires. Sur la forme, un décret de 1959 interdit aux membres du Conseil de prendre position publiquement sur des questions qu'ils pourraient avoir à trancher. La question de savoir si ces propos le méconnaissent reste ouverte.",
+    "Ce qu'il faut retenir : la campagne glisse vers un débat sur la légitimité du juge constitutionnel. À suivre, les réactions du gouvernement et des autres candidats."
+   ]
+  },
+  {
+   "title": "Conseil européen : l'Europe face à sa facture énergétique",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Direction Bruxelles, où les vingt-sept chefs d'État et de gouvernement se retrouvent ce matin, à dix heures, pour deux jours. En tête de l'ordre du jour : les prix de l'énergie.",
+    "Les chiffres expliquent l'urgence. Selon Euronews, le prix de gros du gaz européen est passé d'environ trente-deux euros le mégawattheure en février, avant la guerre en Iran, à plus de quatre-vingt-sept début octobre. Dans les capitales de l'Union, le gaz des ménages a augmenté de douze pour cent en moyenne, et de plus de vingt-deux pour cent à Paris. Le gazole a pris trente-cinq pour cent. Et les stocks de gaz n'étaient remplis qu'à soixante-douze pour cent début octobre, leur plus bas niveau pour la saison depuis 2011.",
+    "Le président du Conseil européen, António Costa, demande des orientations sur des aides ciblées et temporaires, sans renoncer à la sortie des énergies fossiles. C'est là que les divisions apparaissent. Selon le think tank E3G, certains États veulent assouplir le marché du carbone, qui fait payer les émissions de l'industrie, quand d'autres le défendent comme l'outil central de la transition.",
+    "Deuxième chantier, le budget européen pour 2028 à 2034. La Commission propose près de deux mille milliards d'euros sur sept ans. António Costa vise un accord d'ici la fin de l'année, mais les budgets nationaux sont sous tension, et la défense, l'agriculture et la cohésion se disputent les crédits.",
+    "Troisième chantier, l'Ukraine. La Hongrie de Péter Magyar a levé son veto après l'adoption à Kiev d'une loi sur les minorités. Quatre des six groupes de chapitres de négociation sont désormais ouverts. Volodymyr Zelensky doit présenter ses besoins avant l'hiver, et une première rencontre avec Péter Magyar est envisagée. Les dirigeants espèrent aussi conclure d'ici la fin de l'année les négociations d'adhésion avec le Monténégro, qui deviendrait le premier nouvel entrant depuis la Croatie en 2013.",
+    "La nuance : un Conseil européen fixe des orientations, il ne vote pas de règlement. Les mesures concrètes reviendront à la Commission, puis aux ministres de l'Énergie, réunis le 29 octobre. Le sommet abordera aussi les migrations, alors que les arrivées irrégulières continuent de baisser, et la menace hybride russe contre les Européens."
+   ]
+  },
+  {
+   "title": "Ormuz : le choc pétrolier relance l'inflation américaine",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier sujet, l'économie mondiale, rattrapée par la guerre. Hier, les États-Unis ont publié leur inflation de septembre : trois virgule sept pour cent sur un an, contre trois virgule quatre en août, et au-dessus des attentes. L'énergie a bondi de vingt pour cent en un an. L'essence explique à elle seule plus de la moitié de la hausse du mois.",
+    "La cause est connue. Depuis la guerre lancée fin février par les États-Unis et Israël contre l'Iran, le détroit d'Ormuz est quasiment fermé. Avant le conflit, dix-sept millions de barils y transitaient chaque jour. Le 11 octobre, à peine trois millions. Selon l'agence maritime britannique, quinze navires ont été attaqués entre le 6 et le 14 octobre. Le baril de Brent a dépassé cent sept dollars hier matin. En mars, les trente-deux membres de l'Agence internationale de l'énergie avaient décidé de libérer quatre cents millions de barils de leurs réserves, une opération sans précédent. Sept mois plus tard, une partie n'a toujours pas été livrée.",
+    "Le plus inquiétant, pour la banque centrale américaine, c'est l'inflation hors énergie et alimentation, qui remonte à deux virgule six pour cent. La Réserve fédérale a déjà relevé ses taux en septembre, dans une fourchette de trois trois quarts à quatre pour cent. Les marchés misaient sur une pause fin octobre. Ils n'en sont plus sûrs. Le taux d'emprunt de l'État américain à dix ans dépasse cinq pour cent.",
+    "Côté iranien, Téhéran pose sept conditions à la réouverture du détroit. Un responsable admet vouloir peser sur les élections américaines de mi-mandat, en novembre.",
+    "Pourquoi cela nous concerne ? Parce que la hausse des taux américains se transmet aux taux européens, et donc à la charge de la dette française. Et parce que le gazole manque. Selon la banque Goldman Sachs, les exportations de carburants raffinés du Golfe tournent à la moitié de la normale. Le directeur de l'Agence internationale de l'énergie, Fatih Birol, demande d'accélérer la mise sur le marché des stocks d'urgence, en priorité pour le gazole. Son conseil d'administration se réunit aujourd'hui. Puis la Réserve fédérale tranchera les 27 et 28 octobre."
+   ]
+  },
+  {
+   "title": "Aujourd'hui",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Ce qu'il faut suivre aujourd'hui. À l'Assemblée, trois séances sur la partie recettes du budget, avec l'abattement fiscal des retraités. En commission, le délégué général pour l'armement, Patrick Pailloux, est entendu sur le budget des armées, tout comme les associations de militaires. La ministre déléguée à la mer, Catherine Chabaud, est auditionnée sur les crédits de l'écologie. À seize heures trente, la commission des finances reçoit le ministre de l'Enseignement supérieur, Philippe Baptiste. Les affaires sociales poursuivent l'examen du budget de la Sécurité sociale jusque tard dans la soirée.",
+    "À Bruxelles, le Conseil européen s'ouvre à dix heures. Aux États-Unis, les ventes au détail et les prix à la production. Et les résultats du taïwanais TSMC, baromètre de l'investissement dans l'intelligence artificielle. Le détail est dans la note de veille."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, un sujet tout trouvé : le peuple souverain peut-il tout décider ? Opposez la souveraineté nationale de l'article 3 de la Constitution à l'État de droit. Mobilisez l'article 89, le précédent de 1962, et la décision par laquelle le Conseil constitutionnel s'est dit incompétent pour juger une loi référendaire. Montrez que la procédure de révision n'est pas une simple formalité : elle organise le consentement des deux assemblées.",
+    "Pour ce soir, trois thèmes vous sont proposés. Premier thème, que je vous recommande : réviser la Constitution par référendum, entre article 11 et article 89. Deuxième thème : le budget 2027, ou comment un Parlement sans majorité peut redresser les comptes. Troisième thème : l'Europe face au choc énergétique d'Ormuz. Faites votre choix sur la page Émission du soir, avant quatorze heures.",
+    "Merci de votre écoute. Excellente journée, et bonnes révisions.",
+    "Script produit automatiquement par Claude. Les faits et leurs sources figurent dans la note de veille du jour.",
+    "Sur Android, ouvrez cette page dans Chrome. Pour une meilleure voix : Paramètres › Système › Langues et saisie › Synthèse vocale › moteur « Services vocaux Google » › Français, puis installez et choisissez une voix."
+   ]
+  }
+ ]
+}

@@ -3,12 +3,22 @@
   <channel>
     <title>Revue du matin</title>
     <link>https://martinparnin-svg.github.io/revue-du-matin/</link>
-    <description>Vingt minutes chaque matin de semaine, une demi-heure le lundi, sur l'international, la politique française, l'économie, l'industrie et l'IA, pour préparer les concours de la haute fonction publique.</description>
+    <description>Un quart d'heure chaque matin de semaine pour faire le tour de l'actualité et comprendre les sujets qui comptent : international, politique française, social, environnement, économie, industrie et IA, pour préparer les concours de la haute fonction publique.</description>
     <language>fr</language>
     <itunes:author>Revue du matin</itunes:author>
     <itunes:image href="https://martinparnin-svg.github.io/revue-du-matin/cover.png"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Revue du matin · 15 octobre 2026</title>
+      <description>Édition du 15 octobre 2026 : Budget 2027 : l'Assemblée défait les recettes du gouvernement, Référendum : Richard Ferrand ferme la porte de l'article 11, Conseil européen : l'Europe face à sa facture énergétique, Ormuz : le choc pétrolier relance l'inflation américaine
+
+Note de veille et sources : https://claude.ai/code/artifact/640de6c5-f34e-48dc-8d06-970e62413615</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-10-15.mp3" length="9594473" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-10-15</guid>
+      <pubDate>Thu, 15 Oct 2026 05:30:00 +0000</pubDate>
+      <itunes:duration>13:19</itunes:duration>
+    </item>
     <item>
       <title>Revue du matin · 14 octobre 2026</title>
       <description>Plan de paix américain pour l'Ukraine et trêve énergétique non appliquée ; escalade entre les Houthis et l'Arabie saoudite ; premier groupe RN au Sénat ; budget de la Sécurité sociale ; COP31 ; prévisions du FMI et prix des carburants ; automobile et préférence européenne ; faillite de Character.AI et centre de données Microsoft en Alsace.

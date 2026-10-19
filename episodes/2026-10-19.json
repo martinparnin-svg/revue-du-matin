@@ -1,0 +1,139 @@
+{
+ "date": "2026-10-19",
+ "title": "Revue du matin · 19 octobre 2026",
+ "summary": "Au programme : Le tour de l'actu : en France ; Le tour de l'actu : dans le monde ; Le 17 octobre : une marée humaine, puis le chaos ; Après les violences, l'exécutif promet de faire payer les casseurs ; Budget 2027 : la semaine de tous les votes ; Washington gèle ses sanctions contre Moscou ; Ormuz : le pétrole frôle les cent dix dollars ; Taux en hausse, doute sur l'IA : les marchés vacillent.",
+ "links": {
+  "note": "https://claude.ai/code/artifact/dd52a41e-8f68-4be6-9704-e627fb4ac293",
+  "page": "https://claude.ai/artifact/NCN6Qndt5onBBZE9aFGbqC"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour, et bienvenue dans cette édition spéciale du lundi. Nous sommes le lundi 19 octobre 2026.",
+    "Le week-end a été dominé par une seule actualité : la journée du 17 octobre contre la vie chère, avec plus d'un demi-million de manifestants, puis des violences et des pillages d'une ampleur rarement vue. Nous verrons le bilan, puis la réponse d'Emmanuel Macron et le débat politique qui s'ouvre. Nous ferons le point sur une semaine budgétaire décisive à l'Assemblée. Puis cap sur l'international : Washington gèle ses sanctions contre Moscou, le pétrole frôle les cent dix dollars autour d'Ormuz, et les marchés doutent de l'intelligence artificielle. C'est parti."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : en France",
+   "voice": "Algieba",
+   "paragraphs": [
+    "D'abord, le tour de l'actu du week-end, en commençant par la France.",
+    "Les maires se rassemblent aujourd'hui à midi devant leurs mairies, à l'appel de l'Association des maires de France présidée par David Lisnard. Après les attaques contre plusieurs hôtels de ville samedi, l'association parle d'un vrai risque pour toute la Nation. C'est la deuxième fois en quelques années que les élus locaux se mobilisent ainsi pour la protection des institutions de proximité.",
+    "Les départements, eux, sont en colère contre Matignon. Vendredi, aux Assises de Départements de France à Reims, les présidents ont boycotté le discours de la ministre Françoise Gatel, en l'absence du Premier ministre. Le budget prévoit de prélever un virgule huit milliard d'euros sur leurs ressources. François Sauvadet dénonce une méthode détestable ; une rencontre est proposée à Matignon le 16 novembre.",
+    "Au Conseil constitutionnel, une offensive inédite. Des députés du Rassemblement national et de l'UDR, le groupe d'Éric Ciotti, demandent la démission d'office de son président, Richard Ferrand. En cause : ses propos jugés incompatibles avec son devoir de réserve, sur l'impossibilité de réviser la Constitution par la voie de l'article 11, celle que prévoit le programme de Marine Le Pen. Plusieurs constitutionnalistes, dont Dominique Rousseau, jugent la requête sans fondement.",
+    "Au Sénat, la mission d'information sur l'avenir du maintien de l'ordre présente ce soir son rapport en commission des lois. Le calendrier tombe à point : au Palais du Luxembourg, plusieurs groupes veulent déjà la transformer en commission d'enquête.",
+    "Côté justice, l'eurodéputée insoumise Rima Hassan doit être jugée à Paris pour apologie du terrorisme, après un report en juillet. Il lui est reproché un message publié en mars sur le réseau X.",
+    "Enfin, Paris accueille aujourd'hui un G7 de l'agriculture consacré aux engrais. Environ un tiers des engrais de synthèse transitaient par le détroit d'Ormuz, et selon le Fonds international de développement agricole, les prix agricoles mondiaux ont pris treize pour cent au troisième trimestre."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : dans le monde",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Direction l'Europe et le monde.",
+    "Le Conseil européen de jeudi et vendredi s'est achevé sans accord sur le budget pluriannuel de l'Union. La piste d'une coupe de cent quarante et un milliards d'euros est abandonnée, et un sommet extraordinaire est fixé au 26 novembre. Les Vingt-Sept ont aussi demandé à la Commission une boîte à outils de défense commerciale face à la Chine, avec un déficit commercial de l'ordre de trois cent soixante milliards d'euros.",
+    "En mer Noire, la tension monte aux portes de l'OTAN. Un pétrolier chimiquier a été frappé par un drone dans les eaux roumaines, huit marins sont portés disparus. C'est le septième navire attaqué au large de la Roumanie et de la Bulgarie depuis le début du mois. Le président roumain, Nicușor Dan, accuse la Russie et réclame un contrôle accru de l'Alliance.",
+    "La guerre des frappes énergétiques, elle, s'intensifie. Dans la nuit de samedi à dimanche, Moscou dit avoir abattu plus de mille drones ukrainiens, un record. Le terminal pétrolier de Saint-Pétersbourg a pris feu. La trêve énergétique annoncée par Donald Trump le 11 octobre n'a jamais tenu.",
+    "Au Proche-Orient, Israël vote dans huit jours. Selon une moyenne de quatre sondages, aucun bloc n'atteint la majorité de soixante et un sièges, et la liste de l'ancien chef d'état-major Gadi Eisenkot devance le Likoud de Benyamin Netanyahou.",
+    "Au Brésil, le second tour de la présidentielle a lieu dimanche prochain. Flávio Bolsonaro, arrivé en tête au premier tour avec quarante-sept pour cent, et Lula sont au coude-à-coude dans les sondages.",
+    "En Chine, la croissance accélère : plus quatre et demi pour cent sur un an au troisième trimestre, selon les chiffres publiés cette nuit. Mais l'investissement immobilier recule de plus de vingt pour cent sur neuf mois : une croissance tirée par les exportations et par l'État. Pékin prépare d'ailleurs un contrôle inédit des exportations de ses modèles d'intelligence artificielle, soumis à consultation jusqu'au 15 novembre.",
+    "Enfin, dans la tech, Anthropic annonce consacrer cinq pour cent de ses actions à un fonds d'intérêt public. Et côté climat, le Giec, le groupe d'experts de l'ONU, n'est pas parvenu à fixer la date de publication de son septième rapport."
+   ]
+  },
+  {
+   "title": "Le 17 octobre : une marée humaine, puis le chaos",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier sujet, le plus lourd du week-end : la journée du samedi 17 octobre.",
+    "Les faits d'abord. L'appel est né sur les réseaux sociaux, huit ans après les gilets jaunes, contre la vie chère et le prix des carburants. Il a été relayé par les organisations lycéennes et étudiantes, la Confédération paysanne, Sud, et soutenu par la CGT. Résultat : cinq cent cinquante mille manifestants selon le ministère de l'Intérieur, huit cent mille selon les organisateurs. Le renseignement en attendait à peine plus de cent mille.",
+    "Puis la journée a basculé. À Limoges, l'hôtel de ville a été en grande partie détruit par un incendie. À Marseille, la mairie a été envahie. À Bordeaux, la résidence de la préfète a été saccagée. À Lyon, l'office de tourisme de la place Bellecour a brûlé. À Paris, pillages sur les Champs-Élysées, tirs de mortiers d'artifice près de la prison de la Santé, et le siège de la chaîne CNews visé.",
+    "Le bilan a été révisé tout au long du dimanche. Samedi soir, le Premier ministre évoquait mille deux cents interpellations. Dimanche soir, le ministère de l'Intérieur en comptait près de deux mille quatre cents, et près de mille policiers et gendarmes blessés, dont sept grièvement. À Paris, le parquet recense plus de cinq cent cinquante gardes à vue, dont environ cent cinquante mineurs. Côté manifestants, un homme a eu la main arrachée à Saint-Étienne, et une adolescente de dix-sept ans a perdu un œil à Mulhouse ; l'inspection générale de la police est saisie.",
+    "Le contexte compte. Ce mouvement prolonge la colère lycéenne : la mobilisation du 13 octobre avait déjà réuni quatre cent quatre-vingt mille personnes selon ses organisateurs. Et il se nourrit d'une inflation alimentée par le choc pétrolier, sur laquelle nous reviendrons.",
+    "La nuance maintenant. La très grande majorité des manifestants a défilé dans le calme : les violences, attribuées par le gouvernement à l'ultragauche rejointe par des délinquants, ne disent rien de la profondeur de la colère sociale, qui reste entière. Ce qu'il faut surveiller : une nouvelle date de mobilisation est déjà annoncée pour le 5 novembre."
+   ]
+  },
+  {
+   "title": "Après les violences, l'exécutif promet de faire payer les casseurs",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet : la réponse politique.",
+    "Dimanche à vingt heures, Emmanuel Macron s'est adressé aux Français. Il a parlé d'un moment d'une extrême gravité, et visé des factieux venus de l'ultragauche. Sa formule : ceux qui ont détruit doivent payer, ceux qui ont pillé doivent rembourser. Il annonce un retour d'expérience sur le renseignement, des interdictions de rassemblement possibles décidées par les préfets avec les maires, des mesures concrètes dès cette semaine, et une réunion des partis par le Premier ministre. Pas d'état d'urgence, ni de couvre-feu.",
+    "Le principal véhicule législatif existe déjà. C'est le projet de loi dit casseurs-payeurs, déposé au Sénat le 16 septembre. Il rendrait les participants à un attroupement violent solidairement responsables des dégâts, jusqu'à dix mille euros par personne, avec une possible récupération sur les allocations familiales et les aides au logement. Son examen au Sénat est attendu le 27 octobre. Mais le Club des juristes signale un risque au regard du principe de responsabilité pénale individuelle. Et en juillet, l'Assemblée avait rejeté un dispositif voisin.",
+    "Les positions sont tranchées. Jordan Bardella juge l'allocution lamentable. Édouard Philippe regrette l'absence de décisions et pointe la responsabilité de La France insoumise. Marine Le Pen juge les revendications légitimes mais prises en otage par l'extrême gauche. Jean-Luc Mélenchon met en cause le ministre de l'Intérieur et le préfet de police. Le Parti socialiste condamne les casseurs et demande une doctrine de désescalade. À gauche comme au Rassemblement national, des voix réclament la démission de Laurent Nuñez, qui accuse plusieurs milliers d'individus d'ultragauche.",
+    "Le contrôle parlementaire s'organise. Yaël Braun-Pivet proposera demain la création d'une commission d'enquête sur le maintien de l'ordre. Au Sénat, socialistes et écologistes en réclament une aussi, et le groupe socialiste demande un débat au titre de l'article 50-1 de la Constitution.",
+    "L'enjeu va au-delà de l'ordre public. À six mois de la présidentielle, le Premier ministre parle d'un tour de chauffe. À surveiller : la cellule interministérielle de crise réunie ce matin, la réunion à Bercy avec les commerçants et les assureurs, et la visite de Sébastien Lecornu à Limoges, dont le maire menace de démissionner faute d'engagement écrit de l'État."
+   ]
+  },
+  {
+   "title": "Budget 2027 : la semaine de tous les votes",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Troisième sujet : le budget, qui entre cette semaine dans sa phase décisive à l'Assemblée.",
+    "Le projet de loi de finances d'abord. Les députés achèvent aujourd'hui la partie recettes, avant un vote solennel demain. L'objectif du gouvernement : un déficit public ramené de cinq virgule quatre à cinq pour cent du PIB en 2027, avec un effort de cinquante-quatre milliards d'euros. Mais le texte a été largement remanié. Les députés ont rejeté le plafonnement de l'abattement fiscal de dix pour cent sur les pensions. Ils ont porté à cent mille euros le plafond temporaire d'exonération des donations familiales. Ils ont en revanche repoussé le rétablissement de l'impôt sur la fortune et la suppression de la flat tax. Le ministre David Amiel accuse les députés d'avoir dégradé le déficit d'environ huit milliards.",
+    "Ensuite, le budget de la Sécurité sociale, en séance dès demain. Le gouvernement veut ramener le déficit de vingt et un virgule huit à douze virgule sept milliards d'euros. La mesure la plus contestée : seules les pensions jusqu'à mille deux cent soixante euros suivraient l'inflation, soit environ un retraité sur trois, pour quatre milliards d'économies. Vendredi, la commission des affaires sociales a supprimé cette mesure, avec des voix allant du Rassemblement national à La France insoumise, avant de rejeter l'ensemble du texte. Ce rejet est sans effet juridique : la séance repart du texte du gouvernement.",
+    "Les positions. Les socialistes disent n'avoir eu aucune négociation, à la différence de l'an dernier. Le Rassemblement national parle d'une coupe scandaleuse dans les pensions, Les Républicains d'une mesure qui oppose les générations. La France insoumise promet la censure en cas de recours au 49.3, utilisé pour le budget 2026 en février.",
+    "La nuance. Un vote négatif sur les recettes ne ferait pas tomber le budget : l'article 47 de la Constitution donne au Parlement soixante-dix jours, faute de quoi le gouvernement peut recourir aux ordonnances. Le vrai risque est ailleurs : un budget qui sort du Parlement plus déficitaire qu'il n'y est entré, alors que la France emprunte déjà à près de quatre virgule huit pour cent à dix ans. À surveiller : le vote de demain, puis le vote solennel sur le budget de la Sécu le 27 octobre."
+   ]
+  },
+  {
+   "title": "Washington gèle ses sanctions contre Moscou",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Quatrième sujet, à l'international : les États-Unis lèvent le pied sur les sanctions contre la Russie.",
+    "Vendredi soir, Donald Trump a suspendu l'application du Graham Act, la loi de sanctions promulguée mi-septembre, deux jours avant son entrée en vigueur. Ce texte prévoyait des droits de douane allant jusqu'à cinq cents pour cent sur les produits russes, et jusqu'à cent pour cent sur les pays acheteurs de pétrole ou de gaz russe. Le secrétaire d'État Marco Rubio parle d'une pause de soixante jours, pour en évaluer l'impact économique.",
+    "C'est une étape de plus. Le 9 octobre, Washington avait autorisé les importations de gazole russe ; un accord porte sur environ deux millions de barils, soit un peu plus d'une demi-journée de consommation américaine. Le moteur est électoral : le gazole dépasse six dollars le gallon, contre trois virgule sept il y a un an, à deux semaines des élections de mi-mandat du 3 novembre.",
+    "Les réactions sont vives. L'émissaire russe Kirill Dmitriev salue un moment historique. Au Congrès, l'opposition est transpartisane : le républicain Ted Cruz parle d'une erreur, le démocrate Chuck Schumer d'un cadeau à Vladimir Poutine. Et dimanche, Donald Trump a de nouveau accusé Volodymyr Zelensky de ne pas vouloir la paix, et jugé honteuses les frappes ukrainiennes sur les raffineries russes. Le président ukrainien parle d'une erreur historique. L'Union européenne, elle, maintient ses sanctions ; au Conseil européen, seul le Premier ministre bulgare a soutenu l'accord sur le gazole.",
+    "Ce que ça change : l'arme des sanctions secondaires, celle qui frappe les clients de la Russie, est gelée. L'Ukraine perd du levier et dépend davantage des Européens, auxquels elle demande soixante-dix milliards d'euros de plus pour 2027. Ce que ça ne change pas : la pause est réversible, et les volumes de gazole sont marginaux. Selon le Grand Continent, l'économie russe approche pourtant de ses limites, avec des dépenses publiques proches de quarante pour cent du PIB : chaque dollar de recettes pétrolières compte pour Moscou.",
+    "À surveiller : la signature effective des contrats de gazole, et la proposition prêtée à Vladimir Poutine d'une rencontre avec Donald Trump et Xi Jinping, sans l'Ukraine, le mois prochain."
+   ]
+  },
+  {
+   "title": "Ormuz : le pétrole frôle les cent dix dollars",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cinquième sujet : le choc pétrolier, qui s'aggrave.",
+    "Samedi et dimanche, les Gardiens de la révolution iraniens ont affirmé que deux superpétroliers, chargés chacun d'environ deux millions de barils, avaient heurté des mines et pris feu dans le détroit d'Ormuz. Ils déclarent le détroit fermé. Il n'y a pas de confirmation indépendante. Le commandement militaire américain affirme au contraire contrôler le passage, avec quatre cents navires escortés en une semaine.",
+    "Rappel du contexte : depuis le début de la guerre contre l'Iran, le 28 février, ce détroit, par où passait environ un cinquième du pétrole maritime mondial, est quasiment fermé. Et en mer Rouge, les rebelles houthis du Yémen frappent presque chaque jour l'Arabie saoudite, y compris son terminal de Yanbu, la principale voie de contournement.",
+    "Les prix réagissent. Vendredi, le baril de Brent a clôturé à près de cent dix dollars, une première depuis mai. Ce matin en Asie, il recule légèrement, à cent huit dollars. Le gaz européen atteint son plus haut niveau depuis 2022, alors que les stocks ne sont remplis qu'à soixante-quatorze pour cent, contre quatre-vingt-trois il y a un an.",
+    "La France s'engage. Paris annonce des moyens militaires strictement défensifs pour protéger Yanbu. Et Emmanuel Macron entame aujourd'hui une tournée de trois jours au Koweït, aux Émirats arabes unis, à Bahreïn et au Qatar, pour sécuriser des approvisionnements en pétrole et en gazole. Donald Trump, lui, exclut l'arme nucléaire comme l'envoi de troupes au sol, et prédit un accord avec Téhéran après les élections de mi-mandat.",
+    "L'impact réel se mesure à la pompe et dans les prix. Un baril autour de cent dollars entretient l'inflation et pousse les banques centrales à remonter leurs taux. Il pèse sur les engrais et donc sur l'alimentation. Et il alimente directement la colère contre la vie chère, celle du 17 octobre. Selon la directrice du FMI, Kristalina Georgieva, les pays pauvres importateurs de pétrole sont les plus exposés. À surveiller : les annonces de la tournée présidentielle, et les élections israéliennes du 27 octobre, que certains redoutent de voir précédées d'une frappe sur l'Iran."
+   ]
+  },
+  {
+   "title": "Taux en hausse, doute sur l'IA : les marchés vacillent",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier sujet approfondi : les marchés financiers, pris en tenaille.",
+    "Les faits. La semaine dernière, le Nasdaq, l'indice des valeurs technologiques américaines, a perdu quatre et demi pour cent. L'indice des semi-conducteurs a chuté de plus de onze pour cent, sa plus longue série de baisses depuis 2008. En Europe, ASML, STMicroelectronics ou Soitec ont lourdement reculé. Ce matin, Tokyo et Séoul ouvrent encore en baisse.",
+    "Deux causes se combinent. D'abord la remontée des taux. La Réserve fédérale américaine a relevé ses taux en septembre, une première depuis 2023, avec une inflation de trois virgule sept pour cent. La Banque centrale européenne a fait de même deux fois. Le taux à dix ans américain dépasse cinq pour cent. Le nouveau président de la Fed, Kevin Warsh, parle d'un resserrement synchronisé, sans préjuger de la prochaine réunion. Ensuite le doute sur l'intelligence artificielle : les revenus suffiront-ils à rembourser des investissements que Goldman Sachs estime à mille deux cents milliards de dollars l'an prochain pour cinq géants du numérique ? Kristalina Georgieva résume : l'économie mondiale tient sur une jambe, l'IA.",
+    "La nuance. Malgré la chute, le S&P 500 reste en hausse de près de douze pour cent depuis janvier. Le FMI a même relevé sa prévision de croissance mondiale à trois virgule un pour cent. Et Paris a mieux résisté : le CAC 40 a gagné deux pour cent sur la semaine. L'économie réelle ne décroche pas non plus partout : la Chine accélère, et le yuan atteint son plus haut niveau depuis 2022 face au dollar.",
+    "Pour la France, l'enjeu est budgétaire. Chaque hausse des taux renchérit la charge de la dette, au moment même où le Parlement dégrade le déficit. Et l'euro, à un virgule douze dollar, approche de son plus bas depuis seize mois, sur fond de troubles intérieurs.",
+    "À surveiller : les résultats de Meta et Tesla mercredi, premier test du retour sur investissement de l'IA, puis les décisions de la Fed le 28 octobre et de la BCE le 29."
+   ]
+  },
+  {
+   "title": "La semaine qui vient",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Place à la semaine qui vient.",
+    "Aujourd'hui, à l'Assemblée, les députés terminent la partie recettes du budget, et ce soir la commission des lois auditionne le garde des Sceaux, Gérald Darmanin, sur les crédits de la Justice. Au Sénat, une proposition de loi sur l'adaptation au changement climatique et l'assurance. À Aix-en-Provence s'ouvre le procès du triple assassinat de 2020, dont la victime principale était le frère du militant Amine Kessaci, avec un accusé présenté comme un dirigeant de la DZ Mafia.",
+    "Demain mardi, temps fort à l'Assemblée : questions au gouvernement, vote solennel sur les recettes du budget, puis début du budget de la Sécurité sociale. La conférence des présidents doit se prononcer sur la commission d'enquête sur le maintien de l'ordre. Au Sénat, trois ministres, Gérald Darmanin, Édouard Geffray et Stéphanie Rist, défendent le projet de loi sur la protection des enfants, et les sénateurs examinent le texte contre les ingérences étrangères. Le directeur de l'Agence France Trésor y présente la stratégie de financement de la dette, et les sénateurs élisent au scrutin secret six juges titulaires de la Cour de justice de la République, celle qui juge les ministres.",
+    "Mercredi, questions d'actualité au Sénat, audition de la directrice de la Caisse nationale des allocations familiales par la commission d'enquête de l'Assemblée sur le coût des aides sociales, et de la ministre des Outre-mer sur ses crédits. Côté marchés, Meta et Tesla publient leurs comptes.",
+    "Jeudi, le Sénat consacre un débat au lien entre cancer et pesticides. Vendredi, les indices des directeurs d'achat donneront une première photographie de l'activité d'octobre. Tout au long de la semaine, le Parlement européen siège à Strasbourg, et Emmanuel Macron est dans le Golfe jusqu'à mercredi.",
+    "Et dimanche, le Brésil élit son président. Juste après viendront les législatives israéliennes du 27 octobre, la Fed le 28, la BCE le 29, et les élections américaines de mi-mandat le 3 novembre."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, une piste de réflexion tirée de ce week-end : l'ordre public et les libertés.",
+    "La liberté de manifester découle de l'article 10 de la Déclaration des droits de l'homme et du citoyen, et le Conseil constitutionnel l'a consacrée comme le droit d'expression collective des idées. Mais l'article 12 fonde une force publique au service de la garantie des droits. Toute la question est l'équilibre. En 2019, le Conseil a censuré la disposition de la loi dite anticasseurs qui permettait au préfet d'interdire à une personne de manifester. Le principe de responsabilité pénale personnelle, rappelé à propos du projet casseurs-payeurs, en est une autre limite. Une belle problématique : peut-on protéger la République sans restreindre les libertés qui la fondent ?",
+    "Ce soir, trois sujets au choix : les départements au bord de l'asphyxie budgétaire ; la guerre hybride russe en mer Noire, aux portes de l'OTAN ; ou la Chine qui verrouille ses modèles d'intelligence artificielle.",
+    "Merci de votre écoute, belle semaine à toutes et à tous, et bonnes révisions. À demain."
+   ]
+  }
+ ]
+}

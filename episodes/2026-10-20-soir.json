@@ -1,0 +1,255 @@
+{
+ "date": "2026-10-20",
+ "title": "Le soir · Ingérences étrangères · 20 octobre",
+ "summary": "À six mois de la présidentielle, le Sénat examine un projet de loi contre les ingérences étrangères. Une démocratie peut-elle se protéger contre la manipulation venue de l'étranger sans abîmer la liberté de débattre ?",
+ "style": "natural evening radio conversation, warm, relaxed, thoughtful pace",
+ "links": {},
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Bonsoir, et bienvenue dans Le soir, l'émission d'approfondissement de la Revue du matin. Nous sommes le mardi 20 octobre 2026. Une précision, comme chaque soir : les voix que vous entendez sont des voix de synthèse, et mes deux invitées présentent les arguments en présence, en les attribuant à ceux qui les défendent. Ce soir, faute de vote, nous avons retenu le thème que nous vous recommandions ce matin. Le Sénat examine aujourd'hui en séance un projet de loi contre les ingérences étrangères dans la vie démocratique. À six mois de l'élection présidentielle, la question est simple à poser et difficile à trancher : une démocratie peut-elle se protéger contre la manipulation venue de l'étranger sans abîmer la liberté de débattre qui la fonde ?"
+    },
+    {
+     "voice": "Algieba",
+     "text": "Pour en parler, deux invitées. Notre spécialiste des questions de sécurité et de renseignement, qui suit depuis plusieurs années le travail des services chargés de détecter ces manipulations. Et notre juriste, spécialiste des libertés publiques et du droit électoral. Bonsoir à toutes les deux."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Bonsoir. Ce qui frappe, c'est le calendrier. Le gouvernement a présenté ce texte en Conseil des ministres le 22 juillet, juste après des municipales où les services ont relevé plusieurs opérations venues de l'étranger. Et cet été déjà, de faux contenus visaient des candidats déclarés ou pressentis à la présidentielle. La menace n'est plus théorique."
+    },
+    {
+     "voice": "Kore",
+     "text": "Bonsoir. Et ce qui frappe le juriste, c'est la matière : on parle de permettre à un juge de faire retirer en quarante-huit heures des contenus jugés faux. C'est l'un des terrains les plus sensibles de notre droit, celui où la protection de la démocratie et la liberté d'expression se touchent presque."
+    }
+   ]
+  },
+  {
+   "title": "Le récit",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Commençons par l'histoire. Ce sujet n'est pas né cette année. Le moment fondateur, en France, ce sont les « Macron Leaks », en mai 2017 : la fuite massive de documents de l'équipe d'Emmanuel Macron à la veille du second tour. L'attribution a mis du temps, mais au printemps 2025, la France a officiellement attribué cette opération au renseignement militaire russe, le GRU, selon la revue SensPo. Première réponse législative : la loi du 22 décembre 2018 relative à la lutte contre la manipulation de l'information."
+    },
+    {
+     "voice": "Kore",
+     "text": "Cette loi de 2018 crée un référé spécial, inscrit à l'article L. 163-2 du code électoral. Pendant les trois mois qui précèdent une élection nationale, un juge peut ordonner en quarante-huit heures de faire cesser la diffusion d'allégations inexactes ou trompeuses. Le Conseil constitutionnel l'a validé dans sa décision du 20 décembre 2018, mais avec des réserves très fortes : l'information doit être objectivement fausse, les opinions, parodies et exagérations sont exclues, et la diffusion doit être à la fois artificielle, massive et délibérée. Le caractère faux, comme le risque pour la sincérité du scrutin, doit être manifeste."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et ensuite, l'État s'est doté d'un outil technique."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Exactement. En juillet 2021, un décret crée Viginum, le service de vigilance et de protection contre les ingérences numériques étrangères, rattaché au secrétariat général de la défense et de la sécurité nationale. Son critère tient en quatre conditions cumulatives : un acteur étranger, une diffusion artificielle ou automatisée, un caractère massif et délibéré, et une atteinte aux intérêts fondamentaux de la Nation. Viginum a détecté deux cent trente phénomènes de manipulation en 2023, un chiffre dépassé dès le début d'octobre 2024, selon une audition rapportée par Public Sénat."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Puis vient une deuxième loi, en 2024."
+    },
+    {
+     "voice": "Kore",
+     "text": "La loi du 25 juillet 2024 visant à prévenir les ingérences étrangères. Elle a quatre volets. Un répertoire public, tenu par la Haute Autorité pour la transparence de la vie publique, où doivent s'inscrire ceux qui exercent une influence pour le compte d'une puissance étrangère hors Union européenne. Il a ouvert le premier octobre 2025. Ensuite, l'extension à titre expérimental, jusqu'en juin 2028, des algorithmes de détection des services de renseignement, jusque-là réservés au terrorisme. Puis le gel des avoirs. Enfin, une circonstance aggravante pour les infractions commises au service d'une puissance étrangère."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Arrive alors l'élection qui a tout changé dans les esprits : la Roumanie."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Le 24 novembre 2024, un candidat quasi inconnu, Călin Georgescu, arrive en tête du premier tour avec environ vingt-trois pour cent. Des notes de renseignement déclassifiées décrivent une campagne massive sur TikTok. Le 6 décembre, la Cour constitutionnelle roumaine annule l'ensemble du scrutin. TikTok indique avoir bloqué plus de quatre cent mille faux comptes sur la période. Ces éléments sont rappelés par Swissinfo. Le scrutin est rejoué en mai 2025, sans Georgescu, exclu de la course."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et en France, les signaux se multiplient."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Lors des municipales de 2026, le rapport public de Viginum du 11 juin relève quatre ingérences, dont deux prorusses. Plus de cent noms de domaine en point f r imitaient des médias locaux. Le réseau prorusse baptisé Storm-1516 totalise selon ce rapport deux cent cinq opérations depuis août 2023. Et entre fin juillet et début août 2026, selon Les Surligneurs, de faux contenus ont visé Édouard Philippe, Raphaël Glucksmann et Gabriel Attal ; Viginum a attribué les deux premiers cas à Storm-1516."
+    },
+    {
+     "voice": "Algieba",
+     "text": "D'où le projet de loi. Que contient-il, précisément, dans la version adoptée par la commission des lois du Sénat le 14 octobre ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Trois blocs. D'abord un nouveau référé, valable toute l'année, hors période électorale : un juge peut faire cesser en quarante-huit heures la diffusion d'allégations manifestement inexactes ou trompeuses, propagées de façon délibérée, massive et artificielle ou automatisée, quand il existe des raisons plausibles de penser qu'elles viennent d'une puissance étrangère, et qu'elles portent une atteinte grave et imminente aux intérêts fondamentaux de la Nation. Ensuite, le référé électoral de 2018 est réécrit dans un nouvel article du code électoral. Enfin, les peines pour manœuvres frauduleuses détournant des suffrages sont triplées : de un an et quinze mille euros à trois ans et quarante-cinq mille euros. La commission a ajouté un article qui étend la circonstance aggravante liée à une puissance étrangère, notamment à certains délits de presse."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et en parallèle, un décret du 22 juillet a créé une commission indépendante de trois hauts magistrats, chargée, selon Public Sénat, d'informer candidats et partis lorsqu'une ingérence est détectée, voire le public. Voilà le décor."
+    }
+   ]
+  },
+  {
+   "title": "Le débat",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Entrons dans le débat. Commençons par la défense du texte. Pourquoi faudrait-il une loi de plus, quand on en a déjà deux ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Parce que les deux lois précédentes laissent un trou. Celle de 2018 ne joue qu'à l'approche des élections nationales. Celle de 2024 vise les acteurs déclarés, les lobbyistes, pas les fermes de faux comptes. Or la manipulation ne s'arrête pas trois mois avant le vote : elle prépare le terrain pendant des années. Le Premier ministre Sébastien Lecornu, après avoir réuni les partis en juin, a parlé selon Public Sénat de menaces lourdes pour la présidentielle. Et la cheffe adjointe de Viginum a décrit devant le Sénat une menace permanente, omniprésente et croissante. Le référé hors période électorale, c'est l'outil qui manquait."
+    },
+    {
+     "voice": "Kore",
+     "text": "Mais justement, la question est de savoir si cet outil fonctionne. Et là, ce n'est pas l'opposition qui s'interroge, c'est le Conseil d'État. Dans son avis du 16 juillet, il juge le texte proportionné et compatible avec la Convention européenne des droits de l'homme, mais il doute de son efficacité : le juge risque d'intervenir trop tard, la preuve de l'origine étrangère est lourde à apporter, et il rappelle que le référé de 2018 a été très peu utilisé. Une procédure qu'on n'utilise presque jamais, on la duplique ?"
+    },
+    {
+     "voice": "Algieba",
+     "text": "Attendez. Si le référé de 2018 a si peu servi, est-ce parce qu'il est mal conçu, ou parce qu'il n'y avait pas de besoin ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "C'est toute la question, et les partisans du texte répondent : il a été conçu trop étroit. Les conditions fixées en 2018 sont si exigeantes qu'il est presque impossible de les réunir. Le nouveau texte garde ces garde-fous, ce qui est d'ailleurs ce que lui reconnaît le Conseil d'État, mais il ouvre la saisine au ministère public et élargit la période. Ajoutez la vitesse : avec l'intelligence artificielle, comme le dit le président de la commission de la Culture du Sénat, Laurent Lafon, on démultiplie la création de comptes. Il faut un juge capable de réagir vite."
+    },
+    {
+     "voice": "Kore",
+     "text": "Sauf que la vitesse, en matière de liberté d'expression, c'est précisément ce qui inquiète. Dès 2018, Reporters sans frontières jugeait qu'un juge des référés ne peut pas apprécier en quarante-huit heures la bonne foi d'un auteur. Et le nouveau référé repose sur des raisons plausibles de penser qu'un contenu vient de l'étranger. Plausible, ce n'est pas prouvé. Le risque, c'est qu'un contenu relayé de bonne foi par un citoyen français, parce qu'il circule aussi sur un réseau étranger, se retrouve dans le filet."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Mais alors, le texte protège-t-il assez ceux qui ne sont pas des agents d'une puissance étrangère ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Le gouvernement fait valoir que le cumul des conditions est le garde-fou. Il faut à la fois une fausseté manifeste, une diffusion massive et artificielle, un lien étranger plausible et une atteinte grave et imminente. Sébastien Lecornu lui-même, selon Parlons Politique, reconnaît qu'on ne peut pas interdire tous ceux qui font de la propagande sans risquer d'atteindre le débat démocratique ordinaire. Le texte vise les opérations, pas les opinions."
+    },
+    {
+     "voice": "Kore",
+     "text": "Le cumul des conditions protège en droit, mais la pratique compte aussi. Rappelons ce que disait en 2024 l'Observatoire des libertés et du numérique, qui réunit notamment la Quadrature du Net, la Ligue des droits de l'homme et le Syndicat de la magistrature, sur la loi précédente : des algorithmes posés comme un filet sur toute la population, des finalités floues, un contrôle seulement consultatif. Ce texte s'inscrit dans un empilement. Et chaque étage, pris isolément, paraît raisonnable."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Justement, on a l'impression que les critiques viennent de deux côtés opposés. Les uns trouvent le texte dangereux, les autres le trouvent trop timide."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Tout à fait. Au Sénat, le texte est jugé trop limité, selon la dépêche de l'Agence France-Presse parue ce matin. Le socialiste Rachid Temal, ancien rapporteur de la commission d'enquête sénatoriale sur les ingérences, regrettait dès juillet que le texte laisse de côté le rôle des plateformes et des intelligences artificielles génératives. La commission d'enquête de 2024 avait fait quarante-sept propositions, dont l'interdiction des prêts de personnes étrangères non résidentes aux partis et un statut d'éditeur pour les plateformes. Pour ces sénateurs, c'est là que se joue l'essentiel, pas devant le juge des référés."
+    },
+    {
+     "voice": "Kore",
+     "text": "Et sur ce point, je rejoins le diagnostic, mais pas forcément la conclusion. Si le cœur du problème, ce sont les plateformes et leurs algorithmes de recommandation, alors l'échelon pertinent est européen, avec le règlement sur les services numériques, le D S A. La loi nationale ne peut guère aller plus loin sans entrer en conflit avec le droit de l'Union. D'ailleurs, Viginum note que plusieurs grandes plateformes ont retiré environ deux cents comptes ou sites lors des municipales, mais que le réseau X n'a pas coopéré avec l'Arcom, le régulateur. C'est une question de rapport de force avec les plateformes, pas de référé."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Il y a aussi une critique plus politique. Laurent Lafon a parlé d'un risque d'ingérences intérieures, ce qui a fait polémique."
+    },
+    {
+     "voice": "Kore",
+     "text": "Oui, et elle touche un point réel. Un parlementaire cité par Public Sénat relève que ces procédures visent la manipulation, pas seulement les acteurs étrangers. Toute la question démocratique est là : qui décide qu'un contenu est une manipulation ? À six mois d'une présidentielle, un outil confié à l'initiative du parquet, qui dépend hiérarchiquement du garde des Sceaux, peut nourrir le soupçon d'une arme contre des adversaires. Même si ce n'est pas l'intention, le soupçon suffit à abîmer la confiance."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "L'argument inverse est tout aussi fort : la menace frappe tous les camps. Les rapports de Viginum montrent des opérations contre la majorité, contre la gauche modérée, mais aussi, lors des municipales, une opération hostile à La France insoumise, qui a d'ailleurs saisi la justice et demande une instance de surveillance de la campagne. Ne rien faire, c'est laisser des puissances étrangères choisir les cibles. Et c'est pour cela que le gouvernement a confié l'information du public à une commission de magistrats indépendants, plutôt qu'à l'exécutif."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Dernière question dans ce débat : la menace est-elle surestimée ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Certains le pensent. Selon SensPo, l'Institut de relations internationales et stratégiques évoquait en juin une possible surestimation. Et Viginum lui-même qualifiait d'effet marginal sur le débat numérique l'opération observée aux municipales. Les audiences réelles de ces faux sites sont souvent faibles. Légiférer sous le coup de la peur, c'est risquer de donner à ces opérations une importance qu'elles n'ont pas."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Mais la Roumanie montre que l'impact ne se mesure pas seulement en audience. Le même SensPo résume : un impact faible sur les audiences, mais un impact institutionnel maximal, puisque l'élection a été annulée. Le danger n'est pas qu'un faux site convainque des millions de gens. C'est qu'au lendemain du vote, une partie du pays doute de la sincérité du scrutin. Et cela, aucune démocratie ne peut se le permettre."
+    }
+   ]
+  },
+  {
+   "title": "Ailleurs",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Regardons ailleurs. Comment font les autres démocraties ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Le modèle le plus ancien est américain : le Foreign Agents Registration Act, le FARA, date de 1938. Il oblige ceux qui agissent pour un mandant étranger à s'enregistrer dans les dix jours, sous peine de cinq ans de prison. Mais selon une note de la Haute Autorité pour la transparence de la vie publique, il n'a donné lieu qu'à treize affaires pénales entre 1988 et 2020. L'Australie a adopté un dispositif comparable en 2018. Le Royaume-Uni a lancé le sien le premier juillet 2025, avec un niveau renforcé qui ne vise que la Russie et l'Iran. Et le Canada a ouvert son registre le 4 août 2026."
+    },
+    {
+     "voice": "Kore",
+     "text": "Mais il existe aussi des contre-modèles, et c'est important pour la copie. La Russie s'est dotée d'une loi sur les agents de l'étranger ; en 2022, la Cour européenne des droits de l'homme a jugé qu'elle violait la liberté d'association. La Géorgie, en 2024, a adopté une loi dont la Commission de Venise, l'organe consultatif du Conseil de l'Europe, a demandé l'abrogation, car elle risquait de stigmatiser associations et médias. Et la Hongrie a créé un Office de protection de la souveraineté que la même Commission juge insuffisamment indépendant. Le même vocabulaire, protéger la souveraineté, peut servir à réduire l'opposition au silence."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et l'Union européenne ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Elle agit sur deux plans. Le règlement sur les services numériques impose aux très grandes plateformes d'évaluer les risques électoraux : la Commission a ouvert une procédure contre TikTok en décembre 2024 après l'élection roumaine. Et en novembre 2025, la Commission a présenté un bouclier européen pour la démocratie, avec un centre européen pour la résilience démocratique et un réseau de vérificateurs de faits dans toutes les langues de l'Union. Une directive sur la transparence de la représentation d'intérêts pour le compte de pays tiers, proposée en décembre 2023, prévoit aussi des registres nationaux harmonisés."
+    },
+    {
+     "voice": "Kore",
+     "text": "Ce qu'on peut en tirer, c'est une ligne de partage. Les démocraties libérales misent sur la transparence, l'enregistrement et la régulation des plateformes. Les régimes illibéraux misent sur la stigmatisation et l'interdiction. Une juriste, dans la Revue des droits et libertés fondamentaux, estime que la loi française offre considérablement plus de garanties que la loi hongroise, tout en relevant des définitions larges. Le juge est le garde-fou. Encore faut-il qu'il ait les moyens et le temps de juger."
+    }
+   ]
+  },
+  {
+   "title": "Pour votre copie",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Passons à votre copie. Quelle problématique proposer ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Je proposerais celle-ci : dans quelle mesure l'État peut-il lutter contre les ingérences étrangères dans le débat démocratique sans porter atteinte aux libertés qu'il entend protéger ? Le mot clé est le paradoxe : la démocratie se défend avec des outils qui, mal calibrés, la fragilisent."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et le plan ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Première partie : une menace nouvelle qui justifie l'adaptation du droit. En A, la mutation de la menace, de l'espionnage classique à la guerre informationnelle automatisée, avec les Macron Leaks, la Roumanie et les opérations Storm-1516. En B, la construction progressive d'un arsenal français : la loi de 2018, Viginum en 2021, la loi de 2024, et le projet de 2026 qui prolonge le référé hors période électorale."
+    },
+    {
+     "voice": "Kore",
+     "text": "Deuxième partie : une réponse qui reste sous la contrainte des libertés et de l'efficacité. En A, les garde-fous constitutionnels et conventionnels, avec la décision du Conseil constitutionnel de 2018 et les réserves du Conseil d'État de juillet 2026, et le contre-modèle des lois sur les agents de l'étranger. En B, les limites d'une réponse nationale et judiciaire : l'enjeu des plateformes, l'échelon européen avec le règlement sur les services numériques et le bouclier pour la démocratie, et la résilience de la société, par l'éducation aux médias, que regrettait de ne pas voir dans le texte la sénatrice socialiste Sylvie Robert."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Les références à citer ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Quatre références. La décision du Conseil constitutionnel 2018-773 DC du 20 décembre 2018. La loi du 25 juillet 2024 et son répertoire tenu par la Haute Autorité. L'avis du Conseil d'État du 16 juillet 2026 sur le projet de loi. Et un chiffre : deux cent cinq opérations attribuées au réseau Storm-1516 depuis août 2023, selon Viginum."
+    },
+    {
+     "voice": "Kore",
+     "text": "J'ajouterais l'avis de la Commission de Venise sur la Géorgie, en mai 2024, pour montrer la frontière entre transparence et stigmatisation."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et la question de grand oral. Imaginons que le jury vous demande : faut-il pouvoir annuler une élection en raison d'une ingérence étrangère, comme en Roumanie ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Premier élément de réponse : rappeler qu'en France, le juge de l'élection peut déjà annuler un scrutin si des manœuvres en ont altéré la sincérité ; le Conseil constitutionnel le fait pour les législatives. Le principe n'est donc pas étranger à notre droit. Mais annuler une présidentielle, c'est l'arme ultime, et elle suppose une preuve solide, publique et contradictoire, sinon elle alimente le soupçon d'un coup de force."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Deuxième élément : mieux vaut prévenir qu'annuler. Détecter en amont, informer les candidats et le public, ce que fait désormais la commission de magistrats créée en juillet, et faire pression sur les plateformes. Et conclure avec nuance : la meilleure protection d'une élection, c'est la confiance des citoyens dans la sincérité du scrutin, et cette confiance se gagne par la transparence plus que par l'interdiction."
+    }
+   ]
+  },
+  {
+   "title": "Au revoir",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Il est temps de conclure. Trois choses à retenir. Un : depuis 2017, la France a bâti par étapes un arsenal contre les ingérences étrangères, et le texte examiné aujourd'hui au Sénat ajoute un référé de quarante-huit heures utilisable toute l'année, ainsi que des peines triplées. Deux : il est critiqué des deux côtés, jugé trop limité par des sénateurs qui veulent viser les plateformes et l'intelligence artificielle, et risqué par les défenseurs des libertés, tandis que le Conseil d'État le juge proportionné mais doute de son efficacité. Trois : la frontière décisive, en France comme ailleurs, passe entre la transparence, qui protège le débat, et la stigmatisation, qui l'étouffe."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Merci à notre spécialiste du renseignement et à notre juriste. Les références de ce soir sont dans votre fiche. Bonne soirée, et à demain matin pour la Revue."
+    }
+   ]
+  }
+ ]
+}

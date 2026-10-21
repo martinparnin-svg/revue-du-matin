@@ -1,0 +1,275 @@
+{
+ "date": "2026-10-21",
+ "title": "Le soir · L'Europe et la course à l'IA · 21 octobre",
+ "summary": "Berlin signe avec Nvidia, Amazon investit seize milliards en Allemagne. En attirant capitaux et technologies américaines, l'Europe construit-elle sa souveraineté numérique ou organise-t-elle sa dépendance ?",
+ "style": "natural evening radio conversation, warm, relaxed, thoughtful pace",
+ "links": {},
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Bonsoir, et bienvenue dans Le soir, l'émission d'approfondissement de la Revue du matin. Nous sommes le mercredi 21 octobre 2026. Une précision, comme chaque soir : les voix que vous entendez sont des voix de synthèse, et mes deux invitées présentent les arguments en présence, en les attribuant à ceux qui les défendent. Ce soir, c'est vous qui avez choisi le sujet : l'Europe dans la course aux investissements de l'intelligence artificielle. En début de semaine, à Berlin, le chancelier Friedrich Merz a conclu un partenariat avec Nvidia, le géant américain des puces, et Amazon a promis environ seize milliards d'euros d'investissements en Allemagne l'an prochain. Alors la question de ce soir est la suivante : en attirant les capitaux et les technologies américaines, l'Europe construit-elle sa souveraineté numérique, ou organise-t-elle sa dépendance ?"
+    },
+    {
+     "voice": "Algieba",
+     "text": "Pour en parler, j'ai avec moi notre spécialiste de politique industrielle et d'économie du numérique. Bonsoir."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Bonsoir. Ce qui me frappe cette semaine, c'est le changement de ton. Il y a quelques jours, le patron de Nvidia expliquait que l'Allemagne prenait du retard. Et le voilà à Berlin, sur scène avec le chancelier, pour signer un accord. Ça dit beaucoup de l'urgence ressentie en Europe."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et à mes côtés, notre juriste spécialiste du droit européen. Bonsoir."
+    },
+    {
+     "voice": "Kore",
+     "text": "Bonsoir. Moi, je regarderai la règle du jeu. Car derrière les milliards, il y a des choix de droit très concrets : qui possède les données, quel droit s'applique aux serveurs, et à quel rythme l'Union applique son propre règlement sur l'intelligence artificielle."
+    }
+   ]
+  },
+  {
+   "title": "Le récit",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Commençons par ce qui s'est passé à Berlin. Le sommet s'appelait Invest in Germany. Environ deux cents dirigeants d'entreprise y étaient réunis, et selon le chancelier, les engagements d'investissement annoncés atteignent huit cents milliards d'euros d'ici 2028. Au centre de la photo, l'accord avec Nvidia. Selon Euronews, l'État fédéral y apporte plusieurs centaines de millions d'euros, sans montant exact publié, avec une douzaine d'entreprises allemandes, dont Siemens, Audi et la jeune pousse Black Forest Labs. Qu'y a-t-il concrètement dans ce partenariat ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "D'après Euronews, l'argent public doit surtout servir à acheter de la puissance de calcul dans le cloud industriel de Deutsche Telekom, équipé de puces Nvidia de dernière génération. L'idée est de bâtir des modèles d'intelligence artificielle ouverts et souverains, adaptés à l'industrie allemande. Et le discours de Jensen Huang, le patron de Nvidia, est très clair. Selon l'agence américaine AP, il a dit aux industriels allemands que les données de leurs usines sont leur ressource naturelle, et que la prochaine vague de l'intelligence artificielle sera physique : les robots, les machines, les chaînes de production."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et Amazon, de son côté ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Amazon prévoit environ seize milliards d'euros en Allemagne en 2027. Un peu moins d'un tiers, soit quatre virgule huit milliards, ira aux centres de données de sa filiale cloud, AWS, surtout autour de Francfort. C'est une très bonne nouvelle pour l'emploi et l'activité. Mais c'est un acteur américain qui construit l'infrastructure."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Remontons un peu le temps. Cette course ne date pas d'hier. En septembre 2024, Mario Draghi remet à la Commission européenne son rapport sur la compétitivité. Le diagnostic est sévère : l'Union aurait besoin de sept cent cinquante à huit cents milliards d'euros d'investissements supplémentaires chaque année. Selon le résumé publié par l'Assemblée nationale, soixante-dix pour cent des grands modèles d'intelligence artificielle développés depuis 2017 l'ont été aux États-Unis, et l'Union ne capte que cinq pour cent des levées de capital-risque, contre plus de la moitié pour les États-Unis."
+    },
+    {
+     "voice": "Kore",
+     "text": "Et le rapport Draghi pointe aussi le droit. Il évoque des chevauchements entre le règlement sur l'intelligence artificielle et le règlement général sur la protection des données, le fameux RGPD, et une application inégale selon les pays. C'est le point de départ d'un débat qui va beaucoup peser ensuite."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Deuxième date clé : février 2025, le sommet pour l'action sur l'intelligence artificielle, à Paris. Emmanuel Macron y annonce cent neuf milliards d'euros d'investissements privés en France."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Avec des noms très précis, rapportés par Maddyness et l'AFP. Le fonds émirien MGX pour un campus de centres de données d'un gigawatt, une cinquantaine de milliards d'euros. Le canadien Brookfield pour vingt milliards d'ici 2030, avec un site géant à Cambrai. L'américain Digital Realty à Marseille et en région parisienne. Et le président défend alors l'atout du nucléaire, une électricité décarbonée et disponible, avec un slogan qui a beaucoup circulé : Plug, baby, plug."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et l'Europe, au même moment ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "La Commission lance alors InvestAI, avec l'ambition affichée de mobiliser deux cents milliards d'euros, dont vingt milliards pour des gigafactories de l'intelligence artificielle. Une gigafactory, c'est un très grand centre de calcul. Selon la Banque européenne d'investissement, chacune doit faire tourner environ cent mille puces parmi les plus avancées, à peu près quatre fois plus que les centres actuels. L'appel d'offres formel a été lancé fin juillet 2026, pour jusqu'à sept gigafactories, avec jusqu'à dix milliards d'euros d'argent européen et national, et au moins vingt milliards attendus du privé. Les candidatures sont ouvertes jusqu'au 12 novembre, et la première construction est prévue en 2027."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et la France est candidate."
+    },
+    {
+     "voice": "Kore",
+     "text": "Oui. Le gouvernement a annoncé fin juillet qu'il s'engagerait à acheter cent millions d'euros de puissance de calcul au projet retenu sur son sol, pour les administrations, la recherche et l'hôpital. C'est l'État client, pas l'État propriétaire."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Dernière étape de ce récit, novembre 2025. Paris et Berlin organisent un sommet sur la souveraineté numérique européenne. Les entreprises y annoncent plus de douze milliards d'euros d'investissements, et les deux gouvernements demandent un moratoire d'un an sur une partie du règlement européen sur l'intelligence artificielle. Retenez cela, on y reviendra dans le débat. Alors, pour situer l'écart, quels sont les ordres de grandeur en face ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Ils donnent le vertige. Aux États-Unis, le projet Stargate, porté par OpenAI, Oracle et SoftBank, vise cinq cents milliards de dollars et dix gigawatts de capacité. En septembre 2025, OpenAI annonçait déjà près de sept gigawatts de sites en projet. Et selon les résultats publiés au printemps, Alphabet, Amazon et Microsoft ont investi à eux trois plus de cent dix milliards de dollars en un seul trimestre, tandis que Meta prévoit entre cent vingt-cinq et cent quarante-cinq milliards sur l'année 2026. Face à cela, les dix milliards d'argent public européen pour les gigafactories paraissent modestes."
+    }
+   ]
+  },
+  {
+   "title": "Le débat",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Entrons dans le débat. Première position : l'Europe a raison d'ouvrir grand ses portes. Les capitaux et les technologies américaines sont une chance, pas une menace. Qui défend cela, et avec quels arguments ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "C'est la ligne de Friedrich Merz, et dans une large mesure celle d'Emmanuel Macron. Premier argument : le temps. Pour Jensen Huang, cité par Euronews, l'Europe souffre de trop d'hésitation et d'analyse. Le retard se creuse vite, et chaque année perdue rend le rattrapage plus coûteux. Deuxième argument : il vaut mieux que les centres de données soient construits en Europe, avec des emplois, des recettes fiscales et des serveurs soumis au droit européen, plutôt qu'au Texas. Troisième argument, celui de Draghi : la vraie richesse européenne, ce sont ses données industrielles et son savoir-faire. Si on ne les met pas au travail, d'autres le feront."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Attendez. Mais si les puces sont américaines, le cloud américain et les modèles parfois américains, où est la souveraineté ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "C'est précisément l'objection du camp d'en face. Une chercheuse du Centre for European Policy Studies, un think tank bruxellois, l'a formulée dans Polytechnique Insights en mars dernier. Elle passe au crible les promesses des gigafactories, et elle juge fausse l'idée qu'elles suffiront à garantir la souveraineté numérique. Pourquoi ? Parce que, selon les annonces, toutes utiliseront des puces Nvidia. Et que le logiciel qui fait fonctionner ces puces, la couche appelée CUDA, appartient aussi à Nvidia. On construit donc chez soi une infrastructure dont les briques essentielles restent contrôlées par un seul fournisseur étranger."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Mais l'argument se retourne. Personne en Europe ne produit aujourd'hui de puces équivalentes. Attendre d'en avoir pour construire des centres de calcul, c'est ne rien construire. Et d'ailleurs, la Revue Conflits rappelait récemment que la filière nucléaire française s'est bâtie au départ sur des licences américaines Westinghouse. La souveraineté, selon cet article, ne vient pas de la nationalité du capital, mais de la maîtrise progressive des technologies. Commencer par utiliser les meilleures puces n'empêche pas d'apprendre."
+    },
+    {
+     "voice": "Kore",
+     "text": "À condition d'avoir une stratégie pour cette maîtrise. Or la même Revue Conflits souligne que l'Europe se bat sur la localisation des serveurs, alors que le pouvoir est dans les microarchitectures, la gravure des puces et les logiciels. Elle compare le règlement européen sur les puces, quarante-trois milliards d'euros, aux deux cent quatre-vingts milliards de dollars autorisés par la loi américaine équivalente. Et il y a un point juridique décisif. Les clouds américains restent soumis à des lois américaines à portée extraterritoriale. C'est pour cela que Paris et Berlin réclamaient en novembre 2025 des normes extrêmement strictes pour les données les plus sensibles, et une protection contre ces lois. Un serveur à Francfort ne suffit pas, si l'opérateur peut être contraint par un juge américain."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Justement, venons-en au droit. Le règlement européen sur l'intelligence artificielle, l'AI Act, est-il un frein à l'investissement ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "C'est le deuxième grand front du débat. Le règlement est entré en vigueur en août 2024. Les obligations les plus lourdes, celles qui visent les systèmes dits à haut risque, devaient s'appliquer à partir d'août 2026. En novembre 2025, la Commission a proposé, dans un paquet de simplification appelé omnibus numérique, de les reporter. Un accord politique a été trouvé en mai 2026, selon le Journal du Net : les systèmes à haut risque de la liste principale passent au 2 décembre 2027, et ceux intégrés dans des produits au 2 août 2028."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Et pour les défenseurs du report, c'était indispensable. Les rapporteurs au Parlement européen ont expliqué que les normes techniques et les lignes directrices n'étaient pas prêtes. Les fédérations d'entreprises comme DigitalEurope et BusinessEurope le demandaient. Friedrich Merz le dit sans détour : une réglementation superflue ne doit pas entraver la capacité d'innovation européenne. L'argument de fond, c'est qu'on ne peut pas à la fois réclamer des investissements massifs et laisser planer une insécurité juridique sur ceux qui investissent."
+    },
+    {
+     "voice": "Kore",
+     "text": "Pour les opposants, c'est un recul. Le Contrôleur européen de la protection des données et le comité qui réunit les autorités nationales ont critiqué ce report dans un avis commun en janvier. Leur idée : il fallait accélérer les normes, pas repousser la règle. En France, la Défenseure des droits et plus de soixante institutions ont demandé de conditionner ce report. Amnesty International y voit un recul des droits fondamentaux, et La Quadrature du Net un cadeau fait aux géants américains, qui ont les moyens de se conformer de toute façon. Et il faut noter que ce qui est reporté ne représente qu'une partie du règlement : les pratiques interdites s'appliquent depuis février 2025."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Mais alors, la réglementation européenne, ce n'est pas aussi un atout, une marque de confiance ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "C'est la thèse de l'effet Bruxelles : les règles européennes finissent par s'imposer au monde parce que le marché européen est trop gros pour être ignoré. Le RGPD l'a montré. Une intelligence artificielle de confiance pourrait devenir un argument commercial, notamment pour les hôpitaux, les administrations, la défense."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Sauf que, et c'est l'argument du camp d'en face, un marché attire des règles seulement s'il produit aussi de la technologie. Sinon, on réglemente ce que d'autres ont inventé. C'est tout le sens du rapport Draghi."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Troisième front : l'argent public. Faut-il mettre plus d'argent de l'État dans cette course ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "La Cour des comptes a rendu un rapport sur la stratégie nationale pour l'intelligence artificielle en novembre 2025. Elle salue des réussites : la France est passée, selon l'indice mondial qu'elle cite, de la treizième à la cinquième place, et compte plus de mille jeunes pousses dans le domaine, dont seize licornes. Mais elle demande à l'État de ne pas baisser la garde et de renforcer les capacités de calcul. Elle propose même un secrétariat général à l'intelligence artificielle rattaché au Premier ministre."
+    },
+    {
+     "voice": "Kore",
+     "text": "Et la même Cour des comptes émet de sérieuses réserves. Elle note que sur un milliard cent millions d'euros programmés pour la période 2023-2025, seuls trente-cinq pour cent avaient été consommés à mi-2025, selon la Banque des territoires. Elle juge les résultats dans les services publics très décevants. Et surtout, elle avertit que les valorisations de certaines entreprises font craindre des effets de bulle. Mettre de l'argent public dans une bulle, c'est le risque de financer des capacités qui ne seront jamais rentables."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et l'énergie dans tout ça ? On parle de gigawatts."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "C'est l'atout français, selon le gouvernement : une électricité nucléaire abondante et décarbonée. La France et les pays nordiques ont un vrai avantage comparatif sur ce terrain."
+    },
+    {
+     "voice": "Kore",
+     "text": "Et c'est aussi la limite. La chercheuse du CEPS rappelle qu'une gigafactory consommerait l'équivalent d'une ville moyenne, et que Dublin, Francfort ou Amsterdam atteignent déjà les limites de leur réseau électrique. En France, l'Agence de la transition écologique, l'Ademe, anticipe une multiplication par près de quatre de la consommation des centres de données d'ici 2035. L'Institut de relations internationales et stratégiques, l'IRIS, dans une note d'avril, met en garde contre la course au gigantisme et le renforcement des positions dominantes."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Résumons ce débat. D'un côté, l'urgence : investir vite, accueillir les capitaux et les technologies là où elles sont, alléger la règle. De l'autre, la maîtrise : sans puces, sans logiciel et sans droit protecteur, l'infrastructure ne suffit pas, et l'argent public doit être dépensé avec prudence. Et entre les deux, il y a peut-être une voie : Mistral AI."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Oui, c'est l'exemple qu'on cite toujours. En septembre 2025, la jeune pousse française a levé un virgule sept milliard d'euros, valorisée à près de douze milliards. Et le principal investisseur, c'est ASML, le néerlandais qui fabrique les machines indispensables à la gravure des puces les plus avancées au monde. Un mariage entre deux briques européennes."
+    },
+    {
+     "voice": "Kore",
+     "text": "Mais avec, parmi les actionnaires déjà présents, des fonds américains et Nvidia elle-même. C'est le reflet du paradoxe européen : même le champion de la souveraineté est financé en partie par ceux dont il veut s'affranchir."
+    }
+   ]
+  },
+  {
+   "title": "Ailleurs",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Regardons ailleurs. Les États-Unis, d'abord. Quel est leur modèle ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Un modèle de marché, porté par le capital privé. Stargate est financé par des fonds privés, et la note de l'IRIS rappelle le montage : OpenAI opérateur, Oracle, SoftBank, le fonds émirien MGX, et Nvidia qui fournit les puces et investit dans OpenAI. Ce qu'on peut en tirer, c'est la vitesse et l'échelle. Mais l'IRIS pointe le revers : une concentration extrême, et des acteurs qui sont à la fois fournisseurs, clients et actionnaires les uns des autres."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et la Chine ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "La Chine est l'autre pôle de cette course, et elle devance déjà l'Europe sur plusieurs indicateurs. Le résumé du rapport Draghi publié par l'Assemblée nationale indique que la Chine capte environ quarante pour cent des levées de capital-risque, contre cinq pour cent pour l'Union. Et selon les chiffres de brevets cités par le CEPS, la Chine détient environ vingt et un pour cent des brevets en intelligence artificielle, l'Europe dix-huit, les États-Unis trente-deux. La leçon pour l'Europe, c'est qu'elle n'est pas seulement distancée par l'Amérique : elle est prise en étau entre deux puissances qui investissent bien plus qu'elle."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et en Europe même, d'autres modèles que l'Allemagne et la France ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Les pays nordiques jouent la carte de l'énergie. Selon le CEPS, seules la Suède et la Finlande offrent des prix de l'électricité comparables aux pôles américains et chinois. Et c'est en Norvège, à Narvik, que se trouve le seul site européen du programme Stargate. Ce qu'on peut retenir, c'est que l'Europe n'a pas un modèle mais plusieurs, et que la question des gigafactories est aussi une question de répartition entre États."
+    },
+    {
+     "voice": "Kore",
+     "text": "Avec une faiblesse que le CEPS souligne : ces futurs centres ne sont pas reliés entre eux. Il n'existe pas de point d'accès unique, pas de liaisons dédiées. Une stratégie européenne, ce serait aussi fédérer ces capacités, pour qu'une jeune pousse de Lisbonne puisse utiliser un centre en Finlande. Sinon, on aura vingt-sept politiques nationales qui se font concurrence pour attirer les mêmes investisseurs américains."
+    }
+   ]
+  },
+  {
+   "title": "Pour votre copie",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Passons à votre copie. Comment poser le sujet ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Je proposerais cette problématique : dans la course mondiale à l'intelligence artificielle, l'ouverture de l'Europe aux capitaux et aux technologies étrangères est-elle une étape vers la souveraineté numérique, ou le signe d'une dépendance durable ? Elle permet de dépasser l'opposition simpliste entre ouverture et fermeture."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et le plan ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Première partie : l'ouverture aux investissements étrangers est une réponse rationnelle à un retard réel. Sous-partie A, le constat du décrochage, avec le rapport Draghi, Stargate et les écarts de capital-risque. Sous-partie B, une stratégie d'attractivité qui porte ses fruits : les cent neuf milliards annoncés à Paris, le sommet de Berlin, l'accord avec Nvidia, et les atouts européens que sont l'énergie et les données industrielles."
+    },
+    {
+     "voice": "Kore",
+     "text": "Deuxième partie : mais l'infrastructure ne fait pas la souveraineté, qui suppose la maîtrise des technologies et des règles. Sous-partie A, des dépendances qui demeurent : les puces, le logiciel CUDA, les clouds soumis au droit extraterritorial américain, et les risques énergétiques et financiers soulevés par la Cour des comptes. Sous-partie B, les leviers d'une souveraineté choisie : la commande publique, avec l'État client d'ancrage, la mutualisation européenne des gigafactories, des champions comme Mistral et ASML, et un droit européen qui protège sans paralyser."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Les références à citer ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Quatre ou cinq suffisent. Le rapport Draghi de septembre 2024 et ses sept cent cinquante à huit cents milliards d'euros par an. Le règlement européen de 2024 sur l'intelligence artificielle, et son report partiel décidé en 2026. L'appel européen aux gigafactories de juillet 2026, jusqu'à sept centres et dix milliards d'argent public. Le rapport de la Cour des comptes de novembre 2025 sur la stratégie nationale. Et, pour l'actualité, l'accord entre Berlin et Nvidia d'octobre 2026."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et maintenant, la question de grand oral. Imaginons que le jury vous demande : faut-il interdire aux administrations françaises d'utiliser un cloud américain ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "D'abord, ne pas répondre par oui ou par non. On peut distinguer selon la sensibilité des données. Pour les données les plus sensibles, santé, défense, données régaliennes, il est légitime d'exiger des offres protégées des lois extraterritoriales, ce que Paris et Berlin ont réclamé en 2025. Pour le reste, une interdiction générale priverait les services publics d'outils performants, alors que la Cour des comptes juge déjà leurs résultats décevants."
+    },
+    {
+     "voice": "Kore",
+     "text": "Et ensuite, montrer qu'on connaît les instruments : la commande publique comme levier, l'engagement de l'État à acheter cent millions d'euros de calcul à une gigafactory installée en France, et le cadre européen qui encadre les marchés publics. Le jury attend un équilibre : la souveraineté comme capacité de choisir, pas comme autarcie. D'ailleurs, le gouvernement allemand l'a écrit lui-même : il n'est pas question d'autarcie numérique."
+    }
+   ]
+  },
+  {
+   "title": "Au revoir",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Il est temps de conclure. Trois choses à retenir ce soir. D'abord, l'Europe a pris conscience de son retard et investit massivement, en comptant beaucoup sur les capitaux étrangers, comme le montre l'accord entre Berlin et Nvidia. Ensuite, ces centres de données ne suffisent pas à faire une souveraineté : les puces, les logiciels et le droit applicable restent largement entre des mains américaines. Enfin, le débat porte désormais sur la méthode, entre vitesse et maîtrise, entre allègement des règles et protection des droits, et c'est là que vous serez attendus au concours. Merci à mes deux invitées. Merci de nous avoir écoutés, et très bonne soirée."
+    }
+   ]
+  }
+ ]
+}

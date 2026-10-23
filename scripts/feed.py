@@ -41,6 +41,8 @@ def write_feed(cfg, root):
         # matin : 5h30 UTC ; émission du soir : 15h30 UTC (17h30 à Paris en été) ; ancien flash : 5h31
         hour, minute = (15, 30) if soir else (5, 31) if flash else (5, 30)
         pub = datetime.strptime(date, "%Y-%m-%d").replace(hour=hour, minute=minute, tzinfo=timezone.utc)
+        if ep.get("pub_utc"):  # heure de publication explicite (émissions spéciales), ex. "2026-10-23T18:30:00Z"
+            pub = datetime.strptime(ep["pub_utc"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
         secs = duration_s(mp3)
         items.append(f"""    <item>
       <title>{escape(title)}</title>

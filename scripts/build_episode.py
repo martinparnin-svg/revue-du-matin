@@ -95,11 +95,23 @@ def build(ep_path, cfg, out_mp3=None):
             add(os.path.join(tmp, "j_transition.wav"))
         # Un chapitre est soit lu d'une seule voix ("paragraphs"), soit dialogué ("segments" :
         # répliques successives, chacune avec sa voix, sans jingle entre elles).
+        # Un segment {"pause": 6} insère un silence de 6 secondes (temps de réflexion laissé à l'auditeur).
         if ch.get("segments"):
-            parts_ch = [(seg.get("voice"), [seg["text"]]) for seg in ch["segments"] if seg.get("text", "").strip()]
+            parts_ch = []
+            for seg in ch["segments"]:
+                if seg.get("pause"):
+                    parts_ch.append(("__pause__", float(seg["pause"])))
+                elif seg.get("text", "").strip():
+                    parts_ch.append((seg.get("voice"), [seg["text"]]))
         else:
             parts_ch = [(ch.get("voice"), ch["paragraphs"])]
         for seg_voice, paras in parts_ch:
+            if seg_voice == "__pause__":
+                n += 1
+                pw = os.path.join(tmp, f"pause_{n:03d}.wav")
+                silence(int(paras * 1000), pw)
+                add(pw)
+                continue
             voice = (seg_voice or "").strip().capitalize() or None
             for block in chunks(paras):
                 n += 1

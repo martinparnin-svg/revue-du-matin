@@ -24,7 +24,8 @@ def build_docx(md_path):
     out_dir = os.path.join(ROOT, "build")
     os.makedirs(out_dir, exist_ok=True)
     y, m, d = (int(x) for x in date.split("-"))
-    prefix = "Fiche du soir" if stem.endswith("-soir") else "Note de veille"
+    prefix = ("Fiche du soir" if stem.endswith("-soir") else
+              "Dossier d'entretien G7" if stem.endswith("-dossier") else "Note de veille")
     nom = f"{prefix} {d:02d}-{m:02d}-{y}.docx"
     out = os.path.join(out_dir, nom)
     subprocess.run(["pandoc", md_path, "-f", "gfm", "-o", out,

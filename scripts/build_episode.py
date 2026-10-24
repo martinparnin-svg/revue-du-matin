@@ -100,12 +100,12 @@ def build(ep_path, cfg, out_mp3=None):
             parts_ch = []
             for seg in ch["segments"]:
                 if seg.get("pause"):
-                    parts_ch.append(("__pause__", float(seg["pause"])))
+                    parts_ch.append(("__pause__", float(seg["pause"]), None))
                 elif seg.get("text", "").strip():
-                    parts_ch.append((seg.get("voice"), [seg["text"]]))
+                    parts_ch.append((seg.get("voice"), [seg["text"]], seg.get("style")))
         else:
-            parts_ch = [(ch.get("voice"), ch["paragraphs"])]
-        for seg_voice, paras in parts_ch:
+            parts_ch = [(ch.get("voice"), ch["paragraphs"], None)]
+        for seg_voice, paras, seg_style in parts_ch:
             if seg_voice == "__pause__":
                 n += 1
                 pw = os.path.join(tmp, f"pause_{n:03d}.wav")
@@ -113,18 +113,23 @@ def build(ep_path, cfg, out_mp3=None):
                 add(pw)
                 continue
             voice = (seg_voice or "").strip().capitalize() or None
+            # un segment peut porter son propre ton (ex. passage en anglais lu avec un accent natif)
+            cfg_seg = cfg
+            if seg_style:
+                cfg_seg = copy.deepcopy(cfg)
+                cfg_seg["voice"]["gemini"]["style"] = seg_style
             for block in chunks(paras):
                 n += 1
                 raw = os.path.join(tmp, f"tts_{n:03d}.audio")
                 print(f"  synthèse {n} ({len(block)} caractères) — {ch['title']}" + (f" — voix {voice}" if voice else ""), flush=True)
                 try:
-                    synthesize(block, cfg, raw, voice)
+                    synthesize(block, cfg_seg, raw, voice)
                 except TTSError as exc:
                     if not voice:
                         raise
                     # voix refusée : on bascule sur la voix par défaut plutôt que de perdre l'épisode
                     print(f"::warning title=Voix {voice}::{exc} — passage lu avec la voix par défaut", flush=True)
-                    synthesize(block, cfg, raw, None)
+                    synthesize(block, cfg_seg, raw, None)
                 wav = os.path.join(tmp, f"tts_{n:03d}.wav")
                 to_wav(raw, wav)
                 add(wav)

@@ -10,6 +10,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Revue du matin · Édition spéciale du lundi 2 novembre 2026</title>
+      <description>Au programme : Le tour de l'actu, suite ; La mobilisation recule dans la rue, mais repart avec la rentrée ; Budget 2027 : un texte détricoté arrive au vote ; L'économie française recule, les taux menacent de monter ; États-Unis : le test de mi-mandat pour Donald Trump ; Ormuz reste un front, la France déstocke du gazole ; Pologne : la bataille pour le Tribunal constitutionnel.
+
+Note de veille et sources : https://claude.ai/artifact/2LRi1weUGvnDGRE7zaKRDP</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-11-02.mp3" length="14131344" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 05:30:00 +0000</pubDate>
+      <itunes:duration>19:37</itunes:duration>
+    </item>
+    <item>
       <title>Revue du matin · 30 octobre 2026</title>
       <description>Au programme : Lagarde quitte la BCE avant la présidentielle ; L'Assemblée vote la titularisation des AESH ; Budget 2027 : retour en séance, croissance à l'arrêt ; Israël : Netanyahou en tête, sans majorité.
 

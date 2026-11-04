@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-02",
+ "title": "Le soir · Dette sociale : qui paiera le trou de la Sécu ? · 2 novembre",
+ "summary": "La Sécurité sociale accumule de la dette à l'Acoss sans plan de remboursement : faut-il la transférer à la Cades, et comment revenir à l'équilibre ?",
+ "style": "natural evening radio conversation, warm, relaxed, thoughtful pace",
+ "pub_utc": "2026-11-04T20:30:00Z",
+ "links": {},
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Bonsoir, et bienvenue dans Le soir. Une émission de rattrapage ce soir, celle que vous auriez dû entendre lundi : la dette sociale. Comme toujours, les voix de l'émission sont des voix de synthèse, et nos deux intervenantes présentent les arguments en présence, sans parler pour personne. Le sujet est brûlant : le Sénat examine à partir du 9 novembre un budget de la Sécurité sociale rejeté en première lecture par l'Assemblée, la Cour des comptes parle d'une situation extrêmement périlleuse, et une question revient sans cesse : qui paiera le trou de la Sécu ? Avec moi, notre spécialiste des finances sociales, et notre juriste. Bonsoir à toutes les deux."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Bonsoir. Et je pose tout de suite le chiffre qui résume le problème : le déficit de la Sécurité sociale devrait atteindre vingt et un virgule huit milliards d'euros cette année, plus de deux milliards au-delà de l'objectif. Et ce déficit, faute de mieux, s'accumule en dette."
+    },
+    {
+     "voice": "Kore",
+     "text": "Bonsoir. Et la question est aussi juridique : qui a le droit de porter cette dette, pendant combien de temps, et avec quelles ressources ? Car la dette sociale obéit à des règles très particulières, posées par des lois organiques."
+    }
+   ]
+  },
+  {
+   "title": "Le récit",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Commençons par le récit. Comment la Sécurité sociale s'est-elle endettée ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Par des déficits répétés, depuis le début des années quatre-vingt-dix. En 1996, le plan Juppé crée une caisse spéciale, la Caisse d'amortissement de la dette sociale, la Cades, avec une ressource dédiée, la contribution au remboursement de la dette sociale, la CRDS, à zéro virgule cinq pour cent sur presque tous les revenus. L'idée : isoler la dette passée et la rembourser, au lieu de la laisser aux générations futures. La Cades devait fermer en 2009. Elle a été prolongée plusieurs fois, au gré des crises, et doit désormais s'éteindre fin 2033."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et où en est-elle ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Selon la commission des comptes de la Sécurité sociale, il lui restera un peu plus de cent vingt milliards d'euros à amortir fin 2026, et elle rembourse environ seize milliards par an. Le problème, c'est ce qui se passe en dehors de la Cades. Les déficits nouveaux sont portés par l'Acoss, l'agence centrale des organismes de sécurité sociale, la banque de la Sécu, qui emprunte à court terme sur les marchés. Sa dette atteignait près de soixante milliards fin 2025, et elle grossit d'environ vingt milliards par an."
+    },
+    {
+     "voice": "Kore",
+     "text": "C'est là qu'intervient le droit. Depuis une loi organique de 2005, on ne peut pas transférer de nouvelle dette à la Cades sans lui donner les ressources pour la rembourser dans les délais. Et prolonger sa durée de vie exige une loi organique, contrôlée obligatoirement par le Conseil constitutionnel. Autrement dit, le législateur s'est lié les mains pour éviter de reporter indéfiniment la charge. Cette année, quinze milliards ont pu être transférés sans ressource nouvelle, grâce à la marge de remboursement de la Cades. Mais le projet de budget pour 2027 ne prévoit aucun nouveau transfert."
+    },
+    {
+     "voice": "Algieba",
+     "text": "La dernière grande opération remonte à quand ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "À l'été 2020. En pleine crise sanitaire, deux lois, l'une organique, l'autre ordinaire, ont transféré à la Cades jusqu'à cent trente-six milliards d'euros, dont la dette liée au Covid, et repoussé sa fin de 2024 à 2033. C'est un précédent important : il montre que le législateur peut prolonger la Cades, mais qu'il le fait en assumant de reporter la charge de près de dix ans. Et la CRDS, qui devait disparaître, a été prolongée d'autant."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et l'Acoss, elle, a un plafond ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Oui, voté chaque année dans la loi de financement : quatre-vingt-trois milliards d'euros pour 2026, quatre-vingt-cinq milliards proposés pour 2027. Ce n'est pas le déficit, c'est la limite de ce qu'elle peut emprunter. Et la Cour des comptes alerte : financer une dette durable par des emprunts de court terme expose l'Acoss à un risque de liquidité si les marchés se tendent. Elle recommande que la Cades reprenne sans délai environ cent milliards, avec une trajectoire de retour à l'équilibre d'ici 2030."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et le budget 2027, que prévoit-il ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "De ramener le déficit à douze virgule sept milliards. Par branche, la maladie resterait à moins sept virgule huit milliards, la vieillesse à moins quatre virgule huit, les accidents du travail à moins un virgule cinq, et la famille dégagerait un excédent. L'objectif de dépenses de santé progresserait de deux pour cent seulement, contre une tendance de trois virgule quatre. Il y a aussi une modération des pensions au-dessus d'un certain seuil. Mais le Haut Conseil des finances publiques juge optimiste l'hypothèse de croissance d'un pour cent, et l'Assemblée a rejeté le texte en première lecture le 23 octobre."
+    }
+   ]
+  },
+  {
+   "title": "Le débat",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Venons-en au débat. Faut-il transférer massivement la dette à la Cades, comme le demande la Cour des comptes ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Les partisans d'un transfert avancent un argument de prudence financière. La Cour des comptes le dit nettement : laisser cent milliards de dette à l'Acoss, financés au jour le jour, c'est s'exposer à un accident de marché. La Cades, elle, emprunte à long terme, avec une signature reconnue et un échéancier clair. Ils ajoutent un argument de vérité des comptes : tant que la dette reste à l'Acoss, elle n'a pas de plan de remboursement, et personne ne sait qui la paiera."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Mais l'argument inverse est fort. Transférer la dette suppose, d'après la loi organique, de prolonger la Cades au-delà de 2033 ou de lui affecter des recettes nouvelles. Prolonger, c'est faire payer les générations futures, ce que la création de la Cades voulait précisément éviter. Augmenter la CRDS, ou y affecter une part de CSG, c'est un prélèvement de plus sur des ménages dont le pouvoir d'achat est déjà sous pression. Pour une partie des économistes, transférer sans corriger le déficit revient à vider la baignoire sans fermer le robinet."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Justement, fermer le robinet. Comment réduire le déficit ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "C'est le cœur du désaccord politique. Le gouvernement mise sur la maîtrise des dépenses : un objectif de santé très serré, des économies sur les produits de santé et les indemnités journalières, une modération de certaines pensions. Ses soutiens rappellent que la France consacre déjà à la protection sociale l'une des parts de richesse les plus élevées d'Europe, et que la dépense progresse plus vite que la croissance."
+    },
+    {
+     "voice": "Kore",
+     "text": "Ses opposants proposent l'inverse : agir sur les recettes. À gauche, on vise les exonérations de cotisations sociales, dont le coût se chiffre en dizaines de milliards, ou une meilleure contribution des revenus du capital. Les syndicats et les fédérations hospitalières jugent l'objectif de dépenses de santé irréaliste, compte tenu du vieillissement et de l'état de l'hôpital. Et beaucoup soulignent que la suspension de la réforme des retraites pèse aussi sur la branche vieillesse."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Il y a aussi un argument entre générations, non ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Oui, et il traverse tout le débat. Financer aujourd'hui des dépenses courantes de santé ou de retraite par de la dette, c'est demander aux actifs de demain de payer les soins d'aujourd'hui. C'est l'argument central de ceux qui veulent revenir vite à l'équilibre. Mais d'autres font remarquer que la CRDS est payée par tous, retraités compris, et que des coupes rapides dans les dépenses de santé ou dans les pensions pèsent aussi, et tout de suite, sur des générations précises. L'équité entre générations ne donne donc pas une réponse unique, elle oblige à regarder qui paie quoi, et quand."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et sur le plan juridique, y a-t-il des garde-fous ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Oui, et c'est un bon angle de copie. L'article 47-1 de la Constitution encadre l'examen des lois de financement, avec un délai de cinquante jours, au-delà duquel le gouvernement peut mettre le texte en œuvre par ordonnance. La loi organique de 2005 protège la Cades. Mais il n'existe pas de règle d'or contraignante qui imposerait l'équilibre des comptes sociaux. Certains parlementaires proposent d'en créer une, en interdisant tout déficit hors crise. D'autres y voient une contrainte qui empêcherait la Sécurité sociale de jouer son rôle d'amortisseur en période de récession."
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Et il y a un risque politique très concret : sans budget voté avant la fin de l'année, la Sécurité sociale continuerait de fonctionner, mais avec un plafond d'emprunt de l'Acoss qui pourrait se révéler insuffisant. C'est précisément le risque de liquidité dont parle la Cour des comptes."
+    }
+   ]
+  },
+  {
+   "title": "Ailleurs",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Regardons ailleurs. Comment font nos voisins ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "L'Allemagne a un modèle très différent : ses caisses d'assurance sociale n'ont en principe pas le droit de s'endetter durablement. Quand elles manquent de ressources, elles augmentent les cotisations ou reçoivent des subventions de l'État fédéral, et le débat porte alors sur le budget fédéral, pas sur une dette sociale séparée. Résultat : il n'existe pas de Cades allemande, mais les hausses de cotisations y sont fréquentes."
+    },
+    {
+     "voice": "Kore",
+     "text": "Dans beaucoup d'autres pays européens, la protection sociale est directement intégrée au budget de l'État, et la question d'une dette sociale distincte ne se pose pas. L'Union européenne, elle, raisonne sur la dette publique globale, qui inclut la dette sociale. C'est un point important : pour Bruxelles et pour les marchés, la dette de la Cades et celle de l'Acoss sont de la dette publique française, au même titre que celle de l'État."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Que peut-on en tirer ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Que la spécificité française, une dette sociale isolée avec sa propre caisse et sa propre ressource, a une vertu de transparence, mais qu'elle ne fonctionne que si l'on revient à l'équilibre. Sans retour à l'équilibre, la Cades devient un mécanisme de report permanent."
+    }
+   ]
+  },
+  {
+   "title": "Pour votre copie",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Place à votre copie. Quelle problématique proposez-vous ?"
+    },
+    {
+     "voice": "Kore",
+     "text": "Celle-ci : la dette sociale est-elle encore un outil de solidarité entre générations, ou est-elle devenue le symptôme d'un modèle de protection sociale qui ne parvient plus à s'équilibrer ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Et un plan en deux parties. Première partie : la dette sociale, un instrument conçu pour être transitoire et encadré. Dans un A, la création de la Cades et de la CRDS en 1996 pour isoler et amortir la dette passée. Dans un B, des garde-fous juridiques, la loi organique de 2005 et l'article 47-1 de la Constitution. Seconde partie : un instrument aujourd'hui débordé, qui appelle des choix politiques. Dans un A, la dérive : des déficits structurels, une dette qui s'accumule à l'Acoss sans plan de remboursement. Dans un B, les options : maîtrise des dépenses, recettes nouvelles, ou règle d'équilibre, chacune avec ses partisans et ses limites."
+    },
+    {
+     "voice": "Kore",
+     "text": "Les références à citer : l'ordonnance de 1996 créant la Cades ; la loi organique de 2005 ; le transfert de 2020 qui a reporté l'échéance à 2033 ; les rapports de la Cour des comptes sur la situation financière de la Sécurité sociale, qui jugent un redressement impératif en 2027 ; et l'avis du Haut Conseil des finances publiques sur le budget 2027."
+    },
+    {
+     "voice": "Algieba",
+     "text": "Et une question de grand oral ?"
+    },
+    {
+     "voice": "Gacrux",
+     "text": "Par exemple : faut-il inscrire dans la Constitution une règle d'équilibre des comptes sociaux ? Éléments de réponse : pour, la protection des générations futures et la crédibilité financière ; contre, la perte de flexibilité en temps de crise et le risque de sous-financer les soins ; et une voie médiane, une règle d'équilibre sur le cycle économique, hors crise majeure. L'essentiel est de montrer que vous voyez à la fois l'enjeu financier et l'enjeu social."
+    }
+   ]
+  },
+  {
+   "title": "Au revoir",
+   "segments": [
+    {
+     "voice": "Algieba",
+     "text": "Ce qu'il faut retenir ce soir. Un : la Sécurité sociale accumule environ vingt milliards de dette par an, portés à court terme par l'Acoss, ce que la Cour des comptes juge dangereux. Deux : transférer cette dette à la Cades exige, selon la loi organique, des ressources nouvelles ou un allongement de sa durée de vie, deux choix politiquement coûteux. Trois : le budget 2027 vise un déficit de douze virgule sept milliards, mais il a été rejeté en première lecture et repose sur des hypothèses jugées fragiles. Une émission rattrapée, une autre suit tout de suite, sur Alstom. Bonne soirée."
+    }
+   ]
+  }
+ ]
+}

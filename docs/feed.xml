@@ -10,6 +10,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Revue du matin · Édition spéciale du lundi 9 novembre 2026</title>
+      <description>Au programme : Le tour de l'actu, suite ; Conférence sociale : le Smic à l'heure du choix ; Sécurité sociale : le Sénat reprend la main ; Israël : Eisenkot chargé de former le gouvernement ; Le Golfe s'embrase, de Riyad à Ormuz ; La COP31 s'ouvre à Antalya.
+
+Note de veille et sources : https://claude.ai/artifact/2kN6rmrcyBtHbo9yGPSgQm</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-11-09.mp3" length="11740825" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 05:30:00 +0000</pubDate>
+      <itunes:duration>16:18</itunes:duration>
+    </item>
+    <item>
       <title>Revue du matin · 6 novembre 2026</title>
       <description>Au programme : Le gouvernement cède une conférence sociale, pas encore le Smic ; Londres relève ses taux, Ormuz brûle encore ; Au Sénat, le budget repart sous le mot de récession ; Chez les républicains, le procès de la guerre en Iran.
 

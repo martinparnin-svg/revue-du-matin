@@ -1,0 +1,106 @@
+{
+ "date": "2026-11-10",
+ "title": "Revue du matin · 10 novembre 2026",
+ "summary": "Au programme : Le Smic franchit 1 500 euros ; Cybersécurité : la loi Résilience à l'Assemblée ; Iran, Ukraine : Washington veut solder ses guerres ; COP31 : la Turquie mise sur l'électricité.",
+ "links": {
+  "note": "https://claude.ai/artifact/DKYYLmNDnW1tzgyqiYgVcw",
+  "page": "https://claude.ai/artifact/EcBVJ42hWaQHuSdNMzwJjQ"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour. Nous sommes le mardi 10 novembre 2026, et voici votre revue du matin. Un quart d'heure pour tout savoir de la veille et préparer la journée.",
+    "Quatre grands sujets ce matin. Le Smic franchit la barre des mille cinq cents euros, avec le premier coup de pouce depuis 2012. L'Assemblée nationale s'attaque à la cybersécurité, le jour même où Paris accuse Téhéran. Washington veut solder ses guerres, de l'Iran à l'Ukraine. Et la COP31, à Antalya, mise sur l'électricité. Mais d'abord, le tour de l'actu."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Commençons en France, avec une journée de grève dans l'éducation. Quinze organisations d'enseignants, de lycéens et d'étudiants appellent à cesser le travail et à manifester aujourd'hui. Elles réclament le dégel du point d'indice, cent cinquante mille places de plus dans le supérieur et l'annulation des suppressions de postes prévues au budget 2027. À Paris, le cortège étudiant part de Bastille à quatorze heures.",
+    "En politique, la diplomatie ukrainienne a recadré Jean-Luc Mélenchon. Samedi, au Bourget, le chef de file insoumis avait suggéré de consulter les habitants des régions occupées par la Russie.",
+    "Toujours en vue de 2027, un candidat inattendu : Teddy Riner. Le quintuple champion olympique de judo se lance dans la course à l'Élysée, en se disant ni de droite ni de gauche.",
+    "Direction la Pologne. L'auteur de l'attaque de Cracovie, qui a fait six victimes, est mort à l'hôpital. Le Premier ministre Donald Tusk et le président Karol Nawrocki se sont recueillis ensemble.",
+    "En Turquie, l'explosion d'une aciérie près d'Izmir a fait dix-sept morts selon le dernier bilan.",
+    "En Méditerranée, vingt-deux migrants ont été retrouvés morts au large de la Crète. Cent cinq personnes ont été secourues.",
+    "À Gaza, une tempête a fait cinq morts, dont trois enfants, et inondé soixante-dix mille tentes de déplacés, selon les secours locaux.",
+    "Côté tech, le conseil d'administration de Nvidia, le géant des puces d'intelligence artificielle, enquête sur son propre patron, Jensen Huang. Des informations de presse le disent ciblé par le renseignement chinois. L'action a reculé, et trois présidents de commission de la Chambre des représentants lui demandent une audition à huis clos le 18 novembre.",
+    "Sur les marchés européens, la victoire démocrate aux élections de mi-mandat américaines a provoqué un vaste mouvement de rotation. Les banques ont rebondi, tandis que les valeurs des semi-conducteurs reculaient, sur fond d'inquiétudes autour des centres de données.",
+    "À Bruxelles, la Commission européenne doit proposer demain d'interdire dix pièges d'interface, ces boutons et menus conçus pour pousser l'internaute à payer ou à rester abonné.",
+    "Enfin, la santé. L'agence américaine du médicament impose de mentionner un risque possible de perte de vision sur les notices des traitements amaigrissants de type GLP-1. Son analyse porte sur plus de cent trente mille patients."
+   ]
+  },
+  {
+   "title": "Le Smic franchit 1 500 euros",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier grand sujet : la conférence sociale de Matignon a rendu son verdict. Le Smic augmentera de un virgule six pour cent dès le 1er décembre. Le salaire minimum net à temps plein passe d'environ mille quatre cent soixante-dix-huit euros à mille cinq cent deux euros. Soit vingt-quatre euros de plus par mois.",
+    "Dans cette hausse, il faut distinguer deux étages. Environ un point correspond à la revalorisation automatique de janvier, simplement avancée d'un mois. Les six dixièmes restants sont un coup de pouce, décidé par le gouvernement. C'est le premier depuis juillet 2012. Sur l'ensemble de l'année, selon le ministre du Travail Jean-Pierre Farandou, le Smic aura progressé de cinq virgule trois pour cent.",
+    "Le deuxième étage de l'annonce vise les branches professionnelles. Selon le ministère du Travail, soixante-neuf d'entre elles ont encore des minima inférieurs au Smic, et une sur deux n'a pas revu sa grille depuis dix ans. Un décret, attendu cette semaine, liera les allègements de cotisations patronales au niveau réel de ces minima. Autrement dit : les branches qui ne négocient pas paieront plus. Un second décret permettra aux représentants des salariés de connaître les aides publiques perçues par leur entreprise.",
+    "S'y ajoutent des mesures fiscales, à voter dans le budget : la prime de partage de la valeur étendue aux entreprises de cinquante salariés et plus, le plafond d'exonération des heures supplémentaires porté de sept mille cinq cents à dix mille euros, et le maintien des aides au transport.",
+    "Les réactions sont contrastées. Sébastien Lecornu parle de la deuxième plus forte hausse en vingt ans, et précise que ce n'est pas un solde de tout compte. La CFDT réclamait cent euros de plus, la CGT dix pour cent : pour Sophie Binet, ce sont des miettes, et la mobilisation continue. Le patronat, lui, insiste sur la faiblesse des marges et redoute qu'on touche aux exonérations, qui approcheraient soixante-dix milliards d'euros l'an prochain.",
+    "La nuance est importante. Le gouvernement ne change pas le modèle : il pousse la négociation par l'incitation fiscale, l'État se posant en garant. Et plusieurs mesures restent suspendues au vote du budget, dans une Assemblée sans majorité.",
+    "À surveiller : le décret sur les allègements, la réunion avec les syndicats de la fonction publique vendredi, une nouvelle journée de grève le 17 novembre, et les premiers accords de branche attendus début décembre."
+   ]
+  },
+  {
+   "title": "Cybersécurité : la loi Résilience à l'Assemblée",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet : la cybersécurité, à l'Assemblée et sur la scène diplomatique. Depuis hier, les députés examinent le projet de loi Résilience, jusqu'à vendredi. Il transpose trois textes européens, dont la directive NIS2, sur la sécurité des réseaux.",
+    "L'enjeu est d'échelle. Selon la ministre chargée du Numérique, Anne Le Hénanff, plus de dix-huit mille entités, dans dix-huit secteurs critiques comme l'énergie, la santé ou les transports, devront gérer leurs risques, sécuriser leurs sous-traitants et déclarer leurs incidents. La ministre parle d'un changement de paradigme. Environ quatre cents amendements ont été déposés.",
+    "Ce texte arrive tard. Il avait été déposé au Sénat en octobre 2024, deux jours avant la date limite de transposition, et adopté par les sénateurs en mars 2025. Depuis, il attendait. En juillet, la Commission européenne a saisi la justice contre la France pour ce retard. Et en août, des vols massifs de données touchant le fisc ont rappelé l'urgence.",
+    "Le point le plus disputé concerne les messageries chiffrées, comme WhatsApp ou Signal. Le Sénat avait inséré un article garantissant leur inviolabilité. Le gouvernement veut le supprimer. Pour Geneviève Darrieussecq, du MoDem, sa rédaction fragilise les services de renseignement. À gauche, l'écologiste Sabrina Sebaihi et l'insoumis Arnaud Saint-Martin défendent au contraire le chiffrement. À droite, Nicolas Tryzna, des Républicains, met en garde contre une charge trop lourde pour les petites entreprises.",
+    "Le même jour, la menace a pris un visage. Le ministre des Affaires étrangères, Jean-Noël Barrot, a imputé à l'Iran les cyberattaques contre les systèmes frigorifiques de supermarchés français, dont l'une à Montreuil en octobre. L'ambassadeur d'Iran sera convoqué.",
+    "Ce que ça change : la cybersécurité devient une obligation de gestion pour des milliers d'entreprises et de collectivités, contrôlée par l'Agence nationale de la sécurité des systèmes d'information, l'ANSSI, qui réclame un pouvoir de sanction. Ce que ça ne change pas : la loi protège les systèmes, pas la riposte face à un État.",
+    "À surveiller : le sort de l'article sur le chiffrement, le niveau des sanctions, et le vote final."
+   ]
+  },
+  {
+   "title": "Iran, Ukraine : Washington veut solder ses guerres",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cap à l'international. Hier, Donald Trump a affirmé que les États-Unis avaient gagné la guerre contre l'Iran. De nouvelles frappes seraient improbables, a-t-il dit, sauf si Téhéran refusait un accord. Quelques jours plus tôt, l'armée américaine avait pourtant frappé l'île de Qeshm, dans le détroit d'Ormuz. Pour mémoire, le président américain avait suspendu ses frappes en octobre, jusqu'aux élections de mi-mandat.",
+    "Côté iranien, la ligne ne bouge pas : pas de dialogue sans levée des sanctions et du blocus des ports. Et le secrétaire d'État Marco Rubio reconnaît qu'aucun progrès n'est visible. Le président américain évoque aussi une rencontre avec Vladimir Poutine et Xi Jinping en Chine, pour parler de dénucléarisation et de la fin de la guerre en Iran.",
+    "Deuxième front diplomatique, l'Ukraine. Aujourd'hui et demain, Ukrainiens, Russes et Américains se retrouvent à Abou Dhabi, aux Émirats arabes unis. Ce sont les premières discussions à trois depuis la mi-février. Côté russe, la délégation serait conduite par Vladimir Medinski, conseiller du Kremlin, avec des vice-ministres et le chef du renseignement militaire.",
+    "La nouveauté est européenne. L'Union européenne sera représentée par une délégation commune avec la France, l'Allemagne et le Royaume-Uni. La semaine dernière, à Bruxelles, Européens, Ukrainiens, Américains et OTAN avaient déjà travaillé sur la reconstruction et les garanties de sécurité.",
+    "Comment lire cette séquence ? Après la lourde défaite républicaine aux élections de mi-mandat, la Maison Blanche cherche des succès diplomatiques rapides. Mais déclarer une victoire n'est pas signer la paix. Le détroit d'Ormuz reste sous tension, et sur l'Ukraine, rien n'est tranché sur les territoires ni sur les garanties.",
+    "Pour la France, l'impact est double. Économique d'abord : une désescalade dans le Golfe ferait baisser le prix de l'énergie, donc l'inflation. Politique ensuite : l'Europe obtient enfin une place à la table, mais doit prouver qu'elle pèse sur le fond.",
+    "À surveiller : l'issue d'Abou Dhabi demain soir, la réponse de Téhéran, et l'éventuel sommet à trois en Chine."
+   ]
+  },
+  {
+   "title": "COP31 : la Turquie mise sur l'électricité",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier grand sujet : le climat. La COP31 s'est ouverte hier à Antalya, en Turquie, pour douze jours. Près de deux cents pays, plus de cent mille participants attendus. La Turquie préside, l'Australie conduit les négociations. Et l'administration Trump est absente.",
+    "Dès l'ouverture, le ton a été donné. Pour Simon Stiell, le responsable climat de l'ONU, la crise climatique est devenue une urgence sanitaire d'ampleur comparable à une pandémie.",
+    "La présidence turque avance une idée phare : porter l'électricité à trente-cinq pour cent de la demande mondiale d'énergie d'ici 2035, contre environ vingt pour cent aujourd'hui. C'est mesurable et consensuel. Mais l'objectif n'est pas contraignant, et il ne dit pas que cette électricité doit être propre. Greenpeace Turquie rappelle qu'un tiers de l'électricité turque vient encore du charbon. Or les énergies fossiles représentent quatre-vingt-dix pour cent des émissions de dioxyde de carbone, et la COP30 au Brésil avait échoué à fixer un calendrier pour en sortir.",
+    "Le vrai point de blocage, c'est l'argent. À Bakou, en 2024, les pays riches ont promis trois cents milliards de dollars par an d'ici 2035 aux pays en développement. Les pays africains demandent désormais de tripler les fonds pour l'adaptation. Un responsable européen, cité par l'AFP, ne voit ni marge ni volonté politique pour de nouveaux engagements. La France, elle, apporte environ sept milliards d'euros par an, mais à plus de quatre-vingts pour cent sous forme de prêts, quand les pays pauvres réclament des dons.",
+    "Le calendrier est inhabituel : les chefs d'État n'arrivent pas en ouverture, mais au troisième jour. Et en avril, cinquante-sept pays réunis à Santa Marta, en Colombie, avaient déjà tenté d'esquisser une sortie des fossiles, en marge du cadre onusien. Une seconde rencontre est prévue en 2027.",
+    "Autre débat de fond : la liste des pays contributeurs date de 1992. La Chine n'y figure pas, et refuse d'y entrer.",
+    "À surveiller : le sommet des chefs d'État, demain et jeudi, avec soixante-dix-sept dirigeants attendus, puis le texte final le 20 novembre."
+   ]
+  },
+  {
+   "title": "Aujourd'hui",
+   "voice": "Algieba",
+   "paragraphs": [
+    "L'agenda du jour, maintenant. Dans toute la France, grève et manifestations dans l'éducation, le supérieur et la recherche. À Abou Dhabi, ouverture des pourparlers sur l'Ukraine, pour deux jours.",
+    "À l'Assemblée, les députés poursuivent l'examen du projet de loi Résilience, avec le débat sur les messageries chiffrées. Au Sénat, l'examen du budget de la Sécurité sociale continue. À Antalya, les négociateurs de la COP31 préparent l'arrivée des chefs d'État.",
+    "Demain, 11-Novembre, jour férié, la France commémore l'armistice de 1918, sans séance au Parlement. Vendredi, Sébastien Lecornu reçoit les syndicats de la fonction publique. Et les syndicats appellent à une nouvelle journée de grève mardi prochain, le 17 novembre."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, une piste tirée de Matignon : l'État peut-il faire monter les salaires sans les fixer ? En droit, il ne fixe qu'un salaire, le Smic. Pour le reste, il dépend de la négociation collective entre partenaires sociaux, protégée par le préambule de 1946. Le décret annoncé hier illustre un troisième chemin : l'incitation. On conditionne une aide publique, ici les allègements de cotisations, à un comportement attendu, ici la renégociation des grilles. Une bonne problématique : l'État incitateur est-il plus efficace que l'État prescripteur ? Pensez aussi à la cybersécurité, où la loi impose désormais des obligations aux entreprises au nom de la sécurité nationale.",
+    "Ce soir, trois sujets au choix : le droit de grève face à la continuité du service public ; les pièges d'interface, et la capacité de l'Europe à réguler le design numérique ; et le pacte européen sur la migration et l'asile, à l'épreuve de la Méditerranée.",
+    "Bonne journée, et bonnes révisions. À demain."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "date": "2026-11-11",
+ "title": "Revue du matin · 11 novembre 2026",
+ "summary": "Au programme : Cyberattaques : Paris désigne l'Iran ; Abou Dhabi : le dialogue reprend, sans trêve ; Intégrité publique : la HATVP change de nom et de méthode ; Éducation : les lycées bloquent, les enseignants décrochent.",
+ "links": {
+  "note": "https://claude.ai/artifact/T3EoLCWGcxLvrhyZtQGcRr",
+  "page": "https://claude.ai/artifact/Np2aQHedMLQwrGvvgPKL2F"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour. Nous sommes le mercredi 11 novembre 2026, jour de l'Armistice, et voici votre revue du matin.",
+    "Quatre sujets à approfondir aujourd'hui. Paris accuse l'Iran d'avoir piraté les réfrigérateurs de plus de sept cents supermarchés. À Abou Dhabi, Russes, Ukrainiens et Américains se retrouvent à la même table, sans trêve. Le gouvernement réforme la Haute Autorité pour la transparence de la vie publique. Et dans l'éducation, une mobilisation qui s'essouffle chez les enseignants, mais pas dans les lycées. D'abord, le tour de l'actu."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Commençons au Sénat, où l'examen du budget de la Sécurité sociale se poursuit. Rejeté par les députés fin octobre, le texte vise à ramener le déficit de vingt-deux milliards d'euros cette année à près de treize milliards en 2027. Les sénateurs ont voté une taxe sur les produits trop sucrés : environ six centimes de plus par paquet de gâteaux, en épargnant les artisans. L'horloge tourne : le Parlement a jusqu'au 26 novembre pour se prononcer.",
+    "Au Conseil des ministres, un texte pour la presse en ligne. Les annonceurs qui dépensent plus d'un million d'euros par an en publicité devront en orienter une part, jusqu'à dix pour cent, vers les sites d'information politique et générale. L'objectif : reprendre aux grandes plateformes une partie des recettes qui ont quitté les rédactions. Le même Conseil a nommé Pierre Coppey contrôleur général des lieux de privation de liberté.",
+    "Côté numérique, le Conseil de l'intelligence artificielle et du numérique a remis hier un rapport sur les assistants conversationnels. Il s'inquiète de leur capacité à exploiter les fragilités des utilisateurs, et recommande de mieux les encadrer.",
+    "Le couple présidentiel repart en justice aux États-Unis. Emmanuel et Brigitte Macron ont porté plainte dans le Tennessee contre l'influenceuse Candace Owens, pour une infox transphobe visant Brigitte Macron. Une première plainte avait été écartée pour prescription.",
+    "À Paris, les ministres des Affaires étrangères du G7 se sont séparés hier. L'Américain Marco Rubio a dit miser sur la pression économique contre l'Iran plutôt que sur de nouvelles frappes. Les sanctions de Washington contre la Cour pénale internationale restent un sujet qui fâche.",
+    "Aux États-Unis justement, Donald Trump met en doute l'honnêteté des élections de mi-mandat, gagnées par les démocrates. Et selon l'agence Reuters, la Chambre a renvoyé en commission, à sept voix près, la mise en accusation du ministre de la Défense, Pete Hegseth.",
+    "En Hongrie, le Premier ministre Péter Magyar annonce la détention du frère de Viktor Orbán, dans une enquête sur un trafic de migrants. Trois anciens ministres sont déjà détenus.",
+    "En Afrique du Sud, l'ANC, le parti de Nelson Mandela, tombe à trente et un pour cent aux élections locales. C'est son pire score depuis la fin de l'apartheid.",
+    "Enfin, l'énergie : ExxonMobil revient au Venezuela. Le géant pétrolier a signé un protocole d'accord, non contraignant, avec la compagnie nationale, dix-neuf ans après avoir quitté le pays."
+   ]
+  },
+  {
+   "title": "Cyberattaques : Paris désigne l'Iran",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier sujet : une cyberattaque d'un genre nouveau, et une riposte diplomatique qui monte d'un cran. Dans la nuit du 11 au 12 octobre, les réfrigérateurs de plus de sept cents supermarchés français ont été pris en main à distance. Carrefour, Monoprix, Intermarché ou Coopérative U sont touchés. Températures déréglées, marchandises perdues, et même des départs de feu. Le Quai d'Orsay chiffre les pertes en dizaines de millions d'euros.",
+    "Lundi, à l'issue du G7 qu'il accueillait, Jean-Noël Barrot a nommé le coupable : les Gardiens de la révolution iraniens. L'ambassadeur d'Iran a été convoqué. La procureure de Paris, Laure Beccuau, a ouvert une enquête visant une unité cyber précise, baptisée Shahid Kaveh, et demandé des mandats d'arrêt internationaux contre deux de ses responsables. Hier, le ministre a parlé d'une attaque majeure contre les intérêts de la nation. La France n'exclut rien, dit-il, y compris des mesures qui ne seront pas rendues publiques. Téhéran dément, et dénonce des accusations infondées.",
+    "Le contexte éclaire ce durcissement. Depuis août, Paris et Téhéran s'expulsent mutuellement des diplomates. En septembre, l'Iran a fermé un centre de langue française. Le Quai rappelle aussi des précédents : le piratage de Charlie Hebdo en 2023, des actions hostiles pendant les Jeux de Paris. Le tout sur fond de guerre : depuis les frappes américaines et israéliennes du printemps, le détroit d'Ormuz est bloqué.",
+    "Ce qui change vraiment, c'est l'attribution publique. Désigner un État est un acte politique, distinct de la preuve devant un juge. Mais c'est le préalable aux sanctions européennes que Paris réclame. L'Union dispose depuis 2019 d'un régime de sanctions contre les cyberattaques, qui exige l'unanimité des Vingt-Sept. La cheffe de la diplomatie européenne, Kaja Kallas, promet une réponse plus forte si l'attribution se confirme. Et la France n'est pas seule : selon l'AFP, des incidents similaires ont touché le 2 novembre la Belgique, l'Estonie, l'Irlande, le Luxembourg et la Suède.",
+    "Ce qui ne change pas : des mandats d'arrêt contre des officiers iraniens ont peu de chances d'être exécutés. Leur portée est d'abord symbolique.",
+    "La vraie leçon est ailleurs. La cible n'était ni une centrale ni une caserne, mais des frigos. Les équipements connectés du quotidien deviennent un terrain de guerre hybride. À surveiller : le Conseil des affaires étrangères de l'Union, lundi 16 novembre."
+   ]
+  },
+  {
+   "title": "Abou Dhabi : le dialogue reprend, sans trêve",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet : l'Ukraine, et un fil diplomatique renoué. Hier à Abou Dhabi, Russes, Ukrainiens et Américains ont discuté pendant plus de quatre heures. C'est leur première rencontre à trois depuis février, à Genève. Une deuxième séance se tient aujourd'hui. Mais aucune trêve n'a été annoncée.",
+    "À la table, pour Kiev, Roustem Oumerov, déjà chef de file lors des cycles précédents. Pour Moscou, Vladimir Medinski, conseiller du Kremlin, entouré notamment du vice-ministre des Affaires étrangères Sergueï Riabkov. Côté américain, les médiateurs Steve Witkoff et Jared Kushner.",
+    "Les positions restent très éloignées. Moscou exige le retrait des troupes ukrainiennes de quatre régions, Donetsk, Louhansk, Zaporijia et Kherson, la renonciation à l'OTAN et une armée ukrainienne limitée. Volodymyr Zelensky refuse de céder ce que la Russie ne contrôle pas. Il juge pourtant les discussions constructives. Jared Kushner assure que les écarts se sont réduits. Et Donald Trump promet que la guerre finira bientôt, en évoquant une Ukraine d'une forme un peu différente.",
+    "Selon la revue Foreign Policy, le nœud est une question d'ordre. Moscou veut d'abord un nouveau cadre de sécurité européen, puis un règlement ukrainien. Kiev veut l'inverse. Les Européens, eux, ne sont pas dans la salle : ils ont rencontré la délégation ukrainienne à part. Au G7, Kaja Kallas a reconnu ne pas avoir de grandes attentes.",
+    "Pendant qu'on négocie, la guerre continue. Dans la nuit de lundi à mardi, cent soixante-deux drones et un missile ont visé l'Ukraine, et des sous-stations électriques ont été touchées. En sens inverse, selon Reuters, les drones ukrainiens auraient réduit d'environ trente pour cent la capacité de raffinage russe.",
+    "Alors, qu'attendre ? Les analystes interrogés par la chaîne américaine ABC n'anticipent pas d'accord ambitieux. Le terrain le plus prometteur est humanitaire : échanges de prisonniers, retour d'enfants ukrainiens transférés en Russie. À surveiller aujourd'hui : une annonce sur ce volet, et un éventuel déplacement des émissaires américains à Kiev, puis à Moscou."
+   ]
+  },
+  {
+   "title": "Intégrité publique : la HATVP change de nom et de méthode",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Troisième sujet, la vie publique française. Hier, le Conseil des ministres a adopté deux projets de loi sur l'intégrité publique, une loi ordinaire et une loi organique. Ils sont portés par le Premier ministre Sébastien Lecornu et le ministre des Relations avec le Parlement, Laurent Panifous, et ont été déposés au Sénat dans la foulée, en procédure accélérée.",
+    "Un rappel d'abord. La Haute Autorité pour la transparence de la vie publique, la HATVP, est née en 2013, après l'affaire Cahuzac. Elle reçoit les déclarations de patrimoine et d'intérêts des élus, des ministres et des hauts responsables. Son président, Jean Maïa, avait remis en mai un rapport qui inspire cette réforme.",
+    "Que prévoit le texte ? La HATVP deviendrait la Haute Autorité pour l'intégrité publique. Les déclarations d'intérêts porteraient sur trois ans au lieu de cinq. Les ministres n'auraient plus de déclaration à remplir en fin de mandat. Surtout, ne pas déclarer ne serait plus un délit. À la place : une injonction de la Haute Autorité, assortie d'une astreinte financière.",
+    "Comment le lire ? Le gouvernement présente une simplification, et une sanction plus rapide. C'est l'argument de l'efficacité : une astreinte qui tombe tout de suite peut peser davantage qu'un procès pénal rare et lent. D'autres pourront y voir un signal d'allègement. Les réactions des groupes parlementaires restent à venir. Une nuance, relevée par des juristes : les peines prévues contre un parlementaire qui ment dans sa déclaration, trois ans de prison et quarante-cinq mille euros d'amende, ne bougeraient pas. Ce qui disparaît, c'est la poursuite pénale du simple défaut de déclaration.",
+    "Pourquoi une loi organique ? Parce que le statut des parlementaires et celui des magistrats relèvent de cette catégorie, selon les articles 25 et 64 de la Constitution. Elle sera donc soumise d'office au Conseil constitutionnel.",
+    "À surveiller : le calendrier. L'examen doit commencer au premier trimestre 2027, et le gouvernement espère une adoption d'ici fin février, juste avant la clôture anticipée de la session, prévue le 28 février."
+   ]
+  },
+  {
+   "title": "Éducation : les lycées bloquent, les enseignants décrochent",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier sujet : l'école, et une journée de mobilisation aux signaux contradictoires. Une quinzaine d'organisations, de la FSU à l'UNEF, appelaient hier enseignants, lycéens et étudiants à la grève. Selon le ministère, seuls 1,6 pour cent des enseignants ont cessé le travail : moins d'un demi pour cent en primaire, un peu moins de deux et demi pour cent dans le secondaire. Mais au même moment, quarante-neuf lycées étaient bloqués, contre trente et un la veille.",
+    "Dans la rue, les cortèges maigrissent. À Marseille, huit cent cinquante manifestants selon la préfecture, contre quatorze mille le 5 novembre. Trois mille cinq cents à Lyon, autant à Toulouse selon la police, cinq mille selon les syndicats. Des incidents ont émaillé la journée : tirs de mortiers d'artifice devant des lycées à Lyon et à Strasbourg, un établissement évacué à Amiens.",
+    "Les organisations réclament le dégel du point d'indice, quinze mille postes de titulaires dans l'enseignement supérieur et la recherche, et cent cinquante mille places pour les bacheliers.",
+    "Le gouvernement, lui, renvoie à ses annonces du 26 octobre : cinq cents postes d'enseignants en plus au budget 2027, l'annulation des suppressions prévues dans le secondaire, des classes de seconde limitées à vingt-huit élèves dans la moitié des lycées les moins favorisés, quinze mille places supplémentaires dans le supérieur, et la fin de Parcoursup à la rentrée 2028. Lundi pourtant, à Matignon, la plupart des organisations ont quitté le comité sur l'après-Parcoursup, faute de moyens selon elles.",
+    "La nuance : un taux de grève faible ne signifie pas un mouvement éteint. La contestation a changé de visage. Elle est désormais portée par les élèves plus que par les personnels, ce qui la rend plus imprévisible et déplace le débat vers l'ordre public. Le gouvernement fait état d'environ deux cent quarante personnels blessés depuis la mi-septembre, un chiffre qui n'a pas été vérifié de façon indépendante.",
+    "L'enjeu dépasse l'école : le point d'indice concerne toute la fonction publique. À surveiller : vendredi, Matignon reçoit les syndicats de la fonction publique. Et samedi, les organisations de jeunesse appellent à manifester."
+   ]
+  },
+  {
+   "title": "Aujourd'hui",
+   "voice": "Algieba",
+   "paragraphs": [
+    "L'agenda de ce mercredi férié. À dix heures quarante, le chef de l'État préside la cérémonie du cent huitième anniversaire de l'Armistice de 1918. Pas de séance au Parlement aujourd'hui : le Sénat reprend demain l'examen du budget de la Sécurité sociale.",
+    "À Abou Dhabi, deuxième journée de négociations sur l'Ukraine. À Antalya, en Turquie, les chefs d'État et de gouvernement se retrouvent aujourd'hui et demain pour le sommet des dirigeants de la COP31, la conférence de l'ONU sur le climat. Le financement de l'adaptation des pays en développement reste le point le plus difficile.",
+    "Vendredi, Sébastien Lecornu reçoit les syndicats de la fonction publique. Samedi, journée de manifestations de la jeunesse. Et lundi, les ministres européens des Affaires étrangères examinent les cyberattaques attribuées à l'Iran."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, une piste tirée de ce 11-Novembre. Depuis une loi de 2012, cette journée rend hommage à tous les morts pour la France, et plus seulement aux soldats de la Grande Guerre. La mémoire nationale évolue donc par la loi. D'où un sujet classique : l'État doit-il dire l'histoire ? Pensez aux lois mémorielles, et à la mission d'information présidée par Bernard Accoyer en 2008, qui recommandait de ne plus en voter.",
+    "Et rapprochez-le de l'actualité. Ces cyberattaques qui visent des frigos montrent que la frontière entre temps de paix et temps de guerre devient floue. Un siècle après l'Armistice, la sécurité nationale se joue aussi dans les rayons des supermarchés.",
+    "Ce soir, trois sujets au choix : le budget de la Sécurité sociale, et ce qui se passe si le Parlement ne conclut pas à temps ; la presse d'information, peut-on la sauver par la loi ; et le sens des commémorations nationales.",
+    "Bonne journée, et bonnes révisions. À demain."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "date": "2026-11-16",
+ "title": "Essai · Revue du matin lue par Léa · 16 novembre 2026",
+ "summary": "Au programme : la CFDT rejoint la grève du 17 novembre ; le budget de la Sécu au Sénat ; l'Europe à la table sur l'Ukraine ; Trump, Xi et Poutine à Shenzhen ; la COP31 d'Antalya ; Nvidia ébranlée.",
+ "links": {
+  "note": "https://claude.ai/artifact/VC7V82G9QxL6KNEy9GcmhX",
+  "page": "https://claude.ai/artifact/PPgXAz1m7UR2s8Vx7PJKNH"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Lea",
+   "paragraphs": [
+    "Bonjour. Nous sommes le lundi 16 novembre 2026, et voici l'édition spéciale du lundi de votre revue du matin : une vingtaine de minutes pour rattraper tout le week-end et préparer la semaine.",
+    "Au programme des sujets approfondis : la grève de demain, devenue unitaire après l'échec de la réunion de Matignon avec les syndicats de fonctionnaires. Le budget de la Sécurité sociale, qui vit sa semaine décisive au Sénat. L'Ukraine, où l'Europe obtient une place à la table, mais en ordre dispersé. Le sommet de Shenzhen et sa rencontre inédite entre Donald Trump, Xi Jinping et Vladimir Poutine. La dernière ligne droite de la conférence climat d'Antalya. Et la crise qui secoue Nvidia, à la veille de résultats très attendus. C'est parti."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : la France",
+   "voice": "Lea",
+   "paragraphs": [
+    "D'abord la rue. Samedi, cinquième samedi de mobilisation contre la vie chère. Cent six mille manifestants en France selon le ministère de l'Intérieur, dont vingt-quatre mille à Paris, contre cent quarante-six mille la semaine précédente. Les organisateurs revendiquent le double. Bilan : quatre cent quatre interpellations et cinquante policiers et gendarmes blessés. Le mouvement perd du monde, mais pas en tension.",
+    "Dans la foulée, un décret publié dimanche au Journal officiel interdit la vente de mortiers d'artifice jusqu'au 27 novembre. Selon le gouvernement, deux cents lycées ont été perturbés en quinze jours, et des centaines d'élèves et de personnels ont été blessés depuis le début du mouvement.",
+    "À droite, la question du candidat unique. Gérard Larcher, le président du Sénat, propose de réunir rapidement Gabriel Attal, Édouard Philippe, Bruno Retailleau et David Lisnard. Édouard Philippe accepte la réunion, mais refuse toujours toute primaire. Les trois autres y sont désormais favorables, et leurs directeurs de campagne se retrouvent demain. L'enjeu est lourd : dans le dernier sondage Ifop, fin octobre, Marine Le Pen dépasse les trente-cinq pour cent au premier tour.",
+    "À l'Assemblée, jeudi, les députés ont rejeté le projet de loi de fin de gestion pour 2026, le texte qui ajuste le budget de l'année en cours. Ils ont en revanche adopté le compromis trouvé avec le Sénat sur les droits voisins des éditeurs et des agences de presse.",
+    "Vendredi, la France a commémoré les attentats du 13 novembre 2015, il y a onze ans : cent trente-deux morts. L'association de victimes Life for Paris a regretté l'absence d'unité nationale après l'attentat raciste de Trappes et de La Verrière, le 23 octobre.",
+    "Côté prix, l'Insee a confirmé vendredi une inflation de trois virgule quatre pour cent sur un an en octobre. Le moteur, c'est l'énergie, en hausse de vingt-quatre pour cent. Hors énergie et alimentation, la hausse n'est que de un virgule sept pour cent.",
+    "L'État devient le premier actionnaire d'Eramet. Le groupe minier lance une augmentation de capital de cinq cents millions d'euros, souscrite aux deux tiers environ par l'État. Le titre a perdu plus de dix pour cent. Un signal fort sur les métaux critiques.",
+    "Enfin, l'énergie : les trois réacteurs de Flamanville sont à l'arrêt, dont l'EPR, immobilisé pour près d'un an de contrôles. Mauvaise nouvelle à l'approche de l'hiver."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : le monde",
+   "voice": "Lea",
+   "paragraphs": [
+    "Cap sur le monde, et sur le pétrole. Selon l'Agence internationale de l'énergie, l'offre mondiale dépasse de nouveau la demande, pour la première fois depuis le début de la guerre en Iran. Mais le détroit d'Ormuz reste dangereux : vendredi, les Gardiens de la révolution ont annoncé qu'un méthanier avait sauté sur une mine. Le baril de Brent reste au-dessus de quatre-vingt-dix dollars.",
+    "À Gaza, une frappe israélienne a tué samedi à Khan Younès le commandant de la brigade de Rafah du Hamas. Selon le ministère de la Santé de Gaza, au moins mille six cents personnes ont été tuées depuis le cessez-le-feu d'octobre 2025, et le froid fait désormais des victimes, dont un bébé de neuf mois.",
+    "Aux États-Unis, les comptes des élections de mi-mandat se précisent. Selon la chaîne CBS, les démocrates disposeront d'au moins cinquante-quatre sièges au Sénat et d'une large majorité à la Chambre. Le dernier siège de l'Alaska se joue mercredi. Autre fait marquant : vendredi soir, l'aviation civile américaine a suspendu tous les décollages du pays, à cause d'une panne de communication. Les autorités n'y voient pas d'acte malveillant.",
+    "En République démocratique du Congo, l'épidémie d'Ebola devient la plus meurtrière de l'histoire du pays : plus de onze mille cas confirmés et près de cinq mille quatre cents morts. Il n'existe aucun vaccin homologué contre cette souche, et les essais ne donneront pas de résultats avant début 2027.",
+    "En Amérique latine, le pape Léon XIV était dimanche à Lima, au Pérou, le pays où il a été évêque.",
+    "Enfin, la tech. OpenAI lance un portefeuille numérique qui permet à ses agents d'intelligence artificielle de payer des achats à la place de l'utilisateur, pour l'instant aux États-Unis seulement. Le même jour, une panne mondiale chez Microsoft a privé des millions d'utilisateurs de messagerie et de visioconférence. Une piqûre de rappel sur notre dépendance au nuage numérique."
+   ]
+  },
+  {
+   "title": "La CFDT rejoint la grève : le front syndical se ressoude",
+   "voice": "Lea",
+   "paragraphs": [
+    "Premier sujet : la grève de demain, mardi 17 novembre, qui change de nature. Vendredi, Sébastien Lecornu a reçu à Matignon les huit syndicats représentatifs de la fonction publique. Une première depuis près de vingt ans. Ils en sont sortis furieux.",
+    "Les faits. Le gouvernement refuse de dégeler le point d'indice, la valeur de référence des salaires des fonctionnaires, gelé pour la quatrième année. Selon le cabinet du ministre des Comptes publics, David Amiel, un pour cent de hausse coûterait deux virgule quatre milliards d'euros, ce qui n'est pas envisageable. À la place, des mesures ciblées pour un million trois cent cinquante mille agents, pour plusieurs centaines de millions d'euros. L'indice minimum passerait de 366 à 372 au premier janvier. Une concertation d'un mois s'ouvre sur cinq chantiers, avec un nouveau rendez-vous le 11 décembre.",
+    "Le contexte. Le 9 novembre, l'appel à la grève interprofessionnelle réunissait la CGT, la FSU, Solidaires, l'UNSA, la CFE-CGC et la FA-FP. La CFDT n'en était pas, sa secrétaire générale Marylise Léon misant sur la négociation. C'est la réunion de vendredi qui a fait basculer sa fédération de fonctionnaires. Sa responsable, Laure Revel, juge les propositions insuffisantes, voire inexistantes.",
+    "Les positions. Pour Sophie Binet, de la CGT, le gouvernement est en complet décalage avec les agents. La FSU calcule que le gain de l'indice minimum ne dépasse pas trente euros. Force ouvrière parle de double peine pour les agents payés au salaire minimum. Le gouvernement, lui, tient la ligne : l'objectif d'un déficit de cinq pour cent du PIB en 2027 n'est pas négociable.",
+    "La nuance. Le front se ressoude pour la fonction publique, mais pas tout à fait au niveau interprofessionnel : la confédération Force ouvrière n'a pas clairement rejoint l'appel. Et la mobilisation s'inscrit dans un automne social déjà chargé : le 5 novembre, l'Intérieur comptait six cent mille manifestants, la CGT un million six cent mille.",
+    "L'impact. Environ six cent soixante mille agents restent payés en dessous du salaire minimum avant une indemnité qui comble l'écart. Le salaire minimum augmente de un virgule six pour cent au premier décembre, ce qui écrase encore le bas des grilles.",
+    "À surveiller demain : le taux de grévistes dans la fonction publique, autour de dix pour cent le 5 novembre, et le niveau de perturbation dans les écoles et les transports."
+   ]
+  }
+ ]
+}

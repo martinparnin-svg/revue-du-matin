@@ -19,14 +19,15 @@ voice:
     model: "voxtral-mini-tts-3"
     max_chars: 2500
     pause_between_calls_s: 1
-    # Voix du script -> voix Mistral. Léa : voix principale (matin, animatrice du soir) ; Marie : experte du soir.
+    # Voix du script -> voix Mistral. Marie (nouvelle voix Voxtral 3) : animatrice du matin et du soir ;
+    # Léa : intervenante (experte) du soir. Choix de l'utilisateur du 16 novembre.
     voices:
-      default: Lea
+      default: Marie
       Lea: Lea
       Marie: Marie
-      Algieba: Lea
-      Gacrux: Marie
-      Kore: Marie
+      Algieba: Marie
+      Gacrux: Lea
+      Kore: Lea
       Charon: Harriet      # passages en anglais
       Harriet: Harriet
     ids:

@@ -11,8 +11,28 @@ show:
   keep_episodes: 90   # deux épisodes par jour (revue + flash)
 
 voice:
-  # Service de synthèse : gemini | elevenlabs | google_chirp
-  provider: gemini
+  # Service de synthèse : mistral | gemini | elevenlabs | google_chirp
+  # Mistral depuis le 16 novembre 2026 (crédit Gemini épuisé). Retour arrière : provider: gemini
+  provider: mistral
+
+  mistral:
+    model: "voxtral-mini-tts-3"
+    max_chars: 2500
+    pause_between_calls_s: 1
+    # Voix du script -> voix Mistral. Léa : voix principale (matin, animatrice du soir) ; Marie : experte du soir.
+    voices:
+      default: Lea
+      Lea: Lea
+      Marie: Marie
+      Algieba: Lea
+      Gacrux: Marie
+      Kore: Marie
+      Charon: Harriet      # passages en anglais
+      Harriet: Harriet
+    ids:
+      Lea: "01a151d2-8c29-766d-9ca2-30f33707cef6"
+      Marie: "01a1536e-a46c-7101-b6e9-1ebda46309fd"
+      Harriet: "01a14675-dbde-703e-bddf-b373f6bf3872"
 
   gemini:
     model: "gemini-3.8-flash-tts"

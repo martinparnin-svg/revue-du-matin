@@ -152,6 +152,8 @@ def build(ep_path, cfg, out_mp3=None):
 
 def main():
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config.yml"), encoding="utf-8"))
+    global MAX_CHARS
+    MAX_CHARS = cfg["voice"].get(cfg["voice"]["provider"], {}).get("max_chars", MAX_CHARS)
     if len(sys.argv) > 2 and sys.argv[1] == "--test":
         src = sys.argv[2] if os.path.isabs(sys.argv[2]) else os.path.join(ROOT, sys.argv[2])
         out = os.path.join(ROOT, "docs", "tests", os.path.basename(src).replace(".json", ".mp3"))

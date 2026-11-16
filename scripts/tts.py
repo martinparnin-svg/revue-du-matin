@@ -124,7 +124,34 @@ def google_chirp(text, cfg, out_path, voice=None):
     return out_path
 
 
-PROVIDERS = {"gemini": gemini, "elevenlabs": elevenlabs, "google_chirp": google_chirp}
+# --- Mistral (Voxtral TTS) ---------------------------------------------------
+
+def mistral(text, cfg, out_path, voice=None):
+    """`voice` : nom de voix du script (Algieba, Gacrux, Kore, Charon, Lea, Marie…),
+    traduit en voix Mistral par la table `voice.mistral.voices` de config.yml."""
+    import mistral_api as m
+    c = cfg["voice"]["mistral"]
+    table = c.get("voices", {})
+    name = table.get(voice or "", table.get("default"))
+    vid = c.get("ids", {}).get(name, name)
+    last = None
+    for attempt in range(5):
+        try:
+            audio = m.speech(text, vid, c.get("model", "voxtral-mini-tts-3"), "mp3")
+            with open(out_path, "wb") as f:
+                f.write(audio)
+            time.sleep(c.get("pause_between_calls_s", 0))
+            return out_path
+        except m.MistralError as e:
+            last = str(e)
+            print(f"::warning title=Synthèse vocale::essai {attempt + 1} : {last}", flush=True)
+            if not any(code in last for code in ("HTTP 429", "HTTP 500", "HTTP 502", "HTTP 503", "HTTP 504")):
+                break
+            time.sleep(15 * (attempt + 1))
+    raise TTSError(last)
+
+
+PROVIDERS = {"gemini": gemini, "elevenlabs": elevenlabs, "google_chirp": google_chirp, "mistral": mistral}
 
 
 def synthesize(text, cfg, out_path, voice=None):

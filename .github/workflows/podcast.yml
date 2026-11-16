@@ -41,6 +41,7 @@ jobs:
       - name: Synthèse vocale et assemblage
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
         run: python scripts/build_episode.py ${{ github.event.inputs.date }}

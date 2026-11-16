@@ -1,0 +1,145 @@
+{
+ "date": "2026-11-16",
+ "title": "Revue du matin · Édition spéciale du lundi 16 novembre 2026",
+ "summary": "Au programme : la CFDT rejoint la grève du 17 novembre ; le budget de la Sécu au Sénat ; l'Europe à la table sur l'Ukraine ; Trump, Xi et Poutine à Shenzhen ; la COP31 d'Antalya ; Nvidia ébranlée.",
+ "links": {
+  "note": "https://claude.ai/artifact/VC7V82G9QxL6KNEy9GcmhX",
+  "page": "https://claude.ai/artifact/PPgXAz1m7UR2s8Vx7PJKNH"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour. Nous sommes le lundi 16 novembre 2026, et voici l'édition spéciale du lundi de votre revue du matin : une vingtaine de minutes pour rattraper tout le week-end et préparer la semaine.",
+    "Au programme des sujets approfondis : la grève de demain, devenue unitaire après l'échec de la réunion de Matignon avec les syndicats de fonctionnaires. Le budget de la Sécurité sociale, qui vit sa semaine décisive au Sénat. L'Ukraine, où l'Europe obtient une place à la table, mais en ordre dispersé. Le sommet de Shenzhen et sa rencontre inédite entre Donald Trump, Xi Jinping et Vladimir Poutine. La dernière ligne droite de la conférence climat d'Antalya. Et la crise qui secoue Nvidia, à la veille de résultats très attendus. C'est parti."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : la France",
+   "voice": "Algieba",
+   "paragraphs": [
+    "D'abord la rue. Samedi, cinquième samedi de mobilisation contre la vie chère. Cent six mille manifestants en France selon le ministère de l'Intérieur, dont vingt-quatre mille à Paris, contre cent quarante-six mille la semaine précédente. Les organisateurs revendiquent le double. Bilan : quatre cent quatre interpellations et cinquante policiers et gendarmes blessés. Le mouvement perd du monde, mais pas en tension.",
+    "Dans la foulée, un décret publié dimanche au Journal officiel interdit la vente de mortiers d'artifice jusqu'au 27 novembre. Selon le gouvernement, deux cents lycées ont été perturbés en quinze jours, et des centaines d'élèves et de personnels ont été blessés depuis le début du mouvement.",
+    "À droite, la question du candidat unique. Gérard Larcher, le président du Sénat, propose de réunir rapidement Gabriel Attal, Édouard Philippe, Bruno Retailleau et David Lisnard. Édouard Philippe accepte la réunion, mais refuse toujours toute primaire. Les trois autres y sont désormais favorables, et leurs directeurs de campagne se retrouvent demain. L'enjeu est lourd : dans le dernier sondage Ifop, fin octobre, Marine Le Pen dépasse les trente-cinq pour cent au premier tour.",
+    "À l'Assemblée, jeudi, les députés ont rejeté le projet de loi de fin de gestion pour 2026, le texte qui ajuste le budget de l'année en cours. Ils ont en revanche adopté le compromis trouvé avec le Sénat sur les droits voisins des éditeurs et des agences de presse.",
+    "Vendredi, la France a commémoré les attentats du 13 novembre 2015, il y a onze ans : cent trente-deux morts. L'association de victimes Life for Paris a regretté l'absence d'unité nationale après l'attentat raciste de Trappes et de La Verrière, le 23 octobre.",
+    "Côté prix, l'Insee a confirmé vendredi une inflation de trois virgule quatre pour cent sur un an en octobre. Le moteur, c'est l'énergie, en hausse de vingt-quatre pour cent. Hors énergie et alimentation, la hausse n'est que de un virgule sept pour cent.",
+    "L'État devient le premier actionnaire d'Eramet. Le groupe minier lance une augmentation de capital de cinq cents millions d'euros, souscrite aux deux tiers environ par l'État. Le titre a perdu plus de dix pour cent. Un signal fort sur les métaux critiques.",
+    "Enfin, l'énergie : les trois réacteurs de Flamanville sont à l'arrêt, dont l'EPR, immobilisé pour près d'un an de contrôles. Mauvaise nouvelle à l'approche de l'hiver."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu : le monde",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cap sur le monde, et sur le pétrole. Selon l'Agence internationale de l'énergie, l'offre mondiale dépasse de nouveau la demande, pour la première fois depuis le début de la guerre en Iran. Mais le détroit d'Ormuz reste dangereux : vendredi, les Gardiens de la révolution ont annoncé qu'un méthanier avait sauté sur une mine. Le baril de Brent reste au-dessus de quatre-vingt-dix dollars.",
+    "À Gaza, une frappe israélienne a tué samedi à Khan Younès le commandant de la brigade de Rafah du Hamas. Selon le ministère de la Santé de Gaza, au moins mille six cents personnes ont été tuées depuis le cessez-le-feu d'octobre 2025, et le froid fait désormais des victimes, dont un bébé de neuf mois.",
+    "Aux États-Unis, les comptes des élections de mi-mandat se précisent. Selon la chaîne CBS, les démocrates disposeront d'au moins cinquante-quatre sièges au Sénat et d'une large majorité à la Chambre. Le dernier siège de l'Alaska se joue mercredi. Autre fait marquant : vendredi soir, l'aviation civile américaine a suspendu tous les décollages du pays, à cause d'une panne de communication. Les autorités n'y voient pas d'acte malveillant.",
+    "En République démocratique du Congo, l'épidémie d'Ebola devient la plus meurtrière de l'histoire du pays : plus de onze mille cas confirmés et près de cinq mille quatre cents morts. Il n'existe aucun vaccin homologué contre cette souche, et les essais ne donneront pas de résultats avant début 2027.",
+    "En Amérique latine, le pape Léon XIV était dimanche à Lima, au Pérou, le pays où il a été évêque.",
+    "Enfin, la tech. OpenAI lance un portefeuille numérique qui permet à ses agents d'intelligence artificielle de payer des achats à la place de l'utilisateur, pour l'instant aux États-Unis seulement. Le même jour, une panne mondiale chez Microsoft a privé des millions d'utilisateurs de messagerie et de visioconférence. Une piqûre de rappel sur notre dépendance au nuage numérique."
+   ]
+  },
+  {
+   "title": "La CFDT rejoint la grève : le front syndical se ressoude",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier sujet : la grève de demain, mardi 17 novembre, qui change de nature. Vendredi, Sébastien Lecornu a reçu à Matignon les huit syndicats représentatifs de la fonction publique. Une première depuis près de vingt ans. Ils en sont sortis furieux.",
+    "Les faits. Le gouvernement refuse de dégeler le point d'indice, la valeur de référence des salaires des fonctionnaires, gelé pour la quatrième année. Selon le cabinet du ministre des Comptes publics, David Amiel, un pour cent de hausse coûterait deux virgule quatre milliards d'euros, ce qui n'est pas envisageable. À la place, des mesures ciblées pour un million trois cent cinquante mille agents, pour plusieurs centaines de millions d'euros. L'indice minimum passerait de 366 à 372 au premier janvier. Une concertation d'un mois s'ouvre sur cinq chantiers, avec un nouveau rendez-vous le 11 décembre.",
+    "Le contexte. Le 9 novembre, l'appel à la grève interprofessionnelle réunissait la CGT, la FSU, Solidaires, l'UNSA, la CFE-CGC et la FA-FP. La CFDT n'en était pas, sa secrétaire générale Marylise Léon misant sur la négociation. C'est la réunion de vendredi qui a fait basculer sa fédération de fonctionnaires. Sa responsable, Laure Revel, juge les propositions insuffisantes, voire inexistantes.",
+    "Les positions. Pour Sophie Binet, de la CGT, le gouvernement est en complet décalage avec les agents. La FSU calcule que le gain de l'indice minimum ne dépasse pas trente euros. Force ouvrière parle de double peine pour les agents payés au salaire minimum. Le gouvernement, lui, tient la ligne : l'objectif d'un déficit de cinq pour cent du PIB en 2027 n'est pas négociable.",
+    "La nuance. Le front se ressoude pour la fonction publique, mais pas tout à fait au niveau interprofessionnel : la confédération Force ouvrière n'a pas clairement rejoint l'appel. Et la mobilisation s'inscrit dans un automne social déjà chargé : le 5 novembre, l'Intérieur comptait six cent mille manifestants, la CGT un million six cent mille.",
+    "L'impact. Environ six cent soixante mille agents restent payés en dessous du salaire minimum avant une indemnité qui comble l'écart. Le salaire minimum augmente de un virgule six pour cent au premier décembre, ce qui écrase encore le bas des grilles.",
+    "À surveiller demain : le taux de grévistes dans la fonction publique, autour de dix pour cent le 5 novembre, et le niveau de perturbation dans les écoles et les transports."
+   ]
+  },
+  {
+   "title": "Budget de la Sécu : la semaine de vérité au Sénat",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet : le budget de la Sécurité sociale, qui vit sa semaine décisive au Sénat.",
+    "Rappelons d'où l'on part. L'Assemblée nationale a rejeté la partie recettes du budget de la Sécu le 23 octobre, puis celle du budget de l'État le 4 novembre, par quatre cent cinquante-huit voix, de tous les groupes. Conséquence : les deux textes sont arrivés au Sénat dans la version initiale du gouvernement, sans aucun apport des députés.",
+    "Les faits. Vendredi, les sénateurs ont adopté la partie recettes du budget de la Sécu, par deux cents voix contre cent dix. La gauche et le Rassemblement national ont voté contre. Mais ils ont retouché le texte contre l'avis du gouvernement : suppression de la taxe sur les mutuelles, qui devait rapporter un virgule un milliard d'euros, et de celle sur les dispositifs médicaux. Selon David Amiel, ces votes dégradent le solde d'environ trois milliards d'euros. Le rapporteur général centriste, Olivier Henno, promet de compenser par des économies.",
+    "Cette semaine, place aux dépenses, aujourd'hui et demain. La majorité sénatoriale, de droite et du centre, veut rétablir la réforme des retraites de 2023, suspendue l'an dernier. Elle veut aussi revaloriser sur l'inflation les pensions jusqu'à mille cinq cents euros, et non mille deux cent soixante comme le prévoit le gouvernement, qui s'y oppose. Le vote sur l'ensemble aura lieu mercredi après-midi.",
+    "Le calendrier est serré. Le Parlement dispose de cinquante jours pour le budget de la Sécu, soit jusqu'au 26 novembre, et de soixante-dix jours pour celui de l'État, soit jusqu'au 17 décembre. Le Sénat commencera l'examen du budget de l'État vendredi. Le Premier ministre renvoie un éventuel compromis à décembre.",
+    "La nuance. Un vote du Sénat ne fait pas un budget. Il faudra ensuite une commission mixte paritaire, sept députés et sept sénateurs, dont la réussite est jugée peu probable par les observateurs parlementaires. Au-delà des délais, la Constitution permet au gouvernement de mettre en œuvre son projet par ordonnances. Ce serait une première sous la Cinquième République, et ces ordonnances reprendraient a priori le texte initial, sans les amendements du Sénat. D'où l'argument du président du groupe Les Républicains au Sénat, Philippe Mouiller, pour qui un recours au 49.3 préserverait au moins le travail sénatorial. Seul le Rassemblement national a laissé entrevoir une ouverture sur ce point.",
+    "À surveiller : le vote de mercredi, l'équilibre final du texte, et un objectif de déficit de la Sécu de douze virgule sept milliards d'euros en 2027, contre près de vingt-deux cette année."
+   ]
+  },
+  {
+   "title": "Ukraine : l'Europe gagne une place à la table, en ordre dispersé",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Troisième sujet : l'Ukraine, et une semaine diplomatique très dense.",
+    "Les faits. Les 10 et 11 novembre, Ukrainiens et Russes ont négocié à Abou Dhabi, sous médiation américaine. Résultat principal : un accord sur un échange de prisonniers à grande échelle. Moscou parle de plus de mille personnes de chaque côté, mais ni le chiffre ni la date n'ont été confirmés par les deux capitales. Le 12, les envoyés de Donald Trump, Steve Witkoff et Jared Kushner, ont été reçus par Vladimir Poutine au Kremlin, puis ont rencontré Volodymyr Zelensky le soir même près de Dublin.",
+    "Le fait nouveau, c'est l'Europe. Selon le site Axios, Washington a demandé à Moscou sa vision de la sécurité européenne et propose d'associer les Européens. Jared Kushner a même jugé qu'aucun accord n'était possible sans eux. Vendredi, réunis à Dublin, les dirigeants de l'Union ont donc constitué une équipe de négociation : la France, l'Allemagne, le Royaume-Uni, l'Italie et la Pologne, avec le Conseil européen, la Commission et l'OTAN.",
+    "Les positions. Kiev, Washington et la présidente du Conseil italien, Giorgia Meloni, réclamaient un émissaire unique. Ils ne l'ont pas obtenu. Giorgia Meloni dénonce une désorganisation. Le chancelier allemand, Friedrich Merz, défendait le format à trois, avec Paris et Londres. Et la cheffe de la diplomatie européenne, Kaja Kallas, écartée, estime que les Russes ne veulent pas d'elle. Côté russe, le Kremlin minimise l'idée de discussions directes avec les Européens.",
+    "La nuance. C'est la première fois que les Européens obtiennent une place formelle. Mais une équipe à cinq capitales et trois institutions parle difficilement d'une seule voix. Et sur le fond, rien ne bouge : Vladimir Poutine maintient ses exigences territoriales et refuse toute force étrangère de maintien de la paix en Ukraine.",
+    "Sur le terrain, la guerre continue. La Russie affirme avoir intercepté plus de cinq cents drones ukrainiens dans la nuit de samedi à dimanche. Kiev vise l'industrie pétrolière et militaire russe, Moscou le réseau électrique ukrainien, à l'approche de l'hiver.",
+    "À surveiller : la date de l'échange de prisonniers, la prochaine réunion technique, et le Conseil des ministres des Affaires étrangères de l'Union, aujourd'hui à Bruxelles, qui doit préparer l'hiver ukrainien et de nouvelles sanctions."
+   ]
+  },
+  {
+   "title": "À Shenzhen, Trump, Xi et Poutine autour d'une même table",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Quatrième sujet, dans le prolongement : le sommet de la Coopération économique Asie-Pacifique, l'APEC, mercredi et jeudi à Shenzhen, en Chine.",
+    "Les faits. La Maison-Blanche a confirmé que Donald Trump y rencontrerait Xi Jinping et Vladimir Poutine, dans une première rencontre à trois, dont le jour exact n'est pas fixé. Un tête-à-tête entre les présidents américain et chinois est aussi prévu. Donald Trump part aujourd'hui pour l'Asie, avec une étape aux Philippines.",
+    "Au menu, trois dossiers. Le désarmement nucléaire d'abord : le traité New START, dernier accord de limitation des arsenaux entre Washington et Moscou, a expiré en février. Donald Trump veut un traité nouveau et amélioré, qui inclurait Pékin. L'Iran ensuite, avec la guerre lancée fin février. Et le commerce sino-américain, en particulier les puces d'intelligence artificielle.",
+    "Les positions. Pékin juge irréaliste de rejoindre des négociations de désarmement à trois : son arsenal reste bien plus petit que ceux des deux autres. Côté américain, un responsable assure que l'Ukraine ne sera pas abordée et qu'aucun accord n'est attendu. Côté russe, le Kremlin parle d'une rencontre extrêmement importante, et un vice-président de la Douma évoque un nouveau Yalta, en référence à la conférence de 1945 où les vainqueurs s'étaient partagé l'Europe.",
+    "La nuance. Pour Vladimir Poutine, la photo est déjà une victoire : elle le replace au rang des grandes puissances, malgré l'isolement occidental. Donald Trump, lui, arrive affaibli par la défaite de son camp aux élections de mi-mandat. Et Xi Jinping joue à domicile, en arbitre.",
+    "Pour l'Europe, l'image est inconfortable. Au moment même où elle obtient une place dans les discussions sur l'Ukraine, les trois puissances nucléaires majeures se retrouvent sans elle pour parler de sécurité mondiale.",
+    "À surveiller : une éventuelle déclaration sur la maîtrise des armements, les annonces commerciales sino-américaines, et la réaction des Européens."
+   ]
+  },
+  {
+   "title": "COP31 : la dernière semaine d'Antalya",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cinquième sujet : le climat. La conférence des Nations unies sur le climat, la COP31, entre dans sa dernière semaine à Antalya, en Turquie. Clôture prévue vendredi.",
+    "Les faits. La présidence est inédite : la Turquie gère l'accueil et la logistique, l'Australie préside les négociations. Les ministres sont arrivés ce week-end, et un premier projet de décision finale est attendu en début de semaine. Ce projet ferait référence à la feuille de route brésilienne sur la sortie des énergies fossiles, héritée de la COP de Belém l'an dernier.",
+    "Trois dossiers dominent. L'électrification, d'abord : une promesse volontaire vise trente-cinq pour cent d'électricité dans la consommation finale d'énergie en 2035, contre vingt-trois pour cent aujourd'hui, mais elle ne compte qu'une quinzaine de pays signataires. L'adaptation, ensuite : le groupe africain demande au moins cent vingt milliards de dollars par an d'ici 2035. La transition juste, enfin, avec un mécanisme dont le texte ne prévoit pas de financement explicite.",
+    "Les positions. Le commissaire européen au climat, Wopke Hoekstra, se dit prêt à accepter une électrification qui laisse une place au gaz, voire au charbon, ce que dénoncent les ONG. Le Réseau action climat reproche à l'Union de n'avoir pris aucun nouvel engagement financier. Plusieurs pays proposent par ailleurs d'espacer les conférences, en les organisant tous les deux ans.",
+    "La nuance. Une COP de mise en œuvre produit rarement de grand titre. L'enjeu réel est de savoir si les engagements pris à Dubaï, en 2023, sur la transition hors des énergies fossiles, deviennent des objectifs chiffrés par secteur. Les grands pays émergents y sont réticents. Et l'absence de plusieurs dirigeants européens au sommet d'ouverture a été remarquée.",
+    "L'impact. Pour la France et l'Europe, la question est budgétaire autant que climatique : chaque milliard promis pour l'adaptation pèse sur des finances publiques déjà tendues.",
+    "À surveiller : la version finale du texte, le chiffre retenu pour l'adaptation, et un éventuel report de la clôture au week-end, fréquent dans ces conférences."
+   ]
+  },
+  {
+   "title": "Nvidia ébranlée à la veille de ses résultats",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier sujet : la tech, avec la crise qui frappe Nvidia, l'entreprise dont les puces font tourner l'essentiel de l'intelligence artificielle mondiale.",
+    "Les faits. Son fondateur, Jensen Huang, a démissionné de la direction générale la semaine dernière et quitte aussi le conseil d'administration. La directrice financière, Colette Kress, assure l'intérim. Le titre a perdu environ onze pour cent en cinq séances, après une chute de plus de quatorze pour cent en cours de séance jeudi.",
+    "Le contexte. Fin octobre, le New York Times a révélé une relation proche entre Jensen Huang et la dirigeante d'une entreprise que des responsables américains soupçonnent de travailler pour le renseignement chinois. Ce soupçon n'est pas établi. Jensen Huang a reconnu une faute personnelle, et le conseil a lancé une enquête indépendante. Au Congrès, des élus des deux partis demandent des comptes. Le site TechCrunch rapporte par ailleurs que des puces Nvidia frappées d'embargo seraient derrière les modèles chinois les plus puissants.",
+    "Pourquoi c'est majeur. Nvidia est devenue le baromètre de toute la chaîne de l'intelligence artificielle : les investissements dans les centres de données, les valorisations de la tech, et une part importante des marchés américains. Une crise de gouvernance chez Nvidia, c'est une question posée à tout le secteur.",
+    "La nuance. L'activité, elle, n'est pas en cause à ce stade. La demande de puces reste très forte. La question porte sur la gouvernance, la confiance et la sécurité nationale, dans un contexte de rivalité technologique entre Washington et Pékin.",
+    "L'impact. Il dépasse l'entreprise. Le dossier va peser sur la discussion entre Donald Trump et Xi Jinping à Shenzhen, où les puces seront au menu. Et il intervient la semaine où le secteur attend une introduction en Bourse géante, celle de la société d'intelligence artificielle Anthropic, annoncée par la presse pour jeudi.",
+    "À surveiller : les résultats trimestriels de Nvidia, publiés demain soir vers vingt-deux heures, heure de Paris. Ils diront si la crise de gouvernance a commencé à toucher les commandes."
+   ]
+  },
+  {
+   "title": "La semaine qui vient",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Place à la semaine qui vient.",
+    "Aujourd'hui, le Sénat poursuit le budget de la Sécu, avec les dépenses. À l'Assemblée, les députés examinent l'épargne salariale, puis le projet de loi sur la relance et la décentralisation du logement. À seize heures, la commission des lois, dotée des pouvoirs d'enquête sur les événements du 17 octobre, auditionne le maire de Paris, Emmanuel Grégoire. À Bruxelles, les ministres des Affaires étrangères de l'Union parlent Ukraine, sanctions et Syrie ; Jean-Noël Barrot doit y réclamer des mesures contre l'Iran, accusé par Paris de cyberattaques.",
+    "Demain, mardi, journée de grève et de manifestations. À l'Assemblée, questions au gouvernement, puis vote solennel sur le projet de loi relatif à la résilience des infrastructures critiques et à la cybersécurité. Le soir, le garde des Sceaux, Gérald Darmanin, est entendu à son tour sur le 17 octobre. Et Nvidia publie ses résultats.",
+    "Mercredi, temps fort au Sénat : vote solennel sur le budget de la Sécu, puis examen du budget rectificatif de fin d'année. Mercredi et jeudi, le sommet de l'APEC à Shenzhen.",
+    "Jeudi, l'Assemblée consacre sa journée aux textes du groupe socialiste. Le Sénat examine la proposition de loi sur la présomption de légitime défense des forces de l'ordre, très contestée par les manifestants de samedi. Les ministres européens des Affaires européennes se réunissent, et la cotation d'Anthropic est attendue à New York.",
+    "Vendredi, le Sénat entame le budget de l'État, et la COP31 doit se clore à Antalya.",
+    "Samedi enfin, le président du Conseil européen, António Costa, présentera sa proposition chiffrée pour le budget européen 2028-2034, avant un Conseil européen extraordinaire les 26 et 27 novembre. Fin novembre, autre échéance à suivre : l'agence Standard and Poor's pourrait revoir la note de la France."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, une référence à maîtriser cette semaine : l'article 47-1 de la Constitution. Si le Parlement ne s'est pas prononcé sur le budget de la Sécurité sociale dans un délai de cinquante jours, le gouvernement peut le mettre en œuvre par ordonnance. L'article 47 prévoit la même chose pour le budget de l'État, après soixante-dix jours. Ces procédures n'ont jamais servi. Elles disent quelque chose de profond sur la Cinquième République : la continuité de l'État prime sur l'accord du Parlement. Une bonne piste de réflexion : le consentement à l'impôt, principe de 1789, est-il compatible avec un budget adopté sans vote ?",
+    "Ce soir, trois sujets au choix : la vie chère, et ce que peut vraiment l'État pour le pouvoir d'achat ; Eramet, et le retour de l'État actionnaire dans les métaux critiques ; ou les primaires, et leur place dans la vie politique de la Cinquième République.",
+    "C'est la fin de cette édition spéciale. Merci de votre écoute, très bonne semaine, et bonnes révisions."
+   ]
+  }
+ ]
+}

@@ -53,5 +53,11 @@ jobs:
           git add docs
           git diff --cached --quiet && exit 0
           git commit -m "Épisode $(date -u +%F)"
-          git pull --rebase
-          git push
+          # Si une fabrication précédente a publié entre-temps (incident du 17 novembre),
+          # on garde la version qui vient d'être fabriquée.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1

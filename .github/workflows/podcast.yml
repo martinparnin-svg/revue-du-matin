@@ -29,13 +29,19 @@ jobs:
           python-version: "3.12"
 
       - name: Installer les outils
+        id: apt
+        continue-on-error: true
         run: |
-          # apt peut rester bloqué (incident du 6 novembre) : délai de 4 min par essai, 3 essais
-          for i in 1 2 3; do
-            timeout 240 sudo apt-get update -qq && timeout 240 sudo apt-get install -y -qq ffmpeg && break
-            echo "apt bloqué ou en échec (essai $i), nouvel essai"; sleep 10
+          # apt peut rester bloqué (incidents des 6 et 19 novembre) : délai de 3 min par essai, 2 essais
+          for i in 1 2; do
+            timeout 180 sudo apt-get update -qq && timeout 180 sudo apt-get install -y -qq ffmpeg && break
+            echo "apt bloqué ou en échec (essai $i)"; sleep 5
           done
-          command -v ffmpeg
+          command -v ffmpeg && command -v ffprobe
+
+      - name: Installer ffmpeg (secours, binaires statiques)
+        if: steps.apt.outcome == 'failure'
+        uses: FedericoCarboni/setup-ffmpeg@v3
           pip install -q requests pyyaml
 
       - name: Synthèse vocale et assemblage

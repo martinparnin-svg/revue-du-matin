@@ -42,7 +42,9 @@ jobs:
       - name: Installer ffmpeg (secours, binaires statiques)
         if: steps.apt.outcome == 'failure'
         uses: FedericoCarboni/setup-ffmpeg@v3
-          pip install -q requests pyyaml
+
+      - name: Installer les modules Python
+        run: pip install -q requests pyyaml
 
       - name: Synthèse vocale et assemblage
         env:

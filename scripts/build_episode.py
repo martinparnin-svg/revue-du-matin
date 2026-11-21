@@ -5,16 +5,22 @@ Format attendu du JSON :
   "date": "2026-10-14",
   "title": "Revue du matin · 14 octobre 2026",
   "summary": "Les sujets du jour en une ou deux phrases.",
-  "links": {"note": "https://...", "page": "https://..."},
-  "style": "consigne de ton pour la voix (facultatif, remplace celle de config.yml)",
+  "links": {"note": "https://...", "page": "https://..."},   (facultatif)
+  "style": "consigne de ton pour la voix (facultatif, remplace celle de config.yml ; Gemini uniquement)",
+  "jingles": true,   (facultatif, false = ni générique ni transitions, pour une lecture ou une création courte)
   "chapters": [{"title": "…", "voice": "Charon (facultatif)", "paragraphs": ["…", "…"]},
                {"title": "Le débat", "segments": [{"voice": "Algieba", "text": "…"}, {"voice": "Kore", "text": "…"}]}]
 }
 Épisodes : episodes/AAAA-MM-JJ.json (le matin) et episodes/AAAA-MM-JJ-soir.json (l'émission du soir, dialoguée).
 Le MP3 porte le même nom que le script : docs/audio/AAAA-MM-JJ.mp3, docs/audio/AAAA-MM-JJ-flash.mp3.
 
+Créations hors flux : creations/<nom>.json (même format ; "date" facultative, sert à trier la liste),
+publiées dans docs/creations/<nom>.mp3, sans entrer dans le flux podcast. Modèles d'écriture : formats/.
+
 Usage : python scripts/build_episode.py            (épisodes pas encore fabriqués)
         python scripts/build_episode.py --test FICHIER.json  (essai hors flux, publié dans docs/tests/)
+        python scripts/build_episode.py --creations          (créations pas encore fabriquées)
+        python scripts/build_episode.py --creation NOM       (refabrique creations/NOM.json)
         python scripts/build_episode.py 2026-10-14 (refabrique cet épisode)
 """
 import glob
@@ -34,6 +40,8 @@ from feed import write_feed  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUDIO_DIR = os.path.join(ROOT, "docs", "audio")
+CREATIONS_SRC = os.path.join(ROOT, "creations")
+CREATIONS_OUT = os.path.join(ROOT, "docs", "creations")
 MAX_CHARS = 3200  # taille maximale d'un appel de synthèse (≈ 3 à 4 min d'audio)
 
 
@@ -83,16 +91,19 @@ def build(ep_path, cfg, out_mp3=None):
 
     a = cfg["audio"]
     j = os.path.join(ROOT, "assets")
-    for name in ("intro", "transition", "outro"):
-        to_wav(os.path.join(j, f"jingle_{name}.mp3"), os.path.join(tmp, f"j_{name}.wav"))
+    jingles = ep.get("jingles", True)
+    if jingles:
+        for name in ("intro", "transition", "outro"):
+            to_wav(os.path.join(j, f"jingle_{name}.mp3"), os.path.join(tmp, f"j_{name}.wav"))
     silence(a["pause_between_paragraphs_ms"], os.path.join(tmp, "gap.wav"))
     silence(900, os.path.join(tmp, "gap_long.wav"))
 
-    add(os.path.join(tmp, "j_intro.wav"))
+    if jingles:
+        add(os.path.join(tmp, "j_intro.wav"))
     n = 0
     for ci, ch in enumerate(ep["chapters"]):
         if ci > 0:
-            add(os.path.join(tmp, "j_transition.wav"))
+            add(os.path.join(tmp, "j_transition.wav") if jingles else os.path.join(tmp, "gap_long.wav"))
         # Un chapitre est soit lu d'une seule voix ("paragraphs"), soit dialogué ("segments" :
         # répliques successives, chacune avec sa voix, sans jingle entre elles).
         # Un segment {"pause": 6} insère un silence de 6 secondes (temps de réflexion laissé à l'auditeur).
@@ -112,7 +123,9 @@ def build(ep_path, cfg, out_mp3=None):
                 silence(int(paras * 1000), pw)
                 add(pw)
                 continue
-            voice = (seg_voice or "").strip().capitalize() or None
+            # Le nom est gardé tel quel : les identifiants ElevenLabs sont sensibles à la casse.
+            # Chaque service normalise lui-même (voir scripts/tts.py).
+            voice = (seg_voice or "").strip() or None
             # un segment peut porter son propre ton (ex. passage en anglais lu avec un accent natif)
             cfg_seg = cfg
             if seg_style:
@@ -135,7 +148,8 @@ def build(ep_path, cfg, out_mp3=None):
                 add(wav)
                 add(os.path.join(tmp, "gap.wav"))
     add(os.path.join(tmp, "gap_long.wav"))
-    add(os.path.join(tmp, "j_outro.wav"))
+    if jingles:
+        add(os.path.join(tmp, "j_outro.wav"))
 
     lst = os.path.join(tmp, "list.txt")
     with open(lst, "w") as f:
@@ -150,10 +164,64 @@ def build(ep_path, cfg, out_mp3=None):
     print(f"Épisode prêt : {out_mp3}")
 
 
+def write_creations_index(cfg):
+    """Page docs/creations/index.html : liste des créations publiées, la plus récente en haut."""
+    from html import escape as h
+    os.makedirs(CREATIONS_OUT, exist_ok=True)
+    items = []
+    for mp3 in glob.glob(os.path.join(CREATIONS_OUT, "*.mp3")):
+        stem = os.path.basename(mp3)[:-4]
+        src = os.path.join(CREATIONS_SRC, f"{stem}.json")
+        meta = json.load(open(src, encoding="utf-8")) if os.path.exists(src) else {}
+        items.append((meta.get("date", ""), stem, meta))
+    # Ordre : champ "date" facultatif (AAAA-MM-JJ) du plus récent au plus ancien, puis le nom.
+    # (Les dates des fichiers ne servent à rien : la copie du dépôt les remet toutes à zéro.)
+    items.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    rows = []
+    for _, stem, meta in items:
+        rows.append(f'<li><a href="{h(stem)}.mp3">{h(meta.get("title", stem))}</a>'
+                    f'<br><small>{h(meta.get("summary", ""))}</small></li>')
+    page = ("<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width\">"
+            f"<title>Créations · {h(cfg['show']['title'])}</title>"
+            "<body style=\"font-family:sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem\">"
+            "<h1>Créations vocales</h1><ul>" + "".join(rows) + "</ul></body>")
+    with open(os.path.join(CREATIONS_OUT, "index.html"), "w", encoding="utf-8") as f:
+        f.write(page)
+
+
+def build_creations(cfg, names=None):
+    """Fabrique les créations hors flux : toutes celles sans MP3, ou celles nommées."""
+    srcs = sorted(glob.glob(os.path.join(CREATIONS_SRC, "*.json")))
+    if names:
+        wanted = {os.path.basename(n)[:-5] if n.endswith(".json") else os.path.basename(n) for n in names}
+        todo = [s for s in srcs if os.path.basename(s)[:-5] in wanted]
+        missing = wanted - {os.path.basename(s)[:-5] for s in todo}
+        for m in sorted(missing):
+            print(f"::error title=Création introuvable::creations/{m}.json", flush=True)
+    else:
+        todo = [s for s in srcs if not os.path.exists(
+            os.path.join(CREATIONS_OUT, os.path.basename(s).replace(".json", ".mp3")))]
+    failed = bool(names and missing)
+    for src in todo:
+        stem = os.path.basename(src)[:-5]
+        print(f"Fabrication de la création {stem}")
+        try:
+            build(src, cfg, os.path.join(CREATIONS_OUT, f"{stem}.mp3"))
+        except Exception as exc:
+            print(f"::error title=Échec de {stem}::{exc}", flush=True)
+            failed = True
+    write_creations_index(cfg)
+    if failed:
+        sys.exit(1)
+
+
 def main():
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config.yml"), encoding="utf-8"))
     global MAX_CHARS
     MAX_CHARS = cfg["voice"].get(cfg["voice"]["provider"], {}).get("max_chars", MAX_CHARS)
+    if len(sys.argv) > 1 and sys.argv[1] in ("--creations", "--creation"):
+        build_creations(cfg, sys.argv[2:] if sys.argv[1] == "--creation" else None)
+        return
     if len(sys.argv) > 2 and sys.argv[1] == "--test":
         src = sys.argv[2] if os.path.isabs(sys.argv[2]) else os.path.join(ROOT, sys.argv[2])
         out = os.path.join(ROOT, "docs", "tests", os.path.basename(src).replace(".json", ".mp3"))

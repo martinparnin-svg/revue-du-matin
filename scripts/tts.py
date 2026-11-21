@@ -2,7 +2,7 @@
 
 Chaque service expose la même fonction : synthesize(text, cfg, out_path) -> écrit un fichier audio.
 Pour changer de voix, modifier `voice.provider` dans config.yml et ajouter la clé
-correspondante dans les secrets GitHub (GEMINI_API_KEY, ELEVENLABS_API_KEY ou GOOGLE_TTS_API_KEY).
+correspondante dans les secrets GitHub (MISTRAL_API_KEY, GEMINI_API_KEY, ELEVENLABS_API_KEY ou GOOGLE_TTS_API_KEY).
 """
 import base64
 import json
@@ -63,7 +63,8 @@ def gemini(text, cfg, out_path, voice=None):
         "model": g["model"],
         "input": [{"type": "user_input", "content": [content]}],
         "response_format": {"type": "audio"},
-        "generation_config": {"speech_config": [{"voice": voice or g["voice"]}]},
+        # Les noms de voix Gemini commencent par une majuscule (Algieba, Kore…)
+        "generation_config": {"speech_config": [{"voice": voice.capitalize() if voice else g["voice"]}]},
     }
     r = _post_with_retry(
         "https://generativelanguage.googleapis.com/v1beta/interactions",
@@ -131,8 +132,8 @@ def mistral(text, cfg, out_path, voice=None):
     traduit en voix Mistral par la table `voice.mistral.voices` de config.yml."""
     import mistral_api as m
     c = cfg["voice"]["mistral"]
-    table = c.get("voices", {})
-    name = table.get(voice or "", table.get("default"))
+    table = {k.lower(): v for k, v in c.get("voices", {}).items()}  # « lea », « Lea » et « LEA » : même voix
+    name = table.get((voice or "").lower(), table.get("default"))
     vid = c.get("ids", {}).get(name, name)
     last = None
     for attempt in range(5):

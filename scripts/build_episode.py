@@ -14,8 +14,8 @@ Format attendu du JSON :
 Épisodes : episodes/AAAA-MM-JJ.json (le matin) et episodes/AAAA-MM-JJ-soir.json (l'émission du soir, dialoguée).
 Le MP3 porte le même nom que le script : docs/audio/AAAA-MM-JJ.mp3, docs/audio/AAAA-MM-JJ-flash.mp3.
 
-Créations hors flux : creations/<nom>.json (même format), publiées dans docs/creations/<nom>.mp3,
-sans entrer dans le flux podcast. Les modèles d'écriture sont dans formats/.
+Créations hors flux : creations/<nom>.json (même format ; "date" facultative, sert à trier la liste),
+publiées dans docs/creations/<nom>.mp3, sans entrer dans le flux podcast. Modèles d'écriture : formats/.
 
 Usage : python scripts/build_episode.py            (épisodes pas encore fabriqués)
         python scripts/build_episode.py --test FICHIER.json  (essai hors flux, publié dans docs/tests/)
@@ -168,11 +168,17 @@ def write_creations_index(cfg):
     """Page docs/creations/index.html : liste des créations publiées, la plus récente en haut."""
     from html import escape as h
     os.makedirs(CREATIONS_OUT, exist_ok=True)
-    rows = []
-    for mp3 in sorted(glob.glob(os.path.join(CREATIONS_OUT, "*.mp3")), key=os.path.getmtime, reverse=True):
+    items = []
+    for mp3 in glob.glob(os.path.join(CREATIONS_OUT, "*.mp3")):
         stem = os.path.basename(mp3)[:-4]
         src = os.path.join(CREATIONS_SRC, f"{stem}.json")
         meta = json.load(open(src, encoding="utf-8")) if os.path.exists(src) else {}
+        items.append((meta.get("date", ""), stem, meta))
+    # Ordre : champ "date" facultatif (AAAA-MM-JJ) du plus récent au plus ancien, puis le nom.
+    # (Les dates des fichiers ne servent à rien : la copie du dépôt les remet toutes à zéro.)
+    items.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    rows = []
+    for _, stem, meta in items:
         rows.append(f'<li><a href="{h(stem)}.mp3">{h(meta.get("title", stem))}</a>'
                     f'<br><small>{h(meta.get("summary", ""))}</small></li>')
     page = ("<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width\">"

@@ -5,6 +5,9 @@ Hermes relit ce fichier avant chaque création (voir `skills/studio-vocal/SKILL.
 
 ## Leçons
 
+- 2026-11-20 · L'émission du soir n'a pas été fabriquée : Mistral a répondu « HTTP 402 You need a
+  subscription » (clé sans abonnement). La clé du secret `MISTRAL_API_KEY` doit venir de
+  l'organisation Mistral payante ; le mode gratuit ne donne pas accès à la synthèse vocale.
 - 2026-11-21 · Les noms de voix sont reconnus quelle que soit la casse (« lea » = « Lea ») ; les
   identifiants ElevenLabs ne sont plus modifiés.
 - 2026-11-16 · Passage à Voxtral (Mistral) : Marie anime le matin et le soir, Léa est l'experte du

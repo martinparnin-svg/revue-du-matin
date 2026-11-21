@@ -65,6 +65,9 @@ l'utilisateur le demande.
 - Un chapitre à une voix au-delà de 3 000 caractères : le découper en deux chapitres.
 - Une voix absente de `config.yml` est lue avec la voix par défaut, sans erreur visible.
 - `style` ne sert qu'avec Gemini ; il est ignoré avec Voxtral.
+- « HTTP 402 You need a subscription » dans le journal du run : la clé `MISTRAL_API_KEY` du dépôt
+  n'a pas accès à la synthèse vocale (organisation sans abonnement). Ne relance pas : préviens
+  l'utilisateur, qui doit remplacer le secret par une clé de son organisation Mistral payante.
 - Le flux et les créations sont publics : jamais de données personnelles.
 
 ## S'améliorer

@@ -1,0 +1,81 @@
+name: Fabriquer une création
+
+# Dès qu'un script est déposé dans creations/<nom>.json, il est lu et publié dans
+# docs/creations/<nom>.mp3, hors du flux podcast (liste : docs/creations/index.html).
+# Les créations sont publiques sur GitHub Pages : jamais de contenu personnel.
+
+on:
+  push:
+    branches: [main]
+    paths: ["creations/**.json"]
+  workflow_dispatch:
+    inputs:
+      nom:
+        description: "Refabriquer une création précise (nom sans .json), vide = créations manquantes"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: podcast
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les outils
+        id: apt
+        continue-on-error: true
+        run: |
+          for i in 1 2; do
+            timeout 180 sudo apt-get update -qq && timeout 180 sudo apt-get install -y -qq ffmpeg && break
+            echo "apt bloqué ou en échec (essai $i)"; sleep 5
+          done
+          command -v ffmpeg && command -v ffprobe
+
+      - name: Installer ffmpeg (secours, binaires statiques)
+        if: steps.apt.outcome == 'failure'
+        uses: FedericoCarboni/setup-ffmpeg@v3
+
+      - name: Installer les modules Python
+        run: pip install -q requests pyyaml
+
+      - name: Vérifier les scripts
+        run: |
+          shopt -s nullglob
+          fichiers=(creations/*.json)
+          [ ${#fichiers[@]} -eq 0 ] || python scripts/valider.py "${fichiers[@]}"
+
+      - name: Synthèse vocale et assemblage
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          NOM: ${{ github.event.inputs.nom }}
+        run: |
+          if [ -n "$NOM" ]; then python scripts/build_episode.py --creation "$NOM"
+          else python scripts/build_episode.py --creations; fi
+
+      - name: Publier
+        run: |
+          git config user.name "revue-du-matin-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/creations
+          git diff --cached --quiet && exit 0
+          git commit -m "Création $(date -u +%F)"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1

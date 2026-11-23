@@ -10,6 +10,16 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <item>
+      <title>Revue du matin · Édition spéciale du lundi 23 novembre 2026</title>
+      <description>Au programme : La règle d'or revient par Versailles ; Budget 2027 : la semaine décisive du Sénat ; Vie chère : le mouvement s'essouffle sans s'éteindre ; COP31 : Antalya se sépare sans accord ; Missiles russes en Pologne : l'OTAN se réunit ; Ormuz et Bahreïn : le Golfe se rallume.
+
+Note de veille et sources : https://claude.ai/artifact/EXBw3KpEuC7Bubg7N6Kvvw</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-11-23.mp3" length="15112189" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 05:30:00 +0000</pubDate>
+      <itunes:duration>20:59</itunes:duration>
+    </item>
+    <item>
       <title>Revue du matin · 20 novembre 2026</title>
       <description>Au programme : Trois lois définitives en une journée ; Le budget de l'État arrive au Sénat ; Rohingyas : la justice internationale parle de génocide ; Shenzhen : une déclaration à trois, pas de paix.
 
@@ -18,6 +28,14 @@ Note de veille et sources : https://claude.ai/artifact/9hiVfxJdgFbNjRfRm7AEyz</d
       <guid isPermaLink="false">revue-du-matin-2026-11-20</guid>
       <pubDate>Fri, 20 Nov 2026 05:30:00 +0000</pubDate>
       <itunes:duration>13:28</itunes:duration>
+    </item>
+    <item>
+      <title>Le soir · Royaume-Uni et Union européenne · 20 novembre</title>
+      <description>Dix ans après le référendum, le sommet de Bruxelles marque-t-il le début d'un retour du Royaume-Uni dans l'Europe, ou l'invention d'une nouvelle façon d'en rester dehors ?</description>
+      <enclosure url="https://martinparnin-svg.github.io/revue-du-matin/audio/2026-11-20-soir.mp3" length="12792198" type="audio/mpeg"/>
+      <guid isPermaLink="false">revue-du-matin-2026-11-20-soir</guid>
+      <pubDate>Fri, 20 Nov 2026 15:30:00 +0000</pubDate>
+      <itunes:duration>17:45</itunes:duration>
     </item>
     <item>
       <title>Revue du matin · 19 novembre 2026</title>

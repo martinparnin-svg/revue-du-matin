@@ -1,0 +1,144 @@
+{
+ "date": "2026-11-23",
+ "title": "Revue du matin · Édition spéciale du lundi 23 novembre 2026",
+ "summary": "Au programme : La règle d'or revient par Versailles ; Budget 2027 : la semaine décisive du Sénat ; Vie chère : le mouvement s'essouffle sans s'éteindre ; COP31 : Antalya se sépare sans accord ; Missiles russes en Pologne : l'OTAN se réunit ; Ormuz et Bahreïn : le Golfe se rallume.",
+ "links": {
+  "note": "https://claude.ai/artifact/EXBw3KpEuC7Bubg7N6Kvvw",
+  "page": "https://claude.ai/artifact/Mk3WyWzwKimwLAp2tWN1QY"
+ },
+ "chapters": [
+  {
+   "title": "Ouverture",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Bonjour, et bienvenue dans cette édition spéciale du lundi. Nous sommes le lundi 23 novembre 2026, et je suis ravie de vous retrouver pour une vingtaine de minutes d'actualité.",
+    "Au programme de nos sujets approfondis : la règle d'or budgétaire qu'Emmanuel Macron voudrait inscrire dans la Constitution. Le budget 2027, qui entre dans une semaine décisive au Sénat. Le mouvement contre la vie chère, qui s'essouffle au sixième samedi. L'échec de la COP31 à Antalya. Les missiles russes tombés en Pologne. Et le détroit d'Ormuz, de nouveau sous le feu. C'est parti."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Commençons par le tour de l'actualité du week-end.",
+    "À gauche, François Ruffin jette l'éponge. Samedi, le député de la Somme a retiré sa candidature à la présidentielle, faute d'avoir obtenu une grande primaire de toute la gauche. Crédité de un à trois pour cent dans les sondages, il ne soutient aucun des candidats encore en lice. La dispersion à gauche recule un peu, sans disparaître.",
+    "Toujours en politique, l'affaire des fuites au profit du Rassemblement national prend un tour nouveau. Le préfet de la région Centre-Val de Loire, Hugues Moutouh, ancien secrétaire général du ministère de l'Intérieur, a demandé samedi à être relevé de ses fonctions. Il dénonce une campagne de déstabilisation. La justice enquête depuis juillet pour violation du secret professionnel et du secret de l'enquête. Selon Le Monde, la copie d'un courriel interne au ministère a été retrouvée chez Frédéric Chatillon, un proche de Marine Le Pen. Celle-ci dément tout échange d'informations confidentielles. Aucune mise en examen à ce stade.",
+    "Côté météo, un week-end sous l'eau et sous le vent. Dans le Pas-de-Calais, la Canche est restée en vigilance orange crues, et près de huit cents personnes ont été évacuées depuis jeudi. Dimanche, cinq départements étaient en orange, avec des rafales attendues jusqu'à cent soixante-dix kilomètres-heure sur le cap Corse. L'épisode doit s'achever ce matin. Sur place, un maire met en cause la disparition des haies et certaines pratiques agricoles.",
+    "En économie, c'est aujourd'hui Choose France, édition France, à Paris. Le gouvernement met en avant deux cent soixante-treize projets industriels, dont quatre-vingt-un inédits, pour quarante-deux milliards et demi d'euros d'investissements recensés, dont près de quinze milliards de nouveaux. Parmi eux, neuf milliards et demi pour le groupe ADP, ou une usine de carburant d'aviation durable à un milliard six cents millions dans les Pyrénées-Atlantiques. Un bémol : selon l'Insee, l'investissement des entreprises recule depuis quatre trimestres. Emmanuel Macron, lui, sera chez Airbus à Toulouse."
+   ]
+  },
+  {
+   "title": "Le tour de l'actu",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cap à l'international.",
+    "En Israël, l'impasse continue après les législatives du 27 octobre. Les discussions entre le parti de Gadi Eisenkot et celui de Benyamin Netanyahou ont échoué ce week-end. Eisenkot a jusqu'au 6 décembre pour former un gouvernement, un délai prolongeable de deux semaines, et refuse de servir sous Netanyahou. Le rôle des partis arabes, qui pèsent dix-neuf sièges, reste le point de blocage.",
+    "Au Liban, le pays a fêté dimanche le quatre-vingt-troisième anniversaire de son indépendance. Le président Joseph Aoun a réclamé le retrait israélien du Sud et appelé à remettre à l'État toutes les armes qui lui échappent, sans fixer de calendrier. Samedi soir encore, des frappes israéliennes étaient signalées dans le Sud.",
+    "Les Rohingyas, maintenant. La France va demander une réunion du Conseil de sécurité sur la Birmanie. C'est la suite de l'arrêt rendu le 19 novembre par la Cour internationale de justice dans l'affaire qui oppose la Gambie à la Birmanie, une procédure ouverte au titre de la convention sur le génocide.",
+    "Chez nos voisins belges, journée de grève nationale aujourd'hui, en front commun syndical. L'aéroport de Bruxelles prévoit d'annuler la majorité de ses vols, une partie des contrôleurs aériens étant en grève.",
+    "En Irlande, des manifestants ont défendu à Dublin le triple verrou, qui conditionne l'envoi de soldats à l'étranger à un mandat de l'ONU. Le gouvernement veut l'assouplir. C'est la neutralité irlandaise qui est en jeu.",
+    "En Corée du Sud, le ministre de l'Éducation a démissionné après un scandale de triche à l'intelligence artificielle, juste avant le grand examen d'entrée à l'université. Une affaire qui interroge tous les systèmes de concours.",
+    "En Colombie, dix ans après l'accord de paix avec les FARC, le bilan est amer. Les violences reprennent, et le nouveau gouvernement d'extrême droite pourrait freiner la mise en œuvre de l'accord.",
+    "Enfin, la défiance monte contre les centres de données, de l'Inde au Chili, de l'Irlande au Japon. En cause : l'eau, l'électricité et l'opacité des projets. L'essor de l'intelligence artificielle a désormais un coût politique local."
+   ]
+  },
+  {
+   "title": "La règle d'or revient par Versailles",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Premier sujet approfondi : la règle d'or budgétaire. Selon La Tribune Dimanche, Emmanuel Macron réfléchit à convoquer le Parlement en Congrès à Versailles, dès janvier, pour l'inscrire dans la Constitution. Selon Reuters, ce serait au lendemain de l'adoption du budget. L'Élysée ne commente pas. Le Premier ministre, Sébastien Lecornu, serait chargé de sonder les groupes.",
+    "De quoi parle-t-on ? La base serait le texte de 2011. Sous Nicolas Sarkozy, le gouvernement Fillon avait fait adopter dans les mêmes termes, par les deux assemblées, une révision créant des trajectoires pluriannuelles de retour à l'équilibre des finances publiques. Les budgets de l'État et de la Sécurité sociale auraient dû s'y conformer. Le projet n'est jamais allé au bout : le Congrès était perdu d'avance face au refus du Parti socialiste, et un référendum trop risqué avant la présidentielle.",
+    "La procédure, justement. Pour réviser la Constitution par la voie parlementaire, il faut un texte voté en termes identiques par l'Assemblée et le Sénat, puis une majorité des trois cinquièmes des suffrages exprimés au Congrès. Selon La Tribune Dimanche, cette majorité existerait en théorie, avec le Rassemblement national, la droite et le centre.",
+    "Les positions. Le RN revendique la paternité de l'idée. Jordan Bardella salue l'initiative et promet le vote de son parti si la règle interdit tout budget aggravant la dette. Marine Le Pen juge le texte de 2011 moins bien rédigé et laisse entendre qu'il faudrait l'amender, ce qui imposerait une nouvelle navette. Bruno Retailleau, pour Les Républicains, y est favorable, tout en ironisant sur un président qui attend son dixième budget très déficitaire. Édouard Philippe et Gabriel Attal envisagent eux aussi une règle d'or. À gauche, Éric Coquerel, président insoumis de la commission des finances, dénonce une réforme qui limiterait drastiquement les marges des prochains gouvernements. Clément Beaune, haut-commissaire au Plan, rappelle que le texte de 2011 n'est pas un plafond de déficit, mais une obligation de budgets pluriannuels.",
+    "La nuance. Une règle d'or ne réduit pas le déficit par elle-même. Tout dépend de sa rédaction, de son contrôle par le Conseil constitutionnel et des exceptions prévues. L'Allemagne, souvent citée en modèle, a d'ailleurs assoupli son frein à l'endettement en mars 2025 pour financer sa défense et ses investissements. Et la France est déjà tenue par les règles budgétaires européennes.",
+    "À surveiller : le choix du texte, celui de 2011 ou un nouveau, l'attitude des socialistes, et le calendrier, à quelques mois de la fin du quinquennat. Une source proche du dossier y voit une forme d'assurance vie face aux marchés, alors que les taux d'intérêt remontent."
+   ]
+  },
+  {
+   "title": "Budget 2027 : la semaine décisive du Sénat",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Deuxième sujet, le budget 2027. L'Assemblée nationale a rejeté le projet de loi de finances le 4 novembre. Les sénateurs examinent donc, depuis vendredi, le texte initial du gouvernement. Premier vote ce jour-là : la question préalable du groupe communiste, qui visait à rejeter le texte d'emblée, a été écartée par deux cent quarante-neuf voix contre dix-neuf. Les Républicains et les centristes ont voté contre, socialistes et écologistes se sont abstenus.",
+    "Les chiffres. Le gouvernement vise un déficit public de 5 % du produit intérieur brut en 2027, avec une croissance de 1 %, jugée à risque : la Commission européenne ne prévoit plus que 0,6 %. Le texte compte quarante-trois milliards d'euros de mesures, et le gouvernement admet qu'il faudra au moins six milliards d'économies de plus. David Amiel, ministre des Comptes publics, voit un point de départ dans la proposition de la rapporteure générale, Christine Lavarde. Le groupe LR veut aller cinq milliards plus loin.",
+    "Selon le rapport de Christine Lavarde, le gel des dépenses annoncé est en réalité une hausse modérée. Les dépenses de l'État passent de cinq cent trois à cinq cent onze milliards d'euros, soit plus un virgule six pour cent, pour une inflation de un virgule huit. La charge de la dette, près de soixante-treize milliards, devient le premier poste, devant l'enseignement scolaire et la défense.",
+    "Les arbitrages. Pour les collectivités locales, la commission des finances veut ramener leur effort à deux milliards ou deux milliards et demi d'euros, contre plus de cinq milliards dans le texte du gouvernement. Pour les retraités, le Sénat préfère supprimer l'abattement fiscal de dix pour cent sur les pensions, en échange du maintien de leur indexation. David Amiel juge ce choix crédible, Marine Le Pen s'y oppose. Plus de trois mille amendements sont déposés sur la seule partie recettes.",
+    "Côté Sécurité sociale, le Sénat a adopté son budget le 18 novembre, en rétablissant la réforme des retraites de 2023 et en portant le déficit à quatorze milliards. Une commission mixte paritaire, sept députés et sept sénateurs, est prévue jeudi.",
+    "La nuance : quoi que vote le Sénat, le dernier mot reviendra à l'Assemblée, où aucune majorité n'existe. Le gouvernement garde le 49.3, avec le risque d'une censure. Faute de vote dans les délais constitutionnels, il pourrait aussi recourir aux ordonnances, possibles après le 17 décembre selon l'AFP, et en dernier recours à une loi spéciale.",
+    "À surveiller : le vote sur la première partie, attendu samedi, et le vote solennel du 9 décembre."
+   ]
+  },
+  {
+   "title": "Vie chère : le mouvement s'essouffle sans s'éteindre",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Troisième sujet, le mouvement social contre la vie chère. Samedi, pour le sixième samedi consécutif, syndicats, organisations de jeunesse et gilets jaunes étaient dans la rue. Selon le ministère de l'Intérieur, quatre-vingt-deux mille cinq cents manifestants en France, dont vingt et un mille cinq cents à Paris. Cent cinquante mille selon les organisateurs. Des dégradations et des affrontements ont été signalés à Marseille et à Lille.",
+    "La tendance est à la baisse. Le 14 novembre, les autorités comptaient cent six mille manifestants. Et mardi dernier, jour de grève, cent quarante-six mille selon le gouvernement, plus de cinq cent mille selon la CGT.",
+    "D'où vient ce mouvement ? Il est né d'une mobilisation étudiante à la mi-septembre, puis s'est élargi aux prix des carburants, aux salaires et au logement. Depuis le 17 octobre, les cortèges défilent chaque samedi, avec la coordination des gilets jaunes. Les revendications sont variées : salaires et point d'indice des fonctionnaires, moyens pour l'école, protection de l'enfance, et opposition à la proposition de loi sur la présomption d'usage légitime des armes par les forces de l'ordre, que ses détracteurs surnomment permis de tuer.",
+    "Les acteurs. La CGT a été rejointe par la CFDT de la fonction publique, après le refus du gouvernement de relever le point d'indice. Une intersyndicale de jeunesse réunit notamment l'Union étudiante, l'Unef et la Fage. Le Premier ministre a reçu les syndicats, sans répondre à leurs demandes. Et le projet de budget exclut, pour la quatrième année de suite, toute hausse générale des salaires.",
+    "La nuance. Un mouvement qui faiblit en nombre n'est pas un mouvement qui disparaît. Sa composition hétérogène, qui mêle syndicats et gilets jaunes, le rend plus difficile à canaliser par la négociation classique. Et il pèse directement sur le débat budgétaire au Sénat, sur les pensions comme sur la fonction publique.",
+    "L'impact se mesure aussi en sécurité publique : chaque samedi mobilise d'importants effectifs de police et de gendarmerie, au moment où le budget prévoit plus de mille deux cents postes supplémentaires dans ces forces.",
+    "À surveiller : un éventuel septième samedi, la réponse du gouvernement sur les rémunérations publiques, et mercredi 25 novembre, journée internationale pour l'élimination de la violence à l'égard des femmes, qui ouvre une autre séquence de mobilisation."
+   ]
+  },
+  {
+   "title": "COP31 : Antalya se sépare sans accord",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Quatrième sujet, le climat. La COP31 d'Antalya, en Turquie, s'est achevée ce week-end sur un échec. Ouverte le 9 novembre, elle devait se clore vendredi. Une troisième version du texte final n'a été publiée que dimanche, près de deux jours plus tard. Et le président de la conférence, le ministre turc de l'Environnement Murat Kurum, a dû constater l'absence d'accord : le projet de pacte d'Antalya n'a pas été adopté.",
+    "Le cœur du blocage : les énergies fossiles. Le projet publié jeudi ne mentionnait plus le pétrole, le gaz et le charbon, contrairement à une version précédente. À la place, un objectif de trente-cinq pour cent d'électricité dans la consommation finale mondiale d'énergie d'ici 2035, le rappel du triplement des renouvelables, et plusieurs paragraphes favorables au captage du carbone, critiqués par les ONG.",
+    "Les positions. L'Arabie saoudite et les pays producteurs refusaient toute mention des fossiles. En face, une coalition menée par la France et le Panama, avec notamment l'Espagne, la Suède, la Belgique, la Côte d'Ivoire et le Vanuatu, jugeait le texte insuffisant. Le ministre panaméen a jugé inacceptable une COP qui ne mentionne même pas les fossiles. La ministre française de la Transition écologique, Monique Barbut, y voyait un point noir. Le secrétaire général de l'ONU, António Guterres, a appelé à accélérer la sortie des fossiles et à taxer les profits exceptionnels des énergéticiens. Les États-Unis de Donald Trump n'avaient pas envoyé de délégation officielle.",
+    "Sur l'argent, le recul est net. La version précédente visait au moins cent vingt milliards de dollars pour l'adaptation d'ici 2035. Le dernier projet proposait seulement d'en discuter.",
+    "La nuance. Un échec de COP ne suspend pas l'accord de Paris : les engagements nationaux demeurent, et les décisions antérieures, comme l'appel de Dubaï en 2023 à s'éloigner des combustibles fossiles, restent acquises. Mais c'est un signal négatif pour le multilatéralisme climatique. Rappelons qu'une décision de COP exige le consensus : un seul groupe d'États peut tout bloquer.",
+    "À surveiller : la bataille sur le calendrier des prochains rapports du GIEC, le groupe d'experts de l'ONU sur le climat, que l'Arabie saoudite et l'Inde voudraient repousser à 2029, après le bilan mondial prévu en 2028. Et la capacité de l'Europe à porter seule l'ambition."
+   ]
+  },
+  {
+   "title": "Missiles russes en Pologne : l'OTAN se réunit",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Cinquième sujet, la sécurité européenne. Le parquet de Lublin l'a confirmé dimanche : les trois objets tombés vendredi à l'aube dans le sud-est de la Pologne étaient des missiles de croisière fabriqués en Russie, cette année, dans une usine de la région de Moscou. Ils sont tombés dans trois localités, près de la frontière ukrainienne. Aucun blessé, mais au moins une explosion et un incendie.",
+    "Le contexte : dans la nuit de jeudi à vendredi, la Russie a lancé l'une de ses plus grosses frappes contre l'Ukraine, plus de cent dix missiles selon Volodymyr Zelensky, et plus de cinq cents drones selon le commandement polonais.",
+    "Le point qui dérange : aucun missile n'a été intercepté. Des F-16 polonais, des Gripen suédois et des batteries Patriot étaient mobilisés. Mais l'un des engins n'est resté qu'environ trois minutes au-dessus du territoire, de nuit et par mauvais temps, et les pilotes n'ont pas pu l'identifier. Selon l'état-major polonais, les conditions de tir n'étaient pas réunies.",
+    "Les réactions. Donald Tusk et son ministre de la Défense évoquent une possible provocation, au moment où la coalition des volontaires, ces pays prêts à garantir la sécurité de l'Ukraine, faisait des exercices en Pologne. Varsovie demande à l'OTAN des renforts, avions radar et F-35. Le secrétaire général de l'Alliance, Mark Rutte, parle de grave violation. Moscou ne commente pas. Le Conseil de l'Atlantique Nord se réunit ce lundi à Bruxelles.",
+    "En Ukraine, le week-end a été meurtrier : au moins quatorze morts dans la région de Kiev, dont dix dans l'effondrement partiel d'un immeuble à Dymer, au nord de la capitale, et trois dans un supermarché à Vychnevé. Kiev, de son côté, a frappé un cargo russe dans le golfe de Finlande.",
+    "La nuance : une réunion de l'OTAN n'est pas l'article 5 et sa clause de défense collective. L'enjeu réel est la crédibilité de la défense aérienne du flanc est, mise en doute par cette absence d'interception. Côté diplomatie, après le sommet de Berlin du 19 novembre, le chancelier Merz dit attendre des négociations entre Européens, Ukrainiens, Russes et Américains. Paris exige que les Européens y aient toute leur part.",
+    "À surveiller : les conclusions de l'OTAN aujourd'hui, et une éventuelle demande polonaise de consultations au titre de l'article 4, comme en septembre 2025."
+   ]
+  },
+  {
+   "title": "Ormuz et Bahreïn : le Golfe se rallume",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Dernier sujet approfondi, le Golfe. La guerre ouverte depuis fin février entre l'Iran d'un côté, Israël et les États-Unis de l'autre, connaît un regain après plusieurs semaines d'accalmie.",
+    "Les faits. Samedi, Bahreïn a accusé l'Iran d'avoir frappé un site industriel civil. Des témoins ont vu de la fumée au-dessus de l'île de Sitra, qui abrite la raffinerie nationale. Les Gardiens de la révolution revendiquent des frappes sur des bases américaines du royaume, en riposte, disent-ils, à des incursions de drones américains. Le même jour, deux pétroliers ont été touchés dans le détroit d'Ormuz. Selon le centre d'information maritime conjoint, sept pétroliers ont été frappés depuis le 16 novembre, et le passage des gros navires est quasiment à l'arrêt.",
+    "Le contexte. Les États-Unis imposent un blocus naval des ports iraniens et escortent des pétroliers le long des côtes omanaises. Le Qatar tente une médiation. Mais le ministre iranien des Affaires étrangères, Abbas Araghchi, refuse de parler d'Ormuz tant que l'Iran n'obtient pas la fin de la guerre, le dégel de ses avoirs et la levée des sanctions pétrolières. Dimanche, Donald Trump a dit pencher pour une reprise des frappes après le Nouvel An si les discussions indirectes échouent.",
+    "Les réactions. Bahreïn saisit le Conseil de sécurité. L'Arabie saoudite, le Qatar, les Émirats, la Jordanie et la Ligue arabe condamnent. Un député iranien menace les infrastructures pétrolières du Golfe.",
+    "L'impact, et le paradoxe : le baril de Brent a clôturé vendredi à près de quatre-vingt-dix dollars, en baisse de six pour cent sur la semaine. Les marchés pariaient sur l'accalmie. La séance de ce lundi dira s'ils changent d'avis. Pour la France, l'enjeu est double : le prix de l'énergie, au cœur du mouvement contre la vie chère, et la sécurité de ses forces dans la région, notamment aux Émirats.",
+    "La nuance : ces attaques restent ciblées, sans bascule vers une offensive générale. Mais chaque pétrolier touché renchérit l'assurance maritime et le fret, bien avant que le prix du baril ne bouge.",
+    "À surveiller : les cours du pétrole ce matin, la médiation qatarie, et la réponse américaine à Bahreïn, qui abrite la cinquième flotte des États-Unis."
+   ]
+  },
+  {
+   "title": "La semaine qui vient",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Place à la semaine qui vient.",
+    "Aujourd'hui, le Sénat poursuit l'examen des recettes du budget 2027, toute la journée et jusque dans la nuit. Sa commission des finances examine dès ce matin les amendements de séance. À Bruxelles, le Conseil de l'Atlantique Nord se réunit sur l'incident polonais. À Paris, Choose France, édition France. Et en Belgique, grève nationale.",
+    "Mardi, le Sénat se prononce sur les conclusions de la commission mixte paritaire sur le projet de loi de fin de gestion pour 2026, le dernier ajustement budgétaire de l'année, avant de reprendre le budget 2027.",
+    "Mercredi, questions d'actualité au gouvernement au Sénat, à quinze heures. C'est aussi le 25 novembre, journée internationale pour l'élimination de la violence à l'égard des femmes.",
+    "Jeudi, commission mixte paritaire sur le budget de la Sécurité sociale. Si députés et sénateurs ne s'accordent pas, le texte repartira en nouvelle lecture, et l'Assemblée aura le dernier mot.",
+    "Samedi, et peut-être dimanche, le Sénat achève l'examen de la première partie du budget, puis la vote. C'est un verrou : sans adoption de la partie recettes, la partie dépenses ne peut pas être discutée. Celle-ci commencera lundi 30 novembre, avec les crédits du travail et de l'emploi, puis de l'écologie.",
+    "À l'international, la semaine sera dominée par le Golfe, avec la médiation du Qatar, et par les suites du sommet de Berlin sur l'Ukraine. En Israël, le compte à rebours continue pour Gadi Eisenkot, qui a jusqu'au 6 décembre pour former un gouvernement. Et à l'ONU, la demande française de réunion du Conseil de sécurité sur les Rohingyas pourrait être examinée.",
+    "Deux dates à garder en tête pour la suite : le vote solennel du Sénat sur le budget, le 9 décembre, puis la commission mixte paritaire sur le budget de l'État, à la mi-décembre."
+   ]
+  },
+  {
+   "title": "Pour la copie",
+   "voice": "Algieba",
+   "paragraphs": [
+    "Pour la copie, une piste : la contrainte budgétaire peut-elle être constitutionnelle ? Le débat sur la règle d'or oppose deux conceptions. L'une y voit une garantie de crédibilité, sur le modèle allemand. L'autre rappelle que voter l'impôt et la dépense est le cœur du pouvoir parlementaire depuis 1789. Notez que la Constitution prévoit déjà, à l'article 34, des lois de programmation des finances publiques, inscrites dans l'objectif d'équilibre des comptes. Bon réflexe en copie : distinguer la règle, son juge et ses exceptions.",
+    "Ce soir, trois sujets au choix : la neutralité du corps préfectoral, à la lumière de l'affaire Moutouh ; la prévention des inondations, entre fonds publics et assurance ; ou la justice internationale face au sort des Rohingyas.",
+    "Merci de m'avoir écoutée, et très belle semaine à toutes et à tous. À demain."
+   ]
+  }
+ ]
+}
